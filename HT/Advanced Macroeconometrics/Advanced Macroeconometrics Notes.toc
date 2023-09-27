@@ -1,0 +1,32 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{General Notes:}{2}{chapter*.2}%
+\contentsline {subsection}{Terminology:}{2}{section*.3}%
+\contentsline {chapter}{Basics:}{3}{chapter*.4}%
+\contentsline {subsection}{GDP}{3}{section*.5}%
+\contentsline {subsection}{Unemployment Rate}{3}{section*.6}%
+\contentsline {subsection}{Interest Rate}{3}{section*.7}%
+\contentsline {subsubsection}{The Sovereign Rate}{4}{section*.8}%
+\contentsline {section}{Definitions}{4}{section*.9}%
+\contentsline {subsection}{Process}{4}{section*.10}%
+\contentsline {subsection}{Autocorrelation}{4}{section*.11}%
+\contentsline {subsection}{Partial Autocorrelation}{4}{section*.12}%
+\contentsline {section}{Identifying a candidate process}{4}{section*.13}%
+\contentsline {subsection}{No Memory - White Noise Process}{5}{section*.14}%
+\contentsline {subsubsection}{Weak white noise:}{5}{section*.15}%
+\contentsline {subsubsection}{Strong White Noise:}{5}{section*.16}%
+\contentsline {subsection}{Short Memory}{5}{section*.17}%
+\contentsline {subsubsection}{Examples:}{5}{section*.18}%
+\contentsline {subsection}{Long Memory}{5}{section*.19}%
+\contentsline {section}{Stationarity}{6}{section*.20}%
+\contentsline {subsection}{Strong Stationarity}{6}{section*.21}%
+\contentsline {subsection}{Weak Stationarity}{6}{section*.22}%
+\contentsline {section}{Wold Theorem}{6}{section*.23}%
+\contentsline {section}{Defining a \textit {good} predictor}{6}{section*.24}%
+\contentsline {subsection}{Forcasting Error Process}{6}{section*.25}%
+\contentsline {subsubsection}{Criteria to measure the forcasting accuracy}{6}{section*.26}%
+\contentsline {section}{Linear Process}{7}{section*.27}%
+\contentsline {section}{Best Predictor}{7}{section*.28}%
+\contentsline {subsection}{Distribution of the Predictor}{7}{section*.29}%
+\contentsline {subsection}{Example}{7}{section*.30}%
+\contentsline {section}{Impulse Response Function (IRF)}{8}{section*.31}%
+\contentsline {section}{ARMA Models}{8}{section*.32}%

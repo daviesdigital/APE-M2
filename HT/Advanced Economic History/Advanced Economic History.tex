@@ -1,0 +1,388 @@
+\documentclass[11pt]{report}
+
+%use European style
+\usepackage[a4paper,left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+
+%few useful packages ------------------------------------------------------------------
+\usepackage{setspace}
+\let\Tiny=\tiny %remove annoying warnings
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{colortbl}
+\usepackage{xcolor}
+\usepackage{eurosym}
+\usepackage{enumitem}
+\usepackage{chngpage}
+\usepackage{fancyhdr}
+\usepackage{fancyvrb}
+\usepackage{float}
+\usepackage{framed}
+\usepackage{multirow}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{geometry}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage[linktocpage]{hyperref}
+
+%define environment for code
+\definecolor{orangepse}{RGB}{240,139,39}
+\definecolor{redpse}{RGB}{222,6,61}
+\newcommand{\rpse}[1]{\textcolor{redpse}{#1}}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\usepackage{listings}
+\lstset{frame=tblr,
+	language=R,
+	aboveskip=5mm,
+	belowskip=5mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=3
+}
+%---------------------------------------------------------------------------------------
+
+
+% New Commands ----------------------------
+\newcommand{\bb}{\bigbreak\noindent}
+
+\makeatletter
+\renewcommand\section{\leftskip 0pt\@startsection {section}{1}{\z@}%
+	{-3.5ex \@plus -1ex \@minus -.2ex}%
+	{2.3ex \@plus.2ex}%
+	{\normalfont\Large\bfseries}}
+
+\renewcommand\subsection{\leftskip 4ex\@startsection{subsection}{2}{\z@}%
+	{-3.25ex\@plus -1ex \@minus -.2ex}%
+	{1.5ex \@plus .2ex}%
+	{\normalfont\large\bfseries}}
+
+\renewcommand\subsubsection{\leftskip 14ex\@startsection{subsubsection}{3}{\z@}%
+	{-3.25ex\@plus -1ex \@minus -.2ex}%
+	{1.5ex \@plus .2ex}%
+	{\normalfont\large\bfseries}}
+\makeatother
+
+%----------------------------------------------------------
+
+\definecolor{titlepagecolor}{cmyk}{1,.60,0,.40}
+\definecolor{namecolor}{cmyk}{1,.50,0,.10} 
+
+
+\begin{document}
+	\setcounter{page}{1}
+	\begin{spacing}{1.5}
+		
+		% Table of Contents ----------------------------------
+		\tableofcontents
+		\setcounter{secnumdepth}{-2}
+		\newpage
+		
+		% Start of Content ---------------------------------------------
+		\chapter{General Notes:} 
+		
+			\subsection{Referee Report}
+				Papers given to you at random. To answer follow this format:
+				\begin{itemize}[leftmargin=10ex]
+					\item Motivation
+					\item Literature Review (Context of the paper)
+					\item Contribution
+					\item Methods
+					\item External Validity
+				\end{itemize}
+			
+		
+		
+		\chapter{Lecture 1: The Role \& Purpose of Economic History}
+		\section{Define}
+		Economic history emphasises the important role of ``context". \\
+		``Facts" are difficult to come by.
+		\begin{itemize}
+			\item Measuring unemployment rates in the 19th Century is very different than today.
+			\item Also different across countries and regions.
+		\end{itemize}
+		
+		
+		\section{A History of Economic History:}
+		\begin{itemize}
+			\item German School:
+			\item English School: Very stats based (e.g. prices)
+			\item American Institutionalists: Birth of the NBER
+			\item \textit{Annales}: A French School of thought which focus of day-to-day lives of people
+			\item The New-British School: History "from below"
+			\begin{itemize}
+				\item Studying ordinary people and lower classes 
+				\item E.Hobsbawm is the forefather
+				\item Think of Road to Wigan Pier (Both New-British and English)
+			\end{itemize}
+			\item Cliometrics Revolution: 
+				\begin{itemize}
+					\item The US focus more on the "\textit{Economics}"
+					\item Kuznets makes longrun GDP series 
+					\item Fogel applies neo-classical theory onto events of the past.
+				\end{itemize}
+		\end{itemize}
+		
+		\section{Popular Topics in American Economic History}
+			\subsection{Railroads}
+			Initial take: \\
+			The introduction of the train brought with it economic growth
+			\begin{itemize}[leftmargin=10ex]
+				\item New Demand for Steel, Iron, Timber...etc.
+			\end{itemize}
+			\bb
+			Robert Fogel (1964) debates this:\\
+			Argues that the economic growth that was already taking place, advanced/motivated the expansions of the railroads.
+			\begin{itemize}[leftmargin=10ex]
+				\item This argument inverts the previous thinking.
+				\item Tries to use counterfactuals (what would happen if the rail road hadn't been developed)
+				\item Emphasises the use of economic theory in historical contexts.
+			\end{itemize}
+			
+			\subsection{Slavery}
+			Initial take: \\
+			Slaves were unproductive and unqualified: The system would always have eventually collapsed as it prevented economic development.
+			\bb
+			Robert Fogel (1974):
+			\begin{itemize}[leftmargin=10ex]
+				\item Slave agriculture was very efficient, (more) productive, and (more) profitable.
+				\item Slaves were hard working and (more) efficient.
+			\end{itemize}
+			Fogel's arguments went to dispel politcal rhetoric that black people in America had a history of being lazy or bad workers. His work was published during the civil rights movement, and highlighted the inherent biases in the historical narratives around slavery.  
+			\begin{itemize}[leftmargin=10ex]
+				\item After the publishing of this book Economics and History departments separated.
+			\end{itemize}
+			
+			
+			\chapter{An Industrial Revolution: Causes, consequences and Debates}
+			Prior to the Industrial Revolution, GDP per capita was fairly constant.
+			\begin{itemize}
+				\item Post-IR: Observe sustained increased in GDP
+				\begin{itemize}
+					\item and population
+				\end{itemize}
+			\end{itemize}
+			
+			\begin{framed}
+				\bb
+				\noindent
+				\textbf{THESIS TOPIC:} \\
+				Seems clear to me that the British East India Company played a massive role in the development of the Industrial Revolution: 
+				\begin{itemize}
+					\item Essentially an extension of the state (less corruption than the Dutch EIC)
+					\item Huge influx of capital and wealth 
+					\item The creation of desirable and robust capital markets.
+					\item Bengal Bubble causes need for diversification 
+				\end{itemize}
+				
+			\end{framed}
+			
+			\section{Population and Work}
+			The mid 1700s saw an \textbf{increase} in \textbf{Population} and \textbf{Urbanisation}\\
+			This brought with it a new desire of for goods
+			\begin{itemize}
+				\item they became relatively better off than those before
+			\end{itemize}			
+			Better integration into the labour market.
+			
+				\subsection{An increase in working hours}
+				What is clear is that the hours worked per year increased on average. We observe a reduction of Holiday days and less days off. But why is this the case?
+				\bb
+				Two Conflicting Theories
+				\begin{enumerate}
+					\item Constraint: \\
+					Arriving in new cities and factories, people had little choice but to work more hours in fear of being fired in larger more competitive labour markets.\\
+					Enclosure movement (Marx)
+					
+					\item Incentive by consumption: \\
+					People chose to work more in order to afford their new desired levels of consumption.\\
+					(De Vries, 1994)
+				\end{enumerate}
+				
+			\section{Material factors \textit{do not} explain IR}
+			Cultural, educational shit
+			
+			\section{Material factors \textit{do} explain IR (Allen)}	
+			\textbf{Key Argument:}\\
+			Capital-Labour substitution drives the Industrial Revolution
+			\begin{itemize}[leftmargin=10ex]
+				\item Capital accumulation is a consequence and a complement of technological changes.
+				\item High wages explain technological progress
+				\begin{itemize}
+					\item The high wages and cheap energy (coal) drove technological progress.
+				\end{itemize}
+			\end{itemize}
+			\bb
+			These high wages and desire for imports is rooted in their success in international trade.
+			
+			
+	\chapter{Industrial Revolution: The Dark Side}
+		
+		\section{The Role of the Women and Children}
+		Their role is often overlooked by mainstream historyography.
+		
+		\bb
+		Allen's key argument is labour-capital substitution. Such as the spinning Jenny.
+		\begin{itemize}
+			\item He argues that wages increased just as the technical revolution (Spinning Jenny) was introduced
+		\end{itemize}
+		
+		\bb
+		Evidence has been found to show that productivity and remuneration were much lower than Allen argued.
+		\begin{itemize}
+			\item More importantly: \textbf{Little change in spinner's wages over time}.
+			\item Spinners were not included idn the high wage economy as described by Allen
+		\end{itemize}
+		\bb
+		They find that a \textbf{strong dependence on pauper and constrained labour} (workhouses). Furthermore, employees were highly dependent on their employers with lack of mobility.
+
+
+		\section{Energy}
+		Central but neglected element of IR.\\
+		Allen argues that coal did not play a central role in the IR. That they would have found different solutions to energy constraints if they needed to.
+		\begin{itemize}
+			\item However evidence shows that the levels of coal used during the revolution would not have been replicable with alternative sources like wood. 
+		\end{itemize}
+		\bb
+		Wrigley: \\
+		Coal may not have been the source that started the the IR. Yet, it is what \textbf{allowed it to sustain} overtime.
+		
+		\bb
+		O'Rourke:\\
+		Cities (across Europe), have larger populations during the IR period the closer they are to coal mines.
+		
+		
+		\section{Material Flow Analysis}
+		Trying to analyse economic growth by measuring the use of materials:
+		\begin{itemize}
+			\item Both what you extract and what you import.
+			\item Domestic extraction (DE), physical trade balance (PTB), and domestic material consumption (DMC)
+			\item Allows to compute the use of non-domestic resources, such as ``ghost acres".
+		\end{itemize}
+
+\chapter{Notaries and Financial Development}
+
+	\section{What do Notaries do?}
+	They acted as financial intermediaries. People looking to raise money, lets say for a mortgage, would come to them and ask about their options. Notaries were independent of banks, but had highly specific knowledge regarding land value, personality traits, and on legal matters.
+	
+	\bb
+	They were needed for legally binding contracts. This gave them an intimate knowledge of family incomes and wealth in their area.
+	\begin{itemize}
+		\item The majority of loans were small (1 - 2 months income). 
+	\end{itemize}
+	
+	\bb
+	They 
+	
+	\section{Notaries and the Banks: Competition or compliment?}
+	The banks focused mainly on commerical loans
+	
+	\bb
+	\section{Summary}
+	We completely underestimated the size of credit markets in early periods. Overlooked the role of these Notary figures. 
+	\begin{itemize}
+		\item Probably similar to what is happening in developing/informal economies
+	\end{itemize}
+	
+	
+	
+\chapter{Financial Crises}
+
+	Financial information was not as readily available as it is today.
+	
+	\section{1882 Union Générale Crash}
+	The stock price of l?Union Générale rose from 500 francs a share in 1879 to over 3,000 francs at its peak. Investors saw the booming market for new securities and jumped into the forward market. Speculators also printed counterfeit money; they renewed their forward contracts in hopes for a continuous rise in prices.
+	\bb
+	As the market grew, so did the demand for cash, and interest rates began to rise to the point where lenders began demanding a premium. This situation foretold that a collapse would occur when investors would repay their loans, not wanting to pay this premium or to incur refinancing debt at high interest rates. This could mean the bank would lose its primary revenue source, with the resultant stock overvaluation and share price decline. These events are very similar to the events leading up to the American 1929 boom. As this happened, the price of l'Union Générale began to deteriorate. The bank failed to repay it debts and to honor its clients' accounts. It falsified public reports, to avoid the complete crash of its value and credit-worthiness. Between January 5, 1882 and January 14, 1882 the cash price of a share dropped from 3,040 to 800 francs. 
+	\bb
+	They were found to be lying in their balance sheets.\\
+	Also found to be buying their own shares, which at the time was illegal. 
+	
+	
+		\subsection{The Bagehot Rule:}
+		The Bagehot Rule dictates that:
+		\begin{quote}
+			\textit{Central banks should freely provide liquidity, at a high, interest rates, to banks that can be described as solvent.}
+		\end{quote}
+		However, the Banque de France decide that due to the level of fraud, and the time it would take to liquidate the assets, to not lend money to the bank. This is hugely problematic as 300,000 depositors (including other banks) instantly lost their deposits or at least took a huge hit. 
+		
+		
+		\subsection{During}
+		The crash led to a recession which lasted until the end of the decade. Immediately after the crash, the bank's founder attributed its downfall to conspiratorial aims of Jewish-German banks and Freemasons, intent on destroying banks which backed conservative, Catholic political agendas.
+		\bb
+		It is now generally accepted that there was no conspiracy to destroy the bank, but it remains unclear why the collapse of the bank was so devastating.
+		\bb
+		During the 1882 crash, 14 of 60 stock brokers appeared to be in imminent danger of failure and seven were completely bankrupt. The famous painter Paul Gauguin had been working as a stock broker until the crash; after that, he decided to dedicate himself to painting full-time. 
+	
+	
+	\section{1889 Comptoir d'escompte Crisis}
+	Political Context: People feared that General Boulanger would lead a coup over the new republic. For many in a nation still traumatized by France's crushing military defeat and territorial losses in the Franco-Prussian War of 1870-1871, Boulanger became the symbol of the hoped-for revenge, the origin of his nickname, "Le général revanche." All of this brought him to the attention of left-wing republicans known as the Radicals upon whom the more moderate republicans depended in order to sustain a majority in a parliament, where fully a third of the deputies were royalists or Bonapartists. He was subsequently kicked out of parliament and people fear he will come back and try take it over.
+	
+		\subsection{Cornering of the Copper Market}
+		The attempt to monopolise the copper industry by buying up large quantities of copper by a company called the ``\textit{La Société des métaux}'' (SdM). This attempt lasts almost a year. Until eventually they can no longer afford to buy more copper, and must begin to sell their stock. It is revealed that their corner failed, and that their inflated futures contracts they were purchasing means the company's bet failed. The firm therefore defaults.
+		\bb
+		This is all mostly very innocuous. However, the problem arises from the fact these purchases were all made using credit from a large bank that was already struggling. This bank was already receiving large loans from the central bank to help it get back on it's feet. Once the Central Bank realises that their money has gone to SdM they begin to try assess the damage. 
+		\bb
+		The Central Bank realises that not only would they have to pay out on the loans of this now insolvent bank , but \textit{also} on the guarantees for the future contracts they purchased. They find that the SdM had bought up an entire years worth of \textbf{GLOBAL} copper production. They realises they're fucked. (They owe close to 150 Million Francs).
+		
+		\subsection{The Central Bank}
+		With the big world exhibition coming to town in summer. The banks directors are told to do whatever they can to resolve the situation. They are forced to come in an save the failing bank. At the time, the debts are too high and so other banks are told to contribute in order to save the economy as a whole (in their interest). They create a guarantee syndicate. Ultimately, these guarantees are never actioned as the liquidation is enough to cover the debts. However the size of each bank's share of guarantee allows us to analyse the fault of the board members of  partner banks.
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\part{Readings}
+
+	\chapter{First Lecture:}
+		\section{Spinning the industrial revolution}
+		 By: \textit{Jane Humphries, Benjamin Schneider}
+		 \bb
+		 
+		 
+		 \section{The Physical Economy of France (1830?2015). The History of a Parasite?}
+		 By: \textit{??}
+		 \bb
+		 It is the first long-term study of material flows for France with national and yearly data for most of the 185 year period.
+		 
+		 
+			
+			
+		
+		
+		
+		
+		
+		
+	\end{spacing}
+\end{document}

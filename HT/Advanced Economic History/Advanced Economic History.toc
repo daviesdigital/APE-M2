@@ -1,0 +1,33 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{General Notes:}{3}{chapter*.2}%
+\contentsline {subsection}{Referee Report}{3}{section*.3}%
+\contentsline {chapter}{Lecture 1: The Role \& Purpose of Economic History}{4}{chapter*.4}%
+\contentsline {section}{Define}{4}{section*.5}%
+\contentsline {section}{A History of Economic History:}{4}{section*.6}%
+\contentsline {section}{Popular Topics in American Economic History}{5}{section*.7}%
+\contentsline {subsection}{Railroads}{5}{section*.8}%
+\contentsline {subsection}{Slavery}{5}{section*.9}%
+\contentsline {chapter}{An Industrial Revolution: Causes, consequences and Debates}{6}{chapter*.10}%
+\contentsline {section}{Population and Work}{6}{section*.11}%
+\contentsline {subsection}{An increase in working hours}{6}{section*.12}%
+\contentsline {section}{Material factors \textit {do not} explain IR}{7}{section*.13}%
+\contentsline {section}{Material factors \textit {do} explain IR (Allen)}{7}{section*.14}%
+\contentsline {chapter}{Industrial Revolution: The Dark Side}{8}{chapter*.15}%
+\contentsline {section}{The Role of the Women and Children}{8}{section*.16}%
+\contentsline {section}{Energy}{8}{section*.17}%
+\contentsline {section}{Material Flow Analysis}{9}{section*.18}%
+\contentsline {chapter}{Notaries and Financial Development}{10}{chapter*.19}%
+\contentsline {section}{What do Notaries do?}{10}{section*.20}%
+\contentsline {section}{Notaries and the Banks: Competition or compliment?}{10}{section*.21}%
+\contentsline {section}{Summary}{10}{section*.22}%
+\contentsline {chapter}{Financial Crises}{11}{chapter*.23}%
+\contentsline {section}{1882 Union G\'en\'erale Crash}{11}{section*.24}%
+\contentsline {subsection}{The Bagehot Rule:}{11}{section*.25}%
+\contentsline {subsection}{During}{12}{section*.26}%
+\contentsline {section}{1889 Comptoir d'escompte Crisis}{12}{section*.27}%
+\contentsline {subsection}{Cornering of the Copper Market}{12}{section*.28}%
+\contentsline {subsection}{The Central Bank}{13}{section*.29}%
+\contentsline {part}{Readings}{14}{section*.30}%
+\contentsline {chapter}{First Lecture:}{15}{chapter*.31}%
+\contentsline {section}{Spinning the industrial revolution}{15}{section*.32}%
+\contentsline {section}{The Physical Economy of France (1830?2015). The History of a Parasite?}{15}{section*.33}%

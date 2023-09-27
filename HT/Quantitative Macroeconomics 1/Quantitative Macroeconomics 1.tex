@@ -1,0 +1,247 @@
+\documentclass[11pt]{report}
+
+%use European style
+\usepackage[a4paper,left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+
+%few useful packages ------------------------------------------------------------------
+\usepackage{setspace}
+\let\Tiny=\tiny %remove annoying warnings
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{colortbl}
+\usepackage{xcolor}
+\usepackage{eurosym}
+\usepackage{enumitem}
+\usepackage{chngpage}
+\usepackage{fancyhdr}
+\usepackage{fancyvrb}
+\usepackage{float}
+\usepackage{framed}
+\usepackage{multirow}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{geometry}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage[linktocpage]{hyperref}
+
+%define environment for code
+\definecolor{orangepse}{RGB}{240,139,39}
+\definecolor{redpse}{RGB}{222,6,61}
+\newcommand{\rpse}[1]{\textcolor{redpse}{#1}}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\usepackage{listings}
+\lstset{frame=tblr,
+	language=R,
+	aboveskip=5mm,
+	belowskip=5mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=3
+}
+%---------------------------------------------------------------------------------------
+
+
+% New Commands ----------------------------
+\newcommand{\bb}{\bigbreak\noindent}
+
+\makeatletter
+\renewcommand\section{\leftskip 0pt\@startsection {section}{1}{\z@}%
+	{-3.5ex \@plus -1ex \@minus -.2ex}%
+	{2.3ex \@plus.2ex}%
+	{\normalfont\Large\bfseries}}
+
+\renewcommand\subsection{\leftskip 4ex\@startsection{subsection}{2}{\z@}%
+	{-3.25ex\@plus -1ex \@minus -.2ex}%
+	{1.5ex \@plus .2ex}%
+	{\normalfont\large\bfseries}}
+
+\renewcommand\subsubsection{\leftskip 14ex\@startsection{subsubsection}{3}{\z@}%
+	{-3.25ex\@plus -1ex \@minus -.2ex}%
+	{1.5ex \@plus .2ex}%
+	{\normalfont\large\bfseries}}
+\makeatother
+
+%----------------------------------------------------------
+
+\definecolor{titlepagecolor}{cmyk}{1,.60,0,.40}
+\definecolor{namecolor}{cmyk}{1,.50,0,.10} 
+
+
+\begin{document}
+	\setcounter{page}{1}
+	\begin{spacing}{1.5}
+		
+		% Table of Contents ----------------------------------
+		\tableofcontents
+		\setcounter{secnumdepth}{-2}
+		\newpage
+		
+		% Start of Content ---------------------------------------------
+		\chapter{General Notes:} 
+		70\% Problem Sets - 30\% Small Exam 
+		
+		\section{Reference Book}
+		Heer \& Maussner - Dynamic General Equilibrium Modelling 
+		
+		\section{Main elements of a model economy}
+		\begin{itemize}
+			\item Agents
+			\begin{itemize}
+				\item Households and Firms
+			\end{itemize}
+			\item Goods
+			\begin{itemize}
+				\item Consumption Good
+				\item Investment Good
+			\end{itemize}
+			\item Time
+			\begin{itemize}
+				\item Discreet vs continuous
+			\end{itemize}
+			\item Structure of Uncertainty
+			\begin{itemize}
+				\item Shocks to the economy 
+			\end{itemize}
+			
+			\item Structure of Market
+			\begin{itemize}
+				\item Competition vs.  oligopoly vs. monopoly
+			\end{itemize}
+		\end{itemize}
+		
+		
+		
+		
+		\chapter{Lecture 1: Basic concepts and methods in numerical analysis}
+		Solivng problems Numerically:
+		\begin{itemize}
+			\item  Solve the \textit{Policy} function
+			\item Aggregate
+			\begin{itemize}
+				\item Easy for Representative Agent models 
+				\item Harder for Heterogeneous Agent models
+			\end{itemize}
+			\item Solve for prices such that markets clear
+		\end{itemize}
+		
+		\section{Types of Error}
+		\begin{itemize}
+			\item Truncation
+			\item Round Off
+		\end{itemize}
+		
+		\section{Solving Linear Equations}
+		
+		\section{Solving Non-Linear Equations}
+		
+			\subsection{Bisection}
+			
+			\subsection{Newton Methods}
+			
+				\subsubsection{Secant Method}
+				
+			
+			
+			\subsection{Golden Ratio}
+		
+		
+		
+		\chapter{Lecture 2: Solving deterministic dynamic models}
+		
+		\section{Ramsey ``Neoclassical" Growth Model}
+		
+			\subsection{Environment}
+			\begin{itemize}[leftmargin=10ex]
+				\item Agents: A representative firm, and a representative HH.
+				\item Time: t = 1, 2, ..., no uncertainty.
+				\item Goods: Labour service lt , a single numeraire output good (price normalised
+				to 1) used for consumption $c_t$ and investment it , and a capital good Kt .
+				\item Endowments: HH is endowed with one unit of labour each period, and
+				initial capital $k_0$.
+				\item Technology:
+				\begin{itemize}
+					\item The Firm has access to a production function $F (k_t , l_t , z_t )$, including a
+					productivity parameter zt .
+					\item Households have access to a capital accumulation technology:
+					$k_{t+1} = (1 ? \delta)k_t + i_t$ (where it may be negative).
+				\end{itemize} 
+				\item Preferences: Household preferences are defined over consumption and
+				hours U = ??
+				t=0 ?t u(ct , lt )
+				\item Ownership: The HH owns the firm, receives its profits from production.
+				\item Market structure:
+				\begin{itemize}
+					\item ``Sequential" trade: Every period, agents trade the numeraire good, the
+					labor service lt (at price wt ) and capital services (whose ?rental price" is rt ).
+					\item Firm and HH behave competitively, i.e. maximise their objectives taking
+					prices wt and $r_t$ as given. 
+				\end{itemize}
+			\end{itemize}
+			
+			\subsection{Planner's Problem}
+			Simplify using assumptions.
+			
+			
+			
+			\subsubsection{Does a solution exist?}
+			Well K lies in a domain.
+			\begin{itemize}[leftmargin=15ex]
+				\item MPK rises at a depreciating rate
+				\item Cost of Capital rises linearly
+				\item the points at which they meet (0 - $\bar{F}(K^{max})$ outlines max and min)
+			\end{itemize}
+			
+			\subsubsection{Uniqueness}
+			
+			
+			\subsection{Phase diagram}
+			Trivially, we can rule out solutions other than the steady state due to the \textit{Transversality Condition}.
+			
+			\section{How to find a numerical solution for more general $u, F , \theta$?}
+			
+			\begin{itemize}
+				\item Linearisation
+				\item Break up the problem in separate sub-problems: \textit{Dynamic programming}
+					\begin{itemize}
+						\item Solving directly the sequences
+					\end{itemize}
+			\end{itemize}
+		
+		
+\part{Tutorials}
+
+\chapter{Tutorial 1: }
+
+
+\chapter{Tutorial 2}
+Interpolation is 
+
+
+\[ interp1( \text{\textit{x vector of points we know} },\\
+ \text{\textit{Value of the function at known points}} , \\ 
+ \textit{ Value of function at points we dont know}) \]
+		
+		
+		
+		
+
+		
+		
+	\end{spacing}
+\end{document}

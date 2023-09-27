@@ -1,0 +1,23 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{General Notes:}{2}{chapter*.2}%
+\contentsline {section}{Reference Book}{2}{section*.3}%
+\contentsline {section}{Main elements of a model economy}{2}{section*.4}%
+\contentsline {chapter}{Lecture 1: Basic concepts and methods in numerical analysis}{3}{chapter*.5}%
+\contentsline {section}{Types of Error}{3}{section*.6}%
+\contentsline {section}{Solving Linear Equations}{3}{section*.7}%
+\contentsline {section}{Solving Non-Linear Equations}{3}{section*.8}%
+\contentsline {subsection}{Bisection}{3}{section*.9}%
+\contentsline {subsection}{Newton Methods}{3}{section*.10}%
+\contentsline {subsubsection}{Secant Method}{3}{section*.11}%
+\contentsline {subsection}{Golden Ratio}{3}{section*.12}%
+\contentsline {chapter}{Lecture 2: Solving deterministic dynamic models}{4}{chapter*.13}%
+\contentsline {section}{Ramsey ``Neoclassical" Growth Model}{4}{section*.14}%
+\contentsline {subsection}{Environment}{4}{section*.15}%
+\contentsline {subsection}{Planner's Problem}{5}{section*.16}%
+\contentsline {subsubsection}{Does a solution exist?}{5}{section*.17}%
+\contentsline {subsubsection}{Uniqueness}{5}{section*.18}%
+\contentsline {subsection}{Phase diagram}{5}{section*.19}%
+\contentsline {section}{How to find a numerical solution for more general $u, F , \theta $?}{5}{section*.20}%
+\contentsline {part}{Tutorials}{6}{section*.21}%
+\contentsline {chapter}{Tutorial 1: }{7}{chapter*.22}%
+\contentsline {chapter}{Tutorial 2}{8}{chapter*.23}%

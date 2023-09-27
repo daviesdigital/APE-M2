@@ -1,0 +1,481 @@
+\documentclass[11pt]{report}
+
+%use European style
+\usepackage[a4paper,left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+
+%few useful packages ------------------------------------------------------------------
+\usepackage{setspace}
+\let\Tiny=\tiny %remove annoying warnings
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{colortbl}
+\usepackage{xcolor}
+\usepackage{eurosym}
+\usepackage{enumitem}
+\usepackage{chngpage}
+\usepackage{fancyhdr}
+\usepackage{fancyvrb}
+\usepackage{float}
+\usepackage{framed}
+\usepackage{multirow}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{geometry}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage[linktocpage]{hyperref}
+
+%define environment for code
+\definecolor{orangepse}{RGB}{240,139,39}
+\definecolor{redpse}{RGB}{222,6,61}
+\newcommand{\rpse}[1]{\textcolor{redpse}{#1}}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\usepackage{listings}
+\lstset{frame=tblr,
+	language=R,
+	aboveskip=5mm,
+	belowskip=5mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=3
+}
+%---------------------------------------------------------------------------------------
+
+
+% New Commands ----------------------------
+\newcommand{\bb}{\bigbreak\noindent}
+
+\makeatletter
+\renewcommand\section{\leftskip 0pt\@startsection {section}{1}{\z@}%
+	{-3.5ex \@plus -1ex \@minus -.2ex}%
+	{2.3ex \@plus.2ex}%
+	{\normalfont\Large\bfseries}}
+
+\renewcommand\subsection{\leftskip 4ex\@startsection{subsection}{2}{\z@}%
+	{-3.25ex\@plus -1ex \@minus -.2ex}%
+	{1.5ex \@plus .2ex}%
+	{\normalfont\large\bfseries}}
+
+\renewcommand\subsubsection{\leftskip 14ex\@startsection{subsubsection}{3}{\z@}%
+	{-3.25ex\@plus -1ex \@minus -.2ex}%
+	{1.5ex \@plus .2ex}%
+	{\normalfont\large\bfseries}}
+\makeatother
+
+%----------------------------------------------------------
+
+\definecolor{titlepagecolor}{cmyk}{1,.60,0,.40}
+\definecolor{namecolor}{cmyk}{1,.50,0,.10} 
+
+
+\begin{document}
+	\setcounter{page}{1}
+	\begin{spacing}{1.5}
+		
+		% Table of Contents ----------------------------------
+		\tableofcontents
+		\setcounter{secnumdepth}{-2}
+		\newpage
+		
+		% Start of Content ---------------------------------------------
+		\chapter{General Notes:} 
+		Problem Set - 33\%\\
+		Final Exam - 66\%
+		\begin{itemize}
+			\item Part problem set
+			\item Part on papers/slides
+		\end{itemize}
+		
+	
+		\chapter{Lecture 1: Introduction}
+		History of the subject:\\
+		Political Economy (18th Century) $\rightarrow$ Public Finance (19th Century) $\rightarrow$ Public Economics (1960s)
+		
+		\section{History}
+		\subsection{History - 18th Century}
+		Adam Smith
+		
+		\subsection{History - 19th Century}
+		\begin{itemize}[leftmargin=10ex]
+			\item German School:
+			\begin{itemize}
+				\item Economics more favourable to the public sector
+			\end{itemize}
+			\item French School
+			\begin{itemize}
+				\item Focus on infrastructural spending (Bridges, railroads)
+			\end{itemize}
+			\item Italian School
+			\item Stockholm School
+		\end{itemize}
+		
+		
+		\subsection{Two types of questions}
+			\begin{itemize}[leftmargin=10ex]
+				\item Positive Approach
+				\begin{itemize}
+					\item How can economic policy help?
+				\end{itemize}
+				\item Normative Approach
+				\begin{itemize}
+					\item How should economic policy be enacted to attain a certain desired social goal?
+				\end{itemize}
+			\end{itemize}
+			
+			\section{Spending Money}
+			\subsection{Growth of the State}
+			In the 19th Century governments were minimal
+			\begin{itemize}[leftmargin=10ex]
+				\item Spending made up approx 10\% of GDP
+				\item Mostly on Police and Military
+				\item Almost no Social Spending
+			\end{itemize}
+			\bb
+			In the 20th Century the spending grew
+			\begin{itemize}[leftmargin=10ex]
+				\item Spending now makes up on average approx. 45\% of GDP
+				\item Huge increase in social spending
+				\item This is true for developed countries but not so in less developed 
+			\end{itemize}
+			
+			\subsection{The Rise of Social State}
+			\begin{itemize}[leftmargin=10ex]
+				\item Bismarck Social Insurance (1883)
+				\item Beveridge National Insurance (1941)
+				\item Sécurité Sociale (1945)
+			\end{itemize}
+			Public social insurance spending explains a large part of overall differences in public spending (notably pension spending)
+			
+			\section{Raising Money}
+			\subsection{Taxation}
+			Logically, as state spending grows (as a share of GDP), so does Taxation.
+			
+			\bb
+			Headline tax burden statistics can hide nuanced differences similarities between countries.
+			\begin{itemize}[leftmargin=10ex]
+				\item France has a lower tax burden that spending per GDP
+				\begin{itemize}
+					\item They make money from state ownership of companies which adds to their revenue
+				\end{itemize}
+			\end{itemize}
+			
+			\subsection{Structure of Revenue}
+			5 main components: 
+			\begin{itemize}[leftmargin=10ex]
+				\item Personal Income Tax
+				\item Corporate Income Tax
+				\item Social Security Contributions
+				\item Consumption Tax
+				\item Property Tax
+			\end{itemize}
+			
+			\section{Growth of the State Literature}
+			\textbf{Wagner:}\\
+			Demand for Public Goods grows with income. (Elasticity $>$ 1)
+			
+			\bb
+			\textbf{Baumol's cost disease: }\\
+			Economics of performing arts $\rightarrow$ Productivity increases in the private sector mean that the cost to provide labour intensive public services increases (leading to higher spending)
+			\begin{itemize}[leftmargin=10ex]
+				\item Not that convincing to explain the large increase
+			\end{itemize}
+			
+			\bb
+			\textbf{Ratchet Effect Theory:}\\
+			Wars increase government spending and taxation, which was not then reversed after these events.
+			
+			\bb
+			\textbf{Leviathan Theory}\\
+			Governments are controlled by self-interested in politician-bureaucrats
+			\begin{itemize}[leftmargin=10ex]
+				\item Also shit
+			\end{itemize}
+			
+			\bb
+			\textbf{Political Economy}\\
+			As states become more democratic, the poor are better represented and vote for greater public spending.
+			\begin{itemize}[leftmargin=10ex]
+				\item Chicken or egg theory?
+			\end{itemize}
+			
+			
+				
+			\subsection{Fundamental Theorems of Welfare Economics}
+	
+	\chapter{Lecture 2: Tools of Welfare Analysis}
+	
+		\section{The Concept of Economic Surplus}
+		The amount by which buyers and sellers benefit from participating in the market.
+		
+			\subsection{Consumer Surplus}
+			Harder to calculate consumer surplus because we need measure a monetary equivalent of utility. To do this we find the difference between:
+			\begin{center}
+				What someone \textit{would} pay for a good and what someone \textit{did} pay for a good
+			\end{center}
+			\bb
+			Two exact measures of changes in consumer welfare: 
+			\begin{itemize}[leftmargin=10ex]
+				\item Compensating variation
+				\item Equivalent variation
+			\end{itemize}
+			\bb
+			We use \textbf{Quasi-Linear Utility}
+			\begin{itemize}[leftmargin=10ex]
+				\item Only appropriate when the good:
+				\begin{itemize}
+					\item Costs a small percentage of income (Income effects are negligible)
+					\item Has no close substitutes
+				\end{itemize}
+			\end{itemize}
+			This choice of model is a significant restriction.
+			
+				\subsubsection{Model}
+				
+				\textbf{NB:}
+				Marshallian Demand: Demand as a function of price and income\\
+				Hisksian Demand: Demand as a function of price and utility.
+				
+				
+				
+				\subsubsection{Willingness to Pay (WTP)}
+				\[ U(x_0, m - WTP) = U(0,m) \]
+				\[ WTP = v(x_0) - v(0) = \int \]
+				
+				
+				\subsubsection{Consumer Surplus Equation}
+				
+				
+			\subsection{Equivalent and Compensating Variation}
+			\textbf{Problem:} Changes in  CS are and exact measure of consumer's welafare change only if utility is quasilinear (no income effects).
+			\bb
+			\textbf{Compensating Variation:} \\
+			Amount of money that must be taken away from consumer after the change to restore her original utility level. 
+			\begin{itemize}[leftmargin=10ex]
+				\item Willingness to Pay
+			\end{itemize}
+			\bb
+			\textbf{Eqivalent Variation:}\\
+			Amount of money that must be given to the consumer before the change to leave her as well off as the change.
+			\begin{itemize}[leftmargin=10ex]
+				\item Willingness to Accept
+			\end{itemize}
+			
+			\bb
+			The value of income is not the same 
+			
+			\bb
+			\begin{framed}
+				For a \textit{\textbf{Normal Good}}:
+				\[ CV < \Delta CS < EV \]
+			\end{framed}
+			
+		
+			
+			
+			\subsection{Producer Surplus}
+			Naturally in monetary terms $\rightarrow$ easier to calculate
+			
+			\begin{center}
+				Willingness to Sell - How much you receive
+			\end{center} 
+			\bb
+			Closely related to profit:
+			\[ Producer \; Surplus = Profit + Fixed \: Costs \]
+			Firms produce output only if the producer surplus is positive. If not they shut down.
+		
+		\section{Competitive Equilibrium and Social Efficiency}
+		
+		\begin{framed}
+			\noindent
+			\textbf{The First Theorum of Welfare }\\
+			The competitive equilibrium maximises social efficiency.
+		\end{framed}
+		
+		
+		
+		
+		\section{Measuring Inefficiency: Deadweight Loss}
+		Cause the market economu to deliver outcomes that do not maximise efficiency 
+		\begin{itemize}[leftmargin=10ex]
+			\item Imperfect competition
+			\item Public Goods
+			\item Externalities
+			\item Asymetric Info
+		\end{itemize}
+		Can also result from Government intervention
+		
+			\subsubsection{Loss of Monopoly Pricing}
+			
+			\subsubsection{Rent Control}
+			Leads to shortages.
+			\bb
+			\textbf{N.B.} This graph assumes that people are getting the house recieve the in order of their marginal valuation.
+			\bb
+			However, if you assume housing is randomly allocated:\\
+			There is a potentially an extra cost to consumers in the form of lost consumer surplus due to misallocation.
+		
+		
+		\section{The Efficiency Cost of Taxation}
+		The government raises taxes for two main reasons
+		\begin{itemize}
+			\item Raise revenue to finance government expenditure 
+			\item redistribute income
+		\end{itemize}
+		\bb
+		\textbf{Ideally:} Use lump-sum taxes that don't lead to changes in peoples behaviour (ie. a tax on height). \\
+		These are not feasible and so Govs must rely on \textbf{distortionary} taxes. 
+		\begin{center}
+			Goal: How do we minimise these distortionary effects?
+		\end{center}
+		
+
+		\section{LOOK AT PAPERS EXAMPLE IN SLIDES}
+		
+	\chapter{Externalities}
+		
+		An externality is a situation where the action of one party directly makes another part worse off/better off, yet the first party does not bare the cost nor benefits of doing so.
+		\begin{itemize}
+			\item Important distinction between pecuniary and non-pecuniary
+		\end{itemize}
+		\bb
+		\begin{tabularx}{\textwidth}{|X|X|}
+			\hline
+		     &  \\
+		     \hline
+		     
+		\end{tabularx}
+		
+		\section{Social Optimum}
+		
+		\begin{center}
+			Private Marginal Benefit = Private Marginal Cost + Marginal Cost
+		\end{center}
+		
+		\bb Take-away lessons: 
+		\begin{itemize}
+			\item Private markets do not produce Pareto efficient outcomes because firms/consumers do not take into account marginal damage (MD) or external marginal benefit (EMB) of production/consumption
+			
+			\item Completely eliminating the externality is not necessarily desirable
+			
+			\item Need to know the shapes of PMB, PMC and MD/EMB to implement the socially optimal level
+		\end{itemize}
+
+		\section{Measuring Externalities}
+		By definition, no direct market can be used to recover WTP to reduce negative externalities / increase positive externalities (if there were a market, there would be no externality!)
+		
+			\subsection{Direct Valuation}
+			Directly measure the physical effects of externalities (e.g., material deteriorations, damages to health, etc.) and use existing market prices (e.g., medical expenses, wages) to assign a monetary value to these physical effects. 
+			
+			\bb
+			\textbf{Problem:} individuals may compensate for increases in pollution by reducing their exposure, resulting in estimates that understate the full welfare costs of air pollution (avoidance behaviour is costly!)
+			
+				\subsubsection{Moretti and Neidell (2011)}
+				The use daily variations in ozone levels due to boat arrivals in two major LA ports as instrument for air pollution; because boat traffic is generally unobserved by local residents, it is assumed to be uncorrelated with pollution avoidance behaviour.
+				
+				\subsubsection{Limitations}
+				\begin{itemize}[leftmargin=20ex]
+					\item Direct-cost valuation of externalities is difficult to implement in
+					practice:
+					\begin{itemize}
+						\item requires identifying all the channels through which an
+						externality may affect welfare (e.g., damages caused by
+						nuclear leakage?)
+					\end{itemize}
+					\begin{itemize}
+						\item market prices not always available to assign a monetary value
+						to external effects (e.g., cost of noise?)
+					\end{itemize}
+				\end{itemize}
+				
+				
+				
+			\subsection{Contingent Valuation}
+			Ask people directly about their willingness-to-pay (WTP)
+			
+				\subsubsection{Limitations}
+				\begin{itemize}[leftmargin=20ex]
+					\item Cost of designing and conducting survey
+					\item Framing Effects (Ex: whales then seals vs. seals then whales)
+					\item ``Embedding'' effects (Ex: WTP to clean one lake = WTP to clean 5 lakes)
+					\item Strategic responses
+				\end{itemize}
+				
+			\subsection{Hedonic Valuation}
+			Method for estimating the value of a traded good: decompose the good (e.g., a house) into a set of
+			characteristics (e.g., size, local amenities, pollution) and estimate the specific contribution of each characteristic to the overall value.
+			\begin{itemize}
+				\item That way you can find out to what extent pollution level contributes to housing prices
+				\item Allowing you to reveal their willingness-to-pay for lower pollution.
+			\end{itemize}
+				
+				
+				\subsubsection{Chay and Greenstone (2005)}
+			
+
+			
+		\section{Correcting Externalities}
+		
+			\subsection{Private Solutions}
+				\subsubsection{Coasian Bargaining}
+				Externalities emerge because property rights are not well defined. Hence, all we need to do is establish property rights to create markets for pollution.
+				\bb
+				Two-parts:
+				\begin{enumerate}[leftmargin=20ex]
+					\item With well-defined property rights and \textbf{\textit{costless bargaining}}, negotiations between the parties creating/affected by the externality can bring about the social optimum.
+					\item The efficient solution does not depend on how property rights are assigned.
+					\begin{itemize}
+						\item This only effects distribution but not efficiency
+					\end{itemize}
+				\end{enumerate}
+				\bb
+				However: The assumption of costless bargaining is very strict and rarely, if ever, holds.
+				
+			\subsection{Public Solutions}
+				\subsubsection{Command-and-control}
+				\subsubsection{Market-Based}
+
+
+
+
+
+
+
+
+
+
+
+			
+\part{Reading}
+	
+	\chapter{Tools of Welfare Analysis}
+	
+		\section{Auerbach, A. (1985). ``The Theory of Excess Burden and Optimal Taxation"}
+		
+		
+		
+		\section{Cohen, P., Hahn, R., Hall, J., Levitt, S. and Metcalfe, R. (2016). ``Using Big Data to Estimate Consumer Surplus: The Case of Uber"}
+		
+		
+		\section{Marion, J. and Muehlegger, E. (2008). ``Measuring Illegal Activity and the Effects of Regulatory Innovation: Tax Evasion and the Dyeing of Untaxed Diesel"}
+		
+			
+			
+		
+		
+	\end{spacing}
+\end{document}

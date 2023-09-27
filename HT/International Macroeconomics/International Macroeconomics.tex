@@ -1,0 +1,443 @@
+\documentclass[11pt]{report}
+
+%use European style
+\usepackage[a4paper,left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+
+%few useful packages ------------------------------------------------------------------
+\usepackage{setspace}
+\let\Tiny=\tiny %remove annoying warnings
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{colortbl}
+\usepackage{xcolor}
+\usepackage{eurosym}
+\usepackage{enumitem}
+\usepackage{chngpage}
+\usepackage{fancyhdr}
+\usepackage{fancyvrb}
+\usepackage{float}
+\usepackage{framed}
+\usepackage{multirow}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{geometry}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage[linktocpage]{hyperref}
+
+%define environment for code
+\definecolor{orangepse}{RGB}{240,139,39}
+\definecolor{redpse}{RGB}{222,6,61}
+\newcommand{\rpse}[1]{\textcolor{redpse}{#1}}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\usepackage{listings}
+\lstset{frame=tblr,
+	language=R,
+	aboveskip=5mm,
+	belowskip=5mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=3
+}
+%---------------------------------------------------------------------------------------
+
+
+% New Commands ----------------------------
+\newcommand{\bb}{\bigbreak\noindent}
+
+\makeatletter
+\renewcommand\section{\leftskip 0pt\@startsection {section}{1}{\z@}%
+	{-3.5ex \@plus -1ex \@minus -.2ex}%
+	{2.3ex \@plus.2ex}%
+	{\normalfont\Large\bfseries}}
+
+\renewcommand\subsection{\leftskip 4ex\@startsection{subsection}{2}{\z@}%
+	{-3.25ex\@plus -1ex \@minus -.2ex}%
+	{1.5ex \@plus .2ex}%
+	{\normalfont\large\bfseries}}
+
+\renewcommand\subsubsection{\leftskip 14ex\@startsection{subsubsection}{3}{\z@}%
+	{-3.25ex\@plus -1ex \@minus -.2ex}%
+	{1.5ex \@plus .2ex}%
+	{\normalfont\large\bfseries}}
+\makeatother
+
+%----------------------------------------------------------
+
+\definecolor{titlepagecolor}{cmyk}{1,.60,0,.40}
+\definecolor{namecolor}{cmyk}{1,.50,0,.10} 
+
+
+\begin{document}
+	\setcounter{page}{1}
+	\begin{spacing}{1.5}
+		
+		% Table of Contents ----------------------------------
+		\tableofcontents
+		\setcounter{secnumdepth}{-2}
+		\newpage
+		
+	% Start of Content ---------------------------------------------
+	\chapter{General Notes:} 
+	The man is a Central Banker at ECB and Banque de France.
+	
+		\section{Appraisal}
+		Homework: Find an unpublished paper (working paper) and write a referee report.
+		\begin{itemize}
+			\item Max 4 pages - 30 lines per page
+			\item Deadline - End of the course
+			\item Must relate it to the topics seen in class
+		\end{itemize}
+		
+	\subsection{Potential Thesis Questions:}
+	\begin{itemize}[leftmargin=10ex]
+		\item The effects of unconventional vs conventional Monetary Policy
+	\end{itemize}
+	
+		
+	\chapter{Lecture 1: Introduction}
+		\section{The Current Account}
+		A variable which tells us how much a country pays out to other countries and how much it receives.
+		\[ CA = Trade \: Balance + Income \: Account + Current \: Transfers \]
+		\[ CA = (X - M) + INC + CT  \]
+		\bb
+		Another definition is that a current account is: 
+		\[ CA = Domestic \: Savings - Domestic \: Investment \]
+		\begin{itemize}
+			\item Highlights how a deficit can occur
+			\item Highlights the inter-temporal nature of national decision making
+		\end{itemize}
+		
+		\bb
+		The Balance of Payments definition of Current Accounts:
+		\[ CA = Finacial \: Account + \Delta R + EO \]
+		\[ \text{where } FA = Foreign \: Direct \: Investment + Equities + Bonds + OI  \]
+		
+		\bb
+		Lastly, the exchange rate determined definition:
+		
+		
+		
+		
+		
+		\section{Central Banks \& Monetary Policy}
+		
+		Mandates: 
+		\begin{itemize}
+			\item ESCB: Maintain Price Stability (and after that support the general economic policies laid out by the Union)  
+			\begin{itemize}
+				\item One goal takes precedence over the other
+			\end{itemize}
+			\item FED: Dual Mandate - Price Stability \& Employment
+			\begin{itemize}
+				\item No hierarchy in mandates 
+			\end{itemize}
+		\end{itemize}
+		\bb
+		Tools:
+		\begin{itemize}
+			\item Conventional Monetary Policy (Transmission Channel)
+			\item Unconventional Monetary Policy
+		\end{itemize}
+		
+			\subsection{Why adopt an inflation objecticce of 2\%?}
+			Central Banks want to \textbf{\textit{avoid deflation}}.
+			\begin{itemize}[leftmargin=10ex]
+				\item Deflation leads people to postpone consumption today, in favour of consumption tomorrow.
+				\item Targeting 0\% from above and over doing it would lead to this deflationary effect.
+			\end{itemize}
+			\bb
+			Central Banks want to \textbf{\textit{maintain the validity of their tools}} to control inflation.
+			\begin{itemize}[leftmargin=10ex]
+				\item Targeting 2\% allows them to set nominal interest rates at 0\% and have a real interest of -2\%.
+			\end{itemize}
+			\bb
+			One of the main tasks of Central banks is to calculate the strength of the \textbf{Transmission Rate}.
+			This is how much a change in interest rate effects rates further down the chain when CB's have less direct influence.
+			
+		
+		\section{The Importance of the Banking Sector}
+		In the US, open markets are more influential. Whereas the EU banking sector is highly important.
+		\bb
+		Key Issue for a private bank: \textbf{\textit{Liquidity Mismatch}}
+		\begin{itemize}
+			\item Risk of Bank Run
+		\end{itemize}
+		
+		
+			\subsection{Solutions to Bank Short Term Illiquidity}
+			\begin{itemize}[leftmargin=10ex]
+				\item Interbank Loan
+					\begin{itemize}
+						\item Borrow from the Excess Liquidity of other competing banks
+					\end{itemize}
+				\item Central Bank Loan
+					\begin{itemize}
+						\item Three different rates - which creates a corridor which bounds the market rate and can in some ways control the money market.
+						\begin{itemize}
+							\item MLF
+							\item MRO
+							\item DFR
+						\end{itemize}
+					\end{itemize}
+			\end{itemize}
+			
+		
+		
+		\section{Conventional Policy}
+		
+		\section{Non-Conventional Policy}
+		\begin{itemize}
+			\item Asset purchase programs (APP, PEPP)
+			\item Long term liquidity operations (TLTRO)
+			\item Negative interest rates, tiering
+			\item Forward guidance (commitment on the level of interest rates, which can be date, or data dependent)
+		\end{itemize}
+		
+		\section{The Shadow Rate}
+		
+		\section{R*}
+		
+		\section{The Taylor Rule}
+		
+		\[ r = p + 0.5 \times y + 0.5 \times (p - 2) + 2 \]
+		where $r$ is the nominal interest rate, $p$ is inflation, $y$ is the output gap.\\
+		 normative indication of what the central bank should do to fulfill its mandate\\
+		In practice, monetary policy is not so simple.
+		
+		
+		
+\chapter{Economic \& Financial Crises}
+EWS = Early Warning System
+	
+			\subsubsection{Forecasting Paradox}
+			Forecasting a crisis my precipitate a crisis that would not have otherwise occurred.
+			
+			\subsubsection{Impossibility Theorem}
+			If you predict a crisis in the future, this might trigger a policy reaction, which avoids a crisis which would have otherwise occurred.
+			
+	\section{Defining a crisis}
+	
+		\subsection{Currency Crises}
+		
+		\subsection{Banking Crises}
+		
+		\subsection{Sovereign Crises}		
+		
+		\subsection{Twin Crises}
+		No link between banking and currency crises prior to the 1980s
+		\begin{itemize}[leftmargin=10ex]
+			\item Bretton-Woods was a more stable currency system
+			\item Not much financial globalisation by that time
+		\end{itemize}
+		
+	\section{Modelling Crises}
+		
+		\subsection{Generation I - Krugman, 1979}
+		\begin{itemize}[leftmargin=10ex]
+			\item Only fundamentals matter to explain the crisis.
+				\item Think of Government Deficits and Reserves
+		\end{itemize}
+		\bb
+		
+		\subsubsection{Key features}
+		\begin{itemize}[leftmargin=20ex]
+			\item  Individuals have 2 assets
+				\begin{itemize}
+					\item Domestic money M with real value M/P
+					\item Foreign currency F
+					\item So the wealth is W=M/P+F
+				\end{itemize}
+			\item Domestic currency is held by domestic
+			residents only
+			\item Government runs deficit G>T
+			\item To cover for the deficit the government can increase M and raise P (« inflation tax »)
+			\item Because of inflation s should go up
+			\item  But the government decides to peg the ER
+			\item Eventually the government runs out of reserves; s jumps up
+			\item But agents realize this and trigger speculative attack just before
+		\end{itemize}
+		
+		\subsubsection{Key Issues}
+			\begin{itemize}[leftmargin=20ex]
+				\item Explains why currency crises appear when governments run (and monetize) deficits with a peg
+				\item Here government?s actions are exogenous
+				\item Empirics show that government deficit are not a significant determinant of currency crises (example of FR, UK in EMS crisis, or Asian countries in 90s)
+				\item Government?s trade-off between peg and unemployment (when interest rates need to be hiked to defend peg) seems to be a key issue
+				\item Timing of crises very unpredictable: multiple equilibria?
+			\end{itemize}
+			
+		  
+		
+		
+		
+		\subsection{Generation II - Obstfeld, 1994}
+		\begin{itemize}[leftmargin=10ex]
+			\item Multiple equilibria; self-fulfilling crises; contagion
+			\item Role of "softer fundamentals", political factors
+		\end{itemize}
+		
+		
+		\subsection{Generation III - Aghion, Bacchetta, and Banerjee, 2000-01}
+		\begin{itemize}[leftmargin=10ex]
+			\item Highlight fragility in the banking and financial sector
+			\item  Main factors: high debt, low reserves, domestic borrowing constraints; also: expectations about
+			future depreciation
+			\item  Role of currency mismatch
+			\item  Ambiguous effect of rising interest rate
+			\item  Not tackled in this course
+		\end{itemize}
+		
+		
+		
+		\subsection{Jeanne 1999}
+		Shows a looser link between the crises and fundamentals. 
+		\begin{itemize}[leftmargin=10ex]
+			\item For extreme values, the fundamentals explain the occurrence of crises
+			\item However for intermediary values, crises can happen without large changes in the fundamentals
+		\end{itemize}
+		
+		\subsection{Contagion (Masson, 1999)}
+		Three Types:
+		\begin{itemize}[leftmargin=10ex]
+			\item Common cause (e.g. shock in core country) affecting set of economies
+			\item Change in macroeconomic fundamentals induced  by a shock elsewhere (e.g. through competitiveness in case of currency crises)
+			\item A shock in one country affecting others for reasons unexplained by macro fundamentals (e.g. change
+			in market sentiments). Goldstein (1998) `` wake up call "
+		\end{itemize}
+		
+		\bb
+		His model is based on the probability that a country defaults
+		
+		\bb	
+		Similar solution to Jeanne:
+		\begin{itemize}[leftmargin=10ex]
+			\item For extreme values, there is a unique solution to the model 
+			\item However for intermediary values, multiple solutions exist.
+		\end{itemize}
+		
+		
+		\section{Predicting Crises (EWS - Early Warning Systems)}
+		General Steps:
+		\begin{enumerate}
+			\item Choose a Crisis Index
+			\item Select potential indicators
+			\item Model selection (logit/progbit, EWS, Continuous Index)
+			\item Country \& Time selection for panel data
+			\item Use model to anticipate crises
+		\end{enumerate}-
+		
+		\subsection{Some significant variables}
+		Small set of variables which cover different categories and are often used in significant estimation: 
+		\begin{enumerate}[leftmargin=10ex]
+			\item External Competitiveness
+				\begin{itemize}
+					\item overvalued exchange rate
+					\item current account / GDP ratio
+				\end{itemize}
+			
+			\item External exposure
+				\begin{itemize}
+					\item short-term debt / reserves
+				\end{itemize}
+			\item Domestic real \& public sectors
+				\begin{itemize}
+					\item real GDP growth rate
+				\end{itemize}
+			\item Domestic financial sector
+				\begin{itemize}
+					\item domestic credit to private sector
+				\end{itemize}			
+			\item Contagion
+				\begin{itemize}
+					\item Equity market contagion
+				\end{itemize}
+		\end{enumerate}
+		
+		\subsection{Contagian}
+		Crisis more likely to spread to a country competing and trading with countries experiencing a crisis.
+		\bb
+		We looked at calculations in class.
+		
+		\bb
+		Contagion can also have a negative relationship
+		\begin{itemize}[leftmargin=10ex]
+			\item Imagine two countries: Country B goes into crisis, people pull their money out and then give put it into country A
+		\end{itemize}
+		
+		
+		\subsection{State Dependence}
+		Having had a heart attack in the past, will often make you more likely to have one in the future. This is similar to \textit{State Dependence}. 
+		
+		\begin{quote}
+			``\textit{True state dependence occurs when past experience of an event (e.g. of innovation) has a structural effect on the probability of experiencing that event in the future, regardless of other individual characteristics}''
+		\end{quote}
+		
+		\begin{itemize}[leftmargin=10ex]
+			\item Positive state dependence: may indicate additional vulnerability (bad reputation, less trust)
+			\begin{itemize}
+				\item E.g. Brazil versus Switzerland
+			\end{itemize} 
+			\item Negative state dependence: ``myth of economic recovery''
+		\end{itemize}
+		
+		\subsubsection{The Kaminsky Method (Interesting)}
+		Kaminsky, Lizondo \& Reinhart, 1998. "Leading Indicators of Currency Crises," IMF Staff Papers
+		\bb
+		Discretizing indicators (Giving it a value of 0 or 1 depending on a threshold) loses valuable information. 
+		
+		
+		\section{Contagion \& Political Uncertainty}
+		
+		
+		\section{Measuring the Effects of a Crisis}
+		\textit{Growth Dynamics: The Myth of Economic Recovery)} Cerra and Saxena, AER 2008
+		\bb
+		Literature: Conducts Impulse Response Rates where there are three possible outcomes: 
+		\begin{itemize}
+			\item Catch up with previous growth
+			\item Permanently lower growth path but growing at the \textbf{same} rate
+			\item Permanently lower growth path, but growing at a \textbf{lower} rate
+		\end{itemize}
+		
+		
+		\section{Accumulation of International Reserves}
+		In the 90s after Black Tuesday; people said that corner solutions are the only option. Hard Pegs or Floating ER.
+		
+		
+		
+		\section{Fama Puzzle}
+		The forward premium anomaly in currency markets (also referred to as the forward premium puzzle or the Fama puzzle) refers to the well documented empirical finding that the domestic currency appreciates when domestic nominal interest rates exceed foreign interest rates.
+		
+		\section{Peso Problem}
+		A problem arising when ``the possibility that some infrequent or unprecedented event may occur affects asset prices''
+		
+		
+		
+		
+		
+		
+\chapter{title}
+		
+		
+		
+		 
+		
+		
+	\end{spacing}
+\end{document}

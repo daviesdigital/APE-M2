@@ -1,0 +1,366 @@
+\documentclass[11pt]{report}
+
+%use European style
+\usepackage[a4paper,left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+
+%few useful packages ------------------------------------------------------------------
+\usepackage{setspace}
+\let\Tiny=\tiny %remove annoying warnings
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{colortbl}
+\usepackage{xcolor}
+\usepackage{eurosym}
+\usepackage{enumitem}
+\usepackage{chngpage}
+\usepackage{fancyhdr}
+\usepackage{fancyvrb}
+\usepackage{float}
+\usepackage{framed}
+\usepackage{multirow}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{geometry}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage[linktocpage]{hyperref}
+
+%define environment for code
+\definecolor{orangepse}{RGB}{240,139,39}
+\definecolor{redpse}{RGB}{222,6,61}
+\newcommand{\rpse}[1]{\textcolor{redpse}{#1}}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\usepackage{listings}
+\lstset{frame=tblr,
+	language=R,
+	aboveskip=5mm,
+	belowskip=5mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=3
+}
+%---------------------------------------------------------------------------------------
+
+
+% New Commands ----------------------------
+\newcommand{\bb}{\bigbreak\noindent}
+
+\makeatletter
+\renewcommand\section{\leftskip 0pt\@startsection {section}{1}{\z@}%
+	{-3.5ex \@plus -1ex \@minus -.2ex}%
+	{2.3ex \@plus.2ex}%
+	{\normalfont\Large\bfseries}}
+
+\renewcommand\subsection{\leftskip 4ex\@startsection{subsection}{2}{\z@}%
+	{-3.25ex\@plus -1ex \@minus -.2ex}%
+	{1.5ex \@plus .2ex}%
+	{\normalfont\large\bfseries}}
+
+\renewcommand\subsubsection{\leftskip 14ex\@startsection{subsubsection}{3}{\z@}%
+	{-3.25ex\@plus -1ex \@minus -.2ex}%
+	{1.5ex \@plus .2ex}%
+	{\normalfont\large\bfseries}}
+\makeatother
+
+%----------------------------------------------------------
+
+\definecolor{titlepagecolor}{cmyk}{1,.60,0,.40}
+\definecolor{namecolor}{cmyk}{1,.50,0,.10} 
+
+
+\begin{document}
+	\setcounter{page}{1}
+	\begin{spacing}{1.5}
+		
+		% Table of Contents ----------------------------------
+		\tableofcontents
+		\setcounter{secnumdepth}{-2}
+		\newpage
+		
+		% Start of Content ---------------------------------------------
+		\chapter{General Notes:} 
+		
+		\subsection{Terminology:}
+		\begin{itemize}
+			\item Stochastic Process = Stochastic Model 
+			
+		\end{itemize}
+		
+		\chapter{Basics:}
+		
+			\subsection{GDP}
+			Real GDP increasing since WWII due to 
+			\begin{itemize}[leftmargin=10ex]
+				\item Capital
+				\item Productivity 
+				\item Population
+				\begin{itemize}
+					\item Both more labour and more consumers
+				\end{itemize}
+			\end{itemize}
+			Recession = Drop in the level of production (Real GDP)\\
+			The process of Recessions and expansions after recessions is known as the Business Cycle
+			\bb
+			We're going to focus on GDP Growth Rate.
+			
+			
+			\subsection{Unemployment Rate}
+			Unlike Real GDP, there is no trend.
+			\begin{itemize}[leftmargin=10ex]
+				\item This is not a production function but a ratio
+			\end{itemize}
+			\bb
+			\textbf{Great proxy for the US business cycle}
+			\begin{itemize}
+				\item Very flexible labour market in the US 
+			\end{itemize}
+			
+			\subsection{Interest Rate}
+			Short term vs Long Term. 
+			\begin{itemize}[leftmargin=10ex]
+				\item The central bank decides the short term rate.
+				\item The market decides the long term rate.
+			\end{itemize} 
+
+				\subsubsection{The Sovereign Rate}
+				The rate at which Governments are able to borrow money. 
+				\begin{itemize}[leftmargin=20ex]
+					\item Usually look at the 10 year rate
+					\begin{itemize}
+						\item The average period of maturity for government issued bonds
+					\end{itemize}
+				\end{itemize}
+				
+			\section{Definitions}
+			\begin{framed}
+				\noindent \textbf{Stochastic Process:}\\
+				$(X_t)_t \in Z$is a sequence of random variables,
+				taking real values, indexed by $t \in Z$
+				\begin{itemize}
+					\item Our (very ambitious) objective: \\
+					Find the best process $(X_t)$ that generated $x_t$
+					\vspace{-2ex}
+					\begin{itemize}
+						\item Start with results, end with model
+					\end{itemize}
+				\end{itemize}
+			\end{framed}
+			\bb
+			\textbf{Simulation:} When you create a model and generate outcomes. (Start with model, end with results)
+			
+			\subsection{Process}
+			The main characteristic of a trajectory $(x_1,...,x_T)$ steming from a stochastic process is the non-independence of the variables.
+			\begin{itemize}[leftmargin=10ex]
+				\item The first i of the usual i.i.d. hypothesis is no more valid!
+				\item Standard tool for measuring dependence: \textbf{linear correlation coefficient}
+			\end{itemize}
+			
+			\subsection{Autocorrelation}
+			
+			\subsection{Partial Autocorrelation}
+			But what if we want to find the autocorrelation between two particular points in the trend and not the trend as a whole? 
+			\begin{itemize}[leftmargin=10ex]
+				\item Partial Autocorrelation
+			\end{itemize}
+			
+			\section{Identifying a candidate process}
+			ACF provides a measure of the persistence of the process or its \textbf{\textit{memory}}
+			\bb
+			Starting from this information, we will search for a type of process able to fit this persistence.
+			\bb
+			3 types: 
+			\begin{itemize}
+				\item No Memory
+				\item Short Memory
+				\item Long Memory
+			\end{itemize}
+			
+			\subsection{No Memory - White Noise Process}
+			No autocorrelation (no dependent). \\
+			The value of tomorrow is completely uncorrelated with value of today.
+			\begin{itemize}[leftmargin=10ex]
+				\item \textbf{Careful:} This does not mean they are independent
+			\end{itemize}
+			
+			\bb
+			\begin{center}
+			\textbf{EXAMPLE:} Exchange Rates
+			\end{center}
+			\bb
+				\subsubsection{Weak white noise:}
+				\[ E(XY) = 0 \text{  given  } \mu(X,Y) = 0 \]
+		
+				 but maybe: There is a correlation between their variances
+				 \[ E(X^2Y^2) \neq 0  \]
+				
+				\subsubsection{Strong White Noise:}
+				Not only \textbf{non-correlated} but also \textbf{fully independent} from one another.
+				
+				
+			\subsection{Short Memory}
+			A stochastic process is said to be short-memory is its ACF is such that:
+			\[ \rho(k) \leq C_{r^k} , k \rightarrow \infty \], 
+			where $C > 0, 0 < r < 1 \text{  and  } k = 1, 2, . . .$
+			
+				\subsubsection{Examples:}
+				AR = Autoregressive.
+				
+			\subsection{Long Memory}
+			When the ACF is non null for large $k$, a.k.a strongly persistent
+			\begin{center}
+				-------------- Not covered in this course --------------
+			\end{center}		
+			
+			
+			\section{Stationarity}
+			While time series are non-independent, are they identically distributed?
+				\subsection{Strong Stationarity}
+				Too strict and complicated to work out in real life
+				
+				\subsection{Weak Stationarity}
+				\begin{itemize}[leftmargin=10ex]
+					\item Mean is constant over time
+					\item The covariance is constant over time
+				\end{itemize}
+				\bb
+				These properties allow us to estimate the mean by using the empirical mean.
+				\[ \hat  {\mu} = \bar{X_T} \]
+				\bb
+				Therefort he natural predictor of a stationary process is the mean.
+				
+				
+			\section{Wold Theorem}
+			
+				
+			
+			\section{Defining a \textit{good} predictor}
+			\begin{itemize}
+				\item Unbias
+				\item Minimum variance
+				\begin{itemize}
+					\item Otherwise you get large standard errors and uncertainty
+				\end{itemize}
+			\end{itemize}
+			
+				\subsection{Forcasting Error Process}
+				\[ e_{t+h} = X_{t+h} - \hat{X}_t(h) \]
+				
+					\subsubsection{Criteria to measure the forcasting accuracy}
+					\[ Mean \: Error = E(e_{T+h}) \] 
+					\begin{itemize}[leftmargin=15ex]
+						\item Might not be bias but can hide inaccuracy
+					\end{itemize}
+					\bb
+					\[ Mean \: Absolute \: Error = E(|e_{T+h}|) \] 
+					\begin{itemize}[leftmargin=15ex]
+						\item Cannot differentiate at Zero
+					\end{itemize}
+					\bb
+					\begin{framed}
+						
+					\[ Mean \: Squared \: Error = E(e^2_{T+h}) \]
+					\begin{itemize}[leftmargin=10ex]
+						\item Allows us to differentiate!
+					\end{itemize}
+					
+					\[ Root \: Mean \: Squared \: Error = \sqrt{E(e^2_{T+h})} \]
+					\begin{itemize}[leftmargin=10ex]
+						\item Allows us to differentiate!
+						\item Values are similar to those observed
+					\end{itemize}
+					
+					\end{framed}
+					
+					
+					
+			\section{Linear Process}
+			\[ X_t = \sum^{\infty}_{i=0}a_i\varepsilon_i \]
+			where: 
+			\begin{itemize}
+				\item coefficients  $ a_i$ is absolutely summable (finite)
+				\item $(\varepsilon_t)_t$ is strict white noise
+			\end{itemize}
+			
+			
+			\section{Best Predictor}
+			The predictor $\hat{X}_T(h) $ that minimises the MSE is the least squares predictor.
+			\[ \hat{X}_T(h) = E(X_{T+h} | I_T) \]
+			
+			
+			\subsection{Distribution of the Predictor}
+			 For any linear process, we get $E(e_{T+h}) = 0 $, and;
+			\[  E(e^2_{T+h}) = \sigma^2_\varepsilon \sum_{i=0}^{h-1}a^2_i \], where $a_0 = 1$.
+			
+			\bb
+			Normal Distribution:
+			
+			
+			\subsection{Example}
+			
+			$\phi$ represents the strength of the dependence between $X_t$ and $X_{t-1}$ 
+			
+			\bb
+			\[ X_{t+1} = \phi X_t + \varepsilon{t+1} \]
+			\[ E(X_{t+1} | I_t) = E(\phi X_t + \varepsilon{t+1} | I_t)\]
+			\[ E(X_{t+1} | I_t) = E(\phi X_t| I_t) + (\varepsilon{t+1} | I_t)\]
+			\[ E(X_{t+1} | I_t) = \phi X_t + 0\]
+			\[ \hat{X}_{t+1} = \phi X_t  \]
+			
+			\bb
+			Example 2:
+			\[ X_{t}(2) = \phi X_{t+1} + \varepsilon{t+2} \]
+			\[ E(X_{t+2} | I_t) = E(\phi X_{t+1} + \varepsilon{t+2} | I_t)\]
+			\[ E(X_{t+1} | I_t) = E(\phi X_{t+1}| I_t) + (\varepsilon{t+2} | I_t)\]
+			\[ E(X_{t+1} | I_t) = \phi X_{t+1} + 0\]
+			\[ \hat{X}_{t+1} = \phi (\phi X_t)  \]
+			\[ \hat{X}_{t+1} = \phi^2 X_t  \]
+			
+			
+			
+			\section{Impulse Response Function (IRF)}
+			Objective: Assess the impact of a shock at a given date on the process dynamics.
+			
+			\bb
+			General Definition:
+			 \[ GIRF = E(X_{t+h} | I_t, \varepsilon_t = \delta, \varepsilon_s = 0, s > t) - E(X_{t+h} | I_t, \varepsilon_s = 0, s \geq t) \]
+			 \begin{center}
+			 	GIRF = Whats going on with impulse - What would be going on without impulse
+			 \end{center}
+			
+			
+			
+			\section{ARMA Models}
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+	\end{spacing}
+\end{document}
