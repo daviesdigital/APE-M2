@@ -1,0 +1,165 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{blanchard2023caused}{report}{}
+      \name{author}{2}{}{%
+        {{hash=d69d1d7c58aa69548df530ef71725660}{%
+           family={Blanchard},
+           familyi={B\bibinitperiod},
+           given={Olivier\bibnamedelima J},
+           giveni={O\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=7c898d91e08f8405749c5ad0d0817ac2}{%
+           family={Bernanke},
+           familyi={B\bibinitperiod},
+           given={Ben\bibnamedelima S},
+           giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {National Bureau of Economic Research}%
+      }
+      \strng{namehash}{c8c24463366ebe4410737eed4996243d}
+      \strng{fullhash}{c8c24463366ebe4410737eed4996243d}
+      \strng{bibnamehash}{c8c24463366ebe4410737eed4996243d}
+      \strng{authorbibnamehash}{c8c24463366ebe4410737eed4996243d}
+      \strng{authornamehash}{c8c24463366ebe4410737eed4996243d}
+      \strng{authorfullhash}{c8c24463366ebe4410737eed4996243d}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What Caused the US Pandemic-Era Inflation?}
+      \field{type}{techreport}
+      \field{year}{2023}
+    \endentry
+    \entry{brauning2023cost}{article}{}
+      \name{author}{3}{}{%
+        {{hash=b407365f6bfefba44911b692b9361a23}{%
+           family={Bräuning},
+           familyi={B\bibinitperiod},
+           given={Falk},
+           giveni={F\bibinitperiod}}}%
+        {{hash=3e2d555d2b867d643e33a91b5e912ede}{%
+           family={Fillat},
+           familyi={F\bibinitperiod},
+           given={Jose\bibnamedelima L},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=2d8f8c24dc53d7d1991eb7879149a89f}{%
+           family={Joaquim},
+           familyi={J\bibinitperiod},
+           given={Gustavo},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {FRB of Boston Working Paper}%
+      }
+      \strng{namehash}{3545a1ceb999b93df584bef174ff5122}
+      \strng{fullhash}{3545a1ceb999b93df584bef174ff5122}
+      \strng{bibnamehash}{3545a1ceb999b93df584bef174ff5122}
+      \strng{authorbibnamehash}{3545a1ceb999b93df584bef174ff5122}
+      \strng{authornamehash}{3545a1ceb999b93df584bef174ff5122}
+      \strng{authorfullhash}{3545a1ceb999b93df584bef174ff5122}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cost-price relationships in a concentrated economy}
+      \field{year}{2023}
+    \endentry
+    \entry{franzoni2023supply}{article}{}
+      \name{author}{3}{}{%
+        {{hash=696da0948b512b1aabf680eee9055d2b}{%
+           family={Franzoni},
+           familyi={F\bibinitperiod},
+           given={Francesco\bibnamedelima A},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=22db4d83e20d414c40bd1ee05ef3cdad}{%
+           family={Giannetti},
+           familyi={G\bibinitperiod},
+           given={Mariassunta},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e206604d98acf7f2b9906da2517a8ce3}{%
+           family={Tubaldi},
+           familyi={T\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{d306edbd1254ee861cec9e9d8a363f83}
+      \strng{fullhash}{d306edbd1254ee861cec9e9d8a363f83}
+      \strng{bibnamehash}{d306edbd1254ee861cec9e9d8a363f83}
+      \strng{authorbibnamehash}{d306edbd1254ee861cec9e9d8a363f83}
+      \strng{authornamehash}{d306edbd1254ee861cec9e9d8a363f83}
+      \strng{authorfullhash}{d306edbd1254ee861cec9e9d8a363f83}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Large Firms' Market Power, and Inflation (September 27, 2023)}
+      \field{title}{Supply Chain Shortages, Large Firms' Market Power, and Inflation}
+      \field{year}{2023}
+    \endentry
+    \entry{weber2022inflation}{article}{}
+      \name{author}{4}{}{%
+        {{hash=391996e22316756f841482caa3433283}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={Isabella\bibnamedelima M},
+           giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=2c6279f0b14373c1ad5a10c8c375b920}{%
+           family={Jauregui},
+           familyi={J\bibinitperiod},
+           given={Jesus\bibnamedelima Lara},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=f8060ec2dd02eb198cf7c54ef058a7bc}{%
+           family={Teixeira},
+           familyi={T\bibinitperiod},
+           given={Lucas},
+           giveni={L\bibinitperiod}}}%
+        {{hash=25d2f820ac4ad3ea895fc4ee6b958f3a}{%
+           family={Nassif\bibnamedelima Pires},
+           familyi={N\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Luiza},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{7e0d0898631c33aa2f21c1c62dc0a718}
+      \strng{fullhash}{c1294951c5b4e80f7add3a795414c424}
+      \strng{bibnamehash}{7e0d0898631c33aa2f21c1c62dc0a718}
+      \strng{authorbibnamehash}{7e0d0898631c33aa2f21c1c62dc0a718}
+      \strng{authornamehash}{7e0d0898631c33aa2f21c1c62dc0a718}
+      \strng{authorfullhash}{c1294951c5b4e80f7add3a795414c424}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Inflation in times of overlapping emergencies: systemically significant prices from an input-output perspective}
+      \field{year}{2022}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

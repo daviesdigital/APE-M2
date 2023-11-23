@@ -1,0 +1,139 @@
+
+\documentclass[11pt]{article}
+
+%use European style
+\usepackage[a4paper,left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+
+%few useful packages ------------------------------------------------------------------
+\usepackage{setspace}
+\let\Tiny=\tiny %remove annoying warnings
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{colortbl}
+\usepackage{xcolor}
+\usepackage{eurosym}
+\usepackage{enumitem}
+\usepackage{chngpage}
+\usepackage{fancyhdr}
+\usepackage{fancyvrb}
+\usepackage{float}
+\usepackage{framed}
+\usepackage{multirow}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{geometry}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage[linktocpage]{hyperref}
+\usepackage{graphicx}
+
+
+
+
+
+\usepackage{listings}
+\lstset{frame=tblr,
+	language=R,
+	aboveskip=5mm,
+	belowskip=5mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=3
+}
+%---------------------------------------------------------------------------------------
+
+
+% New Commands ----------------------------
+\newcommand{\bb}{\bigbreak\noindent}
+
+\makeatletter
+\renewcommand\section{\leftskip 0pt\@startsection {section}{1}{\z@}%
+	{-3.5ex \@plus -1ex \@minus -.2ex}%
+	{2.3ex \@plus.2ex}%
+	{\normalfont\Large\bfseries}}
+
+\renewcommand\subsection{\leftskip 4ex\@startsection{subsection}{2}{\z@}%
+	{-3.25ex\@plus -1ex \@minus -.2ex}%
+	{1.5ex \@plus .2ex}%
+	{\normalfont\large\bfseries}}
+
+\renewcommand\subsubsection{\leftskip 14ex\@startsection{subsubsection}{3}{\z@}%
+	{-3.25ex\@plus -1ex \@minus -.2ex}%
+	{1.5ex \@plus .2ex}%
+	{\normalfont\large\bfseries}}
+\makeatother
+
+%----------------------------------------------------------
+
+\definecolor{titlepagecolor}{cmyk}{1,.60,0,.40}
+\definecolor{namecolor}{cmyk}{1,.50,0,.10} 
+
+\title{Quantitative macroeconomics - Problem Set 3}
+\author{Jorge Aparicio Lopez, Davide Davies-Biletta, Barbara Saget }
+\date{October 2023}
+
+\begin{document}
+	\setcounter{page}{1}
+	\begin{spacing}{1.5}
+		
+		\maketitle
+		
+		\section{Problem 1 The Bellman equation and its properties.}
+		We simplify the problem as a choice of $\{k_{t+1}\}$: 
+		
+		$$i_t = k_{t+1}-(1-\delta)k_t$$
+		And then:
+		$$c_t \leq (1-\delta)k_t + z_t k_{t}^\theta-k_{t+1}$$
+		Now the problem simplifies to solving: 
+		\[ \max_{\{c_t, k_{t+1}\}} \sum^T_{t=0} \beta ^t \dfrac{c_t^{1-\sigma} - 1 }{1 - \sigma}\]
+		\[s.t. \:\:\: c_t \leq (1-\delta)k_t + z_t k_{t}^\theta-k_{t+1} \]
+		
+		At the optimum the resource constraints will be binding so we can rewrite the program as : 
+		\begin{align*}
+			&\max_{\{k_{t+1}\}} \sum^T_{t=0} \beta ^t \dfrac{\big((1-\delta)k_t + z_t k_{t}^\theta-k_{t+1}\big)^{1-\sigma} - 1 }{1 - \sigma}  \\
+			\iff& \max_{\{k_{t+1}\}} \sum^T_{t=0} \beta ^t F(k_{t+1}, k_t)-1 \quad \text{(SP)} 
+		\end{align*}
+		with $F(k_{t+1}, k_t)= \dfrac{\big((1-\delta)k_t + z_t k_{t}^\theta-k_{t+1}\big)^{1-\sigma} - 1 }{1 - \sigma} $
+		\\
+		\\
+		Let's define $\Gamma$, X, $\beta$ and F as following:
+		\\
+		$X=\big\{k_t \in X, k_t \in[0, max(k_0,k*)]\big\}$ \quad set of possible state variable $k_t$
+		\\
+		$\Gamma : X -> X$ \quad feasible values of the next period capital for a given level of capital stock k.
+		\\ 
+		The possible values of $k_{t+1}$ have to be such that $k_t\ge 0$ and $c_t\ge 0$. 
+		\begin{align*}
+			&c_t\ge 0\\
+			\iff &(1-\delta)k_t + z_t k_{t}^\theta-k_{t+1} \ge 0 \\
+			\iff & k_{t+1}\le (1-\delta)k_t + z_t k_{t}^\theta  
+		\end{align*}
+		\\
+		So $\Gamma=\big\{k_{t+1} \in \Gamma,  k_{t+1} \in[0, (1-\delta)k_t + z_t k_{t}^\theta ]\big\}$ 
+		\\
+		\\
+		$\beta>0$ the constant discount factor
+		\\
+		\\
+		$F(k_{t+1}, k_t)= \dfrac{\big((1-\delta)k_t + z_t k_{t}^\theta-k_{t+1}\big)^{1-\sigma} - 1 }{1 - \sigma} $ with $F:X\times X -> \mathbb{R}$ the one-period return function which maps all feasible combination of today's and tomorrow's capital stock. \color{red}Is F bounded ? \color{black}
+		
+		Than we can determine the functional equation: 
+		
+		$v(k_{t+1})= sup_{\{k_{t+1} \in \Gamma(k_t)\}}[F(k_t,k_{t+1}) + \beta k_{t+1}], \quad\text{all}\quad k_t \in X$
+		
+		\subsection{The return function F is not bounded, but (FE) nevertheless maps C(X), the space of continuous bounded functions on R, into itself. (Make sure you understand why). (FE) defines a contraction mapping using Black-well's sufficient conditions. (Again, make sure you understand why). Can you further characterise v given the functional forms of $f$ and $\Gamma$?}
+		
+	\end{spacing}
+\end{document}
