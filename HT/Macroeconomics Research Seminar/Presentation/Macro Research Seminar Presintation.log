@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.30)  23 NOV 2023 10:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.30)  23 NOV 2023 13:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1491,7 +1491,7 @@ LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `"Macro Research Seminar Presintation".out' h
 as not changed.
-(rerunfilecheck)             Checksum: E8BCD8906D68174392F6773B39692FD1;470.
+(rerunfilecheck)             Checksum: D298116543F522639D7DADC62F5FA320;544.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                "Macro Research Seminar Presintation"
@@ -1516,7 +1516,7 @@ fonts/cm/cmss12.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmss8.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/david/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "Macro Research Seminar Presintation.pdf" (15 pages, 635310 b
+Output written on "Macro Research Seminar Presintation.pdf" (15 pages, 635575 b
 ytes).
 PDF statistics:
  954 PDF objects out of 1000 (max. 8388607)
