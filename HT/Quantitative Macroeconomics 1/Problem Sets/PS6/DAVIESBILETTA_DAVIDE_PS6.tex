@@ -100,13 +100,246 @@
 \section{An exchange economy}
 
 	\subsection{Write the Planner problem and characterize the optimal allocation as a function of the Pareto weights.}
+	In this example there are two agents: $i = 1,2$. Therefore the associated Pareto weights can be written as $\lambda_1$ and $\lambda_2$ for both agents respectively. In order to find the optimal allocation, the planner faces the following problem: 
+	\[ \max_{c^1,c^2} \sum_{i\in I} \lambda_i\big[\sum_{t=0}^{\infty}\beta^t u(c^i_t)\big] \]
+	\[ \max_{c^1,c^2} \lambda_1\big[\sum_{t=0}^{\infty}\beta^t u(c^1_t)\big] + \lambda_2\big[\sum_{t=0}^{\infty}\beta^t u(c^2_t)\big] \]
+	subject to the \textit{feasibility constraint}:
+	\[ \sum_{i\in I}c^i_t \leq  \sum_{i\in I}y^i_t\]
+	\[ c^1_t+c^2_t \leq y^1_t+y^2_t\]
+	\bb
+	To make it easier, we set the Lagrangian multiplier to $\theta = \dfrac{\hat{\theta}_t }  {\beta^t}$\\
+	From here we can create a Lagrangian function:
+	\[ \mathcal{L}^i = \sum_{t=0}^{\infty} \beta^t \sum_{i\in I}\big[\lambda_iu(c^i_t)+ \theta_t  (y^i_t - c_t^i)\big] \]
+	
+	\[ \frac{\partial \mathcal{L}}{\partial{c_t^i}} \implies  \lambda_iu'(c^i_t) =  \theta_t  \]
+	Hence we can set $\dfrac{\partial \mathcal{L}}{\partial{c_t^1}}$ = $\dfrac{\partial \mathcal{L}}{\partial{c_t^2}}$
+	\[ \lambda_1u'(c^1_t) = \lambda_2u'(c^2_t) \]
+	We end up getting:
+	\[ \frac{u'(c^1_t)}{u'(c^2_t)} = \frac{\lambda_2}{\lambda_1}  \]
+	This means that the ratio of marginal utility between agents is constant across time.
+	\bb
+	Ultimately, the planner chooses an allocation which satisfies: 
+	\[ u'(c^1_t) = \frac{\lambda_2}{\lambda_1} u'(c^2_t) \]
+	\[ u'(c^1_t) = \frac{\lambda_2}{\lambda_1} u'(c^2_t) \]
+	\[ u'(c^i_t) = u^{-1}\big(\frac{\lambda_2}{\lambda_1} u'(c^j_t)\big) \]
+	
+	Using the fact that there is no aggregate uncertainty, that is the total endowment of the economy
+	is equal to 1, what changes is who has the endowment. Therefore it must be that:
+	\[ c^1_t + c^2_t = 1\]
+	\[ c^1_t + \frac{\lambda_2}{\lambda_1} u'(c^1_t) = 1\]
+	This solution displays full risk sharing and history independence.
+	
 	
 	
 	\subsection{Competitive Equilibrium. Assume that there are complete markets with time-0 trading.}
 		
 		\subsubsection{Define and compute a competitive equilibrium.}
+		\textit{Define:}\\
+		 A competitive equilibrium is a feasible allocation for each agent $i = 1, 2$ and a price sequence
+		t=0 such that for a given price, the allocation solves the household's problem for all $i$, and the allocation is feasible: $ \sum_{i\in I} q^0_t c^i_t \leq  \sum_{i\in I} q^0_t y^i_t $
+		\bb
+		\textit{Compute:}\\
+		Since trading occurs at a single date, each agent $i \in I$ is faced with a single
+		budget constraint given by
+		\[ \sum_{i\in I} q^0_t c^i_t \leq  \sum_{i\in I} q^0_t y^i_t \]
+		At time 0, the agent chooses a sequence of contingent consumption decisions maximising
+		expected lifetime utility,
+		\[ \sum_{t=0}^{\infty}\beta^t u(c^i_t) \]
+		taking prices as given, subject to the budget constraint.
+		\bb
+		We define as an Arrow-Debreu competitive equilibrium an allocation and a price system such that, i) given the price system, the allocation solves each household's problem and ii) markets clear date by date, history by history, that is:
+		\[ \sum_{i\in I}c^i_t =  \sum_{i\in I}y^i_t\]
+		\bb
+		\[ \mathcal{L}^i = \sum_{t=0}^{\infty} \beta^t u(c^i_t) + \mu_i\sum_{t=0}^{\infty}q^0_t\big[y^i_t - c_t^i\big]\]
+		From which we obtain:
+		\[ \frac{\partial \mathcal{L}}{\partial{c_t^i}} \implies \beta^t u'(c^i_t)=\mu_i q^0_t \] 
+		Isolating $q^0_t$, we get:
+		\[ \dfrac{\beta^t u'(c^i_t)}{\mu_i}=q^0_t \] 
+		Combining the conditions for two agents $i$ and $j$ we obtain:
+		\[ \dfrac{\beta^t u'(c^i_t)}{\beta^t u'(c^j_t)}=\frac{\mu_i }{\mu_j}\] 
+		\[ \dfrac{u'(c^i_t)}{ u'(c^j_t)}=\frac{\mu_i }{\mu_j}\] 
+		Once again this tells us that the ratio of consumption is constant between individuals.
+		\bb
+		From this we can write the consumption of $i$ as a function of agent 1 to obtain:
+		\[ c^i_t = u'^{-1}\big(u'(c^i_t)\frac{\mu_i }{\mu_j}\big) \]
+		Next, we can substitute in the market clearing condition to obtain:
+		\[ \sum_{i\in I} u'^{-1}\big(u'(c^1_t)\frac{\mu_i }{\mu_j}\big) =  \sum_{i\in I} y^i_t \]
+		\[  c^1_t+ u'^{-1}\big(u'(c^1_t)\frac{\mu_2 }{\mu_1}\big) = 1\]
+		
+		Hence the Arrow-Debreu competitive equilibrium allocation has the same properties as
+		the Pareto efficient allocations. We once again see full risk sharing and history independence. Moreover, the Arrow-Debreu equilibrium allocation is a particular Pareto efficient allocation which can be obtained by solving the planner problem with welfare weights $\lambda_i = \mu^{-1}_i$ for all $i$. Of course, as it is a Pareto efficient allocation, it also exhibits the properties of perfect insurance and history independence. Effectively, we have taken a direct route to showing that for this particular economy the first welfare theorem holds.
+		\bb
+		To make our lives easier, we assume the following:
+		\[ q^0_0 = 1 \]
+		\[ \mu_i = u'(c^i_t) \]
+		\[ q^0_t =  \dfrac{\beta^t u'(c^i_t)}{u'(c^i_t)} = \beta^t \]
+		\bb
+		Next, we write the players' discounted wealth functions. Notice that for $i = 1$ they only earn one unit of income every three periods. This leaves us with: 
+		
+		\[ \mathcal{W}_1 = \sum_{t=0}^{\infty} \beta^{3t} = \frac{1}{1-\beta^3}\]
+		\bb
+		Notice that player $i = 2$ is allocated one unit of income, when player $i = 1$ is not. Hence, their discounted wealth follows: 
+		\[ \mathcal{W}_2 = \sum_{t=0}^{\infty} \beta^{t} - \sum_{t=0}^{\infty} \beta^{3t} = \frac{1}{1-\beta}-\frac{1}{1-\beta^3}\ = \dfrac{\beta (1-\beta^2)}{(1-\beta)(1-\beta^3)} \]
+		
+		\bb
+		If we fill these back into the budget constraint functions, we get: 
+		\[ \dfrac{1}{1-\beta}c^1 = \mathcal{W}_1 \]
+		\[ c^1 = (1-\beta)\mathcal{W}_1 \]
+		\[ c^1 = \dfrac{1-\beta}{1-\beta^3} \]
+		\bb\bb
+		\[ \dfrac{1}{1-\beta}c^2 = \mathcal{W}_2 \]
+		\[ c^2 = (1-\beta)\mathcal{W}_2 \]
+		\[ c^2 = \dfrac{\beta(1-\beta^2)}{1-\beta^3} \]
+		
+		These equations imply that;
+		\[ c^1 + c^2 = 1 \] 
 		
 		\subsubsection{Suppose that one of the consumers markets a derivative asset that promises to pay .05 units of consumption each period. What would the price of that asset be?}
+		Since markets are complete markets, the derivative security is redundant: it can be priced off the Arrow-Debreu priced determined in previous question. The time zero price of the derivative is 
 		
+		\[ Price = \sum_{t=0}^{\infty}0.05(q^0_t) = \frac{0.05}{1-\beta}\]
+		
+
+\section{ An exchange economy again.}
+
+\subsection{Give a formula for $\pi_t(s^t)$}
+We are told that $s^t$ follows a  two-state Markov Chain, therefore the formula for $\pi_t(s^t)$ should be as follows: 
+
+\[ \pi_t(s^t) = \pi_0(s^t) \times \pi_1(s_1|s_0) ...\times \pi_t(s_t|s_{t-1}) \]
+
+
+
+\subsection{Let $\theta \in (0,1)$ be a Pareto weight on household 1, and $1 - \theta $ the Pareto weight on household 2. Write down the Planner problem, and solve it, taking $\theta$ as a parameter.}
+We can expand the case in the first question to accommodate these changes, resulting in a Planners problem that looks like:
+\[ \max_{c^1,c^2} \theta\sum_{t=0}^{\infty}\sum_{s^t \in S^t}\beta^t\pi_t(s^t) ln(c^1_t(s^t))      + (1-\theta)\sum_{t=0}^{\infty}\sum_{s^t \in S^t}\beta^t \pi_t(s^t) ln(c^2_t(s^t))] \]
+\[ \max_{c^1,c^2} \sum_{t=0}^{\infty}\sum_{s^t \in S^t}\beta^t\pi_t(s^t)\big[ \theta \big(ln(c^1_t(s^t))\big)      + (1-\theta) \big( ln(c^2_t(s^t)) \big) \big] \]
+
+Our Lagrangian therefore looks like:
+\[ \mathcal{L} =   \max_{c^1,c^2} \sum_{t=0}^{\infty}\sum_{s^t \in S^t}\beta^t\pi_t(s^t)\big[ \theta ln(c^1_t(s^t))    + (1-\theta) ln(c^2_t(s^t)) - \mu_t(s^t)(y^1_t(s^t)-c^1_t(s^t)) - \mu_t(s^t)(y^2_t(s^t)-c^2_t(s^t)) \big] \]
+
+
+\[ \frac{\partial \mathcal{L}}{\partial{c_t^1}} \implies \frac{\theta \beta^t\pi(s^t)}{c^1_t(s^t)} = \mu(s^t) \]
+
+\[ \frac{\partial \mathcal{L}}{\partial{c_t^2}} \implies \frac{(1-\theta) \beta^t\pi(s^t)}{c^2_t(s^t)} = \mu(s^t) \]
+
+Equating them we get:
+\[ \frac{ c^1_t}{c^2_t(s^t)} = \frac{\theta}{1-\theta} \] 
+
+Therefore: 
+\[ c^1_t (s^t)= \frac{\theta}{1-\theta}c^2_t(s^t) \]
+\[ c^1_t (s^t)= \frac{\theta}{1-\theta}Y_t(s^t) - c^1_t(s^t) \]
+
+We can imply from this that:
+\[ c^1_t (s^t)= \theta Y_t(s^t) \]
+\[ c^2_t (s^t)= (1 - \theta)Y_t (s^t)\]
+
+Much like the Planner problem in the first question, we see that the planner chooses to split the total endowment at each point in accordance with the weights they assign to each individual.
+
+\subsection{Define a competitive equilibrium with history dependent Arrow-Debreu securities traded once and for all at time 0. Be careful to define all of the objects that compose a competitive equilibrium}
+
+We define as an Arrow-Debreu competitive equilibrium an allocation and a price system such that, i) given the price system, the allocation solves each household's budget constraint problem 
+
+\textit{Budget Constraint:}
+\[ \sum_{t=0}^{\infty}\sum_{s^t \in S^t} q^0_t  c^i_t =  \sum_{t=0}^{\infty}\sum_{s^t \in S^t} q^0_t y^i_t \:\:\:\: \forall i \in \{1,2\} \]
+ 
+\bb
+and ii) markets clear date by date, history by history, that is:
+\[ c^1_t(s^t)+c^2_t(s^t)= Y_t(s^t) :\:\:\: \forall t \in T, \forall s^t \in S^t \]
+\bb
+Hence, the competitive equilibrium with history-dependent Arrow-Debreu securities, traded exclusively at time 0, is characterized by a price system denoted as \( {q_{0t}(s_t)}{t=0}^{\infty} \) and allocations denoted as \( {c{it}(s_t)}_{t=0}^{\infty} \) which satiisy the conditions listed above.
+
+
+\subsection{Compute the competitive equilibrium price system (i.e., find the prices of all of the Arrow-Debreu securities).}
+
+\[ \mathcal{L}^i = \sum_{t=0}^{\infty} \sum_{s^t \in S^t} \beta^t \pi_t ln(c^i_t(s^t)) + \mu_i q^0_t(s^t) \big[y^i_t(s^t) - c^i_t(s^t)\big]   \]
+
+\[ \frac{\partial \mathcal{L}}{\partial{c_t^1}} \implies  \frac{\beta^t \pi_t(s^t)}{c^1_t(s^t)} = \mu_1 q^0_t(s^t) \]
+
+\[ \frac{\partial \mathcal{L}}{\partial{c_t^2}} \implies  \frac{\beta^t \pi_t(s^t)}{c^2_t(s^t)}= \mu_2 q^0_t(s^t) \]
+
+Rearranging this we find that: 
+\[ \frac{c^1_t(s^t)}{c^2_t(s^t)} = \frac{\mu_2}{\mu_1} \]
+\[ c^1_t(s^t) = \frac{\mu_2}{\mu_1}c^2_t(s^t) \]
+
+If we substitute this into the market clearing condition we get:
+\[ \frac{\mu_2}{\mu_1}c^2_t(s^t) + c^2_t = Y_t(s^t) \]
+\[ \mu_2 c^2_t(s^t) + \mu_1c^2_t = \mu_1Y_t(s^t) \]
+\[ (\mu_1+\mu_2 )c^2_t = \mu_1Y_t(s^t) \]
+
+We are then left with:
+\[ c^1_t = \frac{\mu_2}{\mu_1 + \mu_2}Y(s^t)\]
+\[ c^2_t = \frac{\mu_1}{\mu_1 + \mu_2}Y(s^t)\]
+\bb
+This tells us that, once again, both agents receive a fixed share of $Y(s^t)$.  This property is known as full risk sharing.
+
+\bb
+Now to find the prices, we must remember that agents only trade at $t=0$.   Filling in the first order conditions we get:
+\[ \dfrac{\beta^0 \pi_0}{c^1_0(s_0)} = \mu_1 q^0_0(s^0) \]
+
+\[ \frac{\beta^t \pi_t(s^t)}{c^i_t(s^t)\mu_i} =  q^0_t(s^t) \]
+
+\[ \dfrac{q^0_{t+1}(s^{t+1})}{q^0_{t}(s^t)} = 
+			\frac
+			{\beta^{t+1} \pi_{t+1}(s^{t+1}) (c^i_{t+1}(s^{t+1}))^{-1} (\mu_i)^{-1}}
+			{\beta^{t} \pi_{t}(s^{t}) (c^i_{t}(s^{t}))^{-1} (\mu_i)^{-1}}
+\]
+We can thus do this:
+\[ \dfrac{q^0_{t+1}(s^{t+1})}{q^0_{t}(s^t)} = 
+\beta^t\pi(s^t  | s^0) \frac
+{c^i_{t}(s^{t})}
+{c^i_{t+1}(s^{t+1})}
+\]
+
+\[ \dfrac{q^0_{t+1}(s^{t+1})}{q^0_{t}(s^t)} = 
+\beta^t\pi(s^t  | s^0) \frac
+{c^i_{t}(s^{t})}
+{c^i_{t+1}(s^{t+1})}
+\]
+
+\[ \dfrac{q^0_{t+1}(s^{t+1})}{q^0_{t}(s^t)} = 
+\beta^t\pi(s^t  | s^0) \frac
+{Y_{t}(s^{t})}
+{Y_{t+1}(s^{t+1})}
+\]
+Which leaves us with this:
+\[ q^0_{t+1}(s^{t+1}) = 
+{q^0_{t}(s^t)\beta^t\pi(s^t  | s^0) 
+\frac{Y_{t}(s^{t})}
+{Y_{t+1}(s^{t+1})}} \]
+\bb
+Prices for a security in the first period would therefore be expressed as: 
+\[ q^0_{1}(s^{1}) = 
+{q^0_{0}(s^0)\beta^0\pi(s^1  | s^0) 
+\frac{Y_{0}(s^{0})}
+{Y_{1}(s^{1})}} \]
+Where as securities in the second would be expressed as: 
+\[ q^0_{2}(s^{2}) = 
+{q^0_{1}(s^1)\beta^1\pi(s^2  | s^1) 
+\frac{Y_{1}(s^{1})}
+{Y_{2}(s^{2})}} = \]
+\bb
+However this can be re-expressed as a function of $t=0$:  
+\[ q^0_{2}(s^{2}) = 
+{q^0_{0}(s^0)\beta^2\pi(s^2  | s^0) 
+	\frac{Y_{0}(s^{0})}
+	{Y_{2}(s^{2})}} \]
+
+\bb
+This re-expression is very useful as we can see that price for securities in each period have a general form:
+\begin{framed}
+	\[ q^0_t = q^0_{0}(s^0)\beta^t\pi(s^t | s^0) \dfrac{Y_0(s^0)}{Y_t(s^t)}\]
+\end{framed}
+
+
+\bb
+We are left with a price expressed in terms of total endowment at that node, and the probability of that state happening.  If we take our previous assumption that $q^0_{0} = 1$ we can further simplify this function:  
+\[ q^0_t = \beta^t\pi(s^t | s^0) \dfrac{Y_0(s^0)}{Y_t(s^t)}\]
+
+\subsection{Tell the relationship between the solutions (indexed by $\theta$) of the Pareto problem and the competitive equilibrium allocation.}
+The competitive equilibrium result is identical to that which follows from a Pareto allocation. 
+The Arrow-Debreu competitive equilibrium delivers the efficient outcome, and we have once again risk sharing as well as history independence. Competitive equilibria are Pareto-efficient but weigh agents according to their initial wealth. Keep in mind $\mu_1 = (\theta)^{-1}$ while
+$\mu_2 = (1-\theta)^{-1}$. 
+
+
 	\end{spacing}
 \end{document}

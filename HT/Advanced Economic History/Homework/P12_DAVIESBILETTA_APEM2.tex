@@ -1,0 +1,122 @@
+\documentclass[10pt]{article}
+
+%use European style
+\usepackage[a4paper,left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+
+%few useful packages ------------------------------------------------------------------
+\usepackage{setspace}
+\let\Tiny=\tiny %remove annoying warnings
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{colortbl}
+\usepackage{xcolor}
+\usepackage{eurosym}
+\usepackage{enumitem}
+\usepackage{chngpage}
+\usepackage{fancyhdr}
+\usepackage{fancyvrb}
+\usepackage{float}
+\usepackage{framed}
+\usepackage{multirow}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{geometry}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage[linktocpage]{hyperref}
+
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+
+%define environment for code
+\definecolor{orangepse}{RGB}{240,139,39}
+\definecolor{redpse}{RGB}{222,6,61}
+\newcommand{\rpse}[1]{\textcolor{redpse}{#1}}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\usepackage{listings}
+\lstset{frame=tblr,
+	language=R,
+	aboveskip=5mm,
+	belowskip=5mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=3
+}
+%---------------------------------------------------------------------------------------
+
+
+% New Commands ----------------------------
+\newcommand{\bb}{\bigbreak\noindent}
+
+\makeatletter
+\renewcommand\section{\leftskip 0pt\@startsection {section}{1}{\z@}%
+	{-3.5ex \@plus -1ex \@minus -.2ex}%
+	{2.3ex \@plus.2ex}%
+	{\normalfont\Large\bfseries}}
+
+\renewcommand\subsection{\leftskip 4ex\@startsection{subsection}{2}{\z@}%
+	{-3.25ex\@plus -1ex \@minus -.2ex}%
+	{1.5ex \@plus .2ex}%
+	{\normalfont\large\bfseries}}
+
+\renewcommand\subsubsection{\leftskip 14ex\@startsection{subsubsection}{3}{\z@}%
+	{-3.25ex\@plus -1ex \@minus -.2ex}%
+	{1.5ex \@plus .2ex}%
+	{\normalfont\large\bfseries}}
+\makeatother
+
+%----------------------------------------------------------
+
+\definecolor{titlepagecolor}{cmyk}{1,.60,0,.40}
+\definecolor{namecolor}{cmyk}{1,.50,0,.10} 
+
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+\title{What do unions do?}
+\author{Davide Davies-Biletta}
+\date{\today}
+
+\begin{document}
+	\maketitle
+	\setcounter{page}{1}
+	\begin{spacing}{1.5}
+	
+	\bb
+	Traditionally, unions have been alleged to be associated with a reduction in aggregate productivity. While even neoclassical theory can account for individual firms experiencing positive productivity boosts as a result of unionisation, at the aggregate level, unions are said to be socially undesirable. Opponents claim that unionised industries employ higher than optimal levels of capital, and are associated with a reduction in productivity growth. Union membership has fallen dramatically over the previous decades yet the shifting dynamics in the labour market, technological advancements, and globalization have prompted a reevaluation of traditional perspectives on unions. As the conversation continues, the future of collective action and unionisation remains a focal point in discussions about labour, productivity, and social equity.
+	
+	\bb
+	In their book, and in this chapter specifically, Freeman and Medoff offer an alternative perspective of trade unionism in the United States of America. This chapter builds upon their own research and the research of others authors offering similar perspectives, which were controversial at the time. The authors outline a model which accounts for several distinct paths through which unionisation directly impacts firm productivity. The first path is the monopoly path in which firms respond to unionism by altering capital and other inputs) per worker and improving the quality of labour until the contribution of the last unit of labor just equals the union wage rate. This model can also account for unionisation leading to lower production, yet the authors argue this is actually unlikely to happen in competitive markets as firms who pay more for less productivity will soon go out of business. Productivity gains through this path however are considered socially undersiarable for the reasons discussed in the previous paragraph. 
+	The second path, on the other hand, is the voice/response path. Productivity gains through this path come from improved efficiency associated with all sorts of things such as lower staff turn over resulting in lower costs to training and recruitment. Hence, productivity gains from this path can be considered socially desirable. This innovative model therefore allows us to account for positive impacts of unions on productivity.
+	 
+	%To see if unionism is positively or negatively related to the growth of productivity, as opposed to the level of productivity, we have analyzed the impact Of the proportion of workers unionized on the rate of growth of value added or value of shipments in three data sets. The results of our analysis, which are summarized in table 11?2, suggest that while unionized industries have, indeed, had somewhat slower growth of productivity than nonunion sectors, the observed relation is too weak statistically to support the claim that unionism reduces dynamic efficiency. Some unionized industries have rapid productivity growth while others have less rapid growth. Because unionized sectors tend to be  older" industries, one expects some negative relation between productivity and unionism because of the life cycle of industries (a growing new industry typically enjoys more rapid productivity growth than an older established industry), even if unionism did nothing harmful to the rate Of industrial progress. In sum, current empirical evidence offers little support for the assertion that unionization is associated with lower (or higher) productivity advance.
+	
+	\bb\bb
+	Furthermore, the addition of this voice/response model brings with it previously overlooked factors such as the state of labour-management relationships. The authors provide evidence to suggest that the impact of unionism on productivity depends not only on what unions and management do separately but on their relationship with one another. Evidence suggests that where this relationship is good, productivity is higher than in plants where it is bad.
+	\bb
+	\textbf{Potential issues}\\
+	The results of this paper can be said to be correlational at best. There is no serious attempt by the authors at unearthing a causal effect of unionisation. Randomly distributing unions across industries would be impossible or at least impractical, and potentially unethical, however both a difference-in-difference or regression discontinuity design might be more appropriate. The use of these methods may go some way to furthering the discussion. 
+	\bb
+	Furthermore, the paper neglects to address critical issues related to data validity in measuring productivity. Productivity is a difficult concept to define let alone measure. Previous papers referenced in this text measure labour productivity differently, making them hard to compare. Some of these papers measure it in dollar units (value added by the firm or the value of shipments) per worker, and others measuring it in physical units (tons, square feet) per worker. The dollar measures of output (price times quantity) have the advantage of including the full spectrum of goods produced by a firm, valued at their market prices. However, unless the prices charged by union and nonunion firms are the same, any finding of higher value added (shipments) per worker in the organized establishments could reflect not the higher physical output per worker but rather a higher price per unit of output. This means that theoretical findings are only really applicable to the truly competitive markets. 
+	
+	Meanwhile, physical measures of output  have there own issues. While they do alleviate the problem of confusing price differences for output differences, they are limited to the few distinct goods that can be so measured. Most modern firms produce a wide variety of products with too many dimensions to be captured by a single physical measure. The authors acknowledge the complexity but fall short of providing a comprehensive resolution to this measurement issue. 
+	
+	
+
+	
+	\end{spacing}
+\end{document}

@@ -1,0 +1,141 @@
+\documentclass[11pt]{article}
+
+%use European style
+\usepackage[a4paper,left=1.5cm,right=1.5cm,top=1.5cm,bottom=1.5cm]{geometry}
+
+%few useful packages ------------------------------------------------------------------
+\usepackage{setspace}
+\let\Tiny=\tiny %remove annoying warnings
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{colortbl}
+\usepackage{xcolor}
+\usepackage{eurosym}
+\usepackage{enumitem}
+\usepackage{chngpage}
+\usepackage{fancyhdr}
+\usepackage{fancyvrb}
+\usepackage{float}
+\usepackage{framed}
+\usepackage{multirow}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{geometry}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage[linktocpage]{hyperref}
+
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+
+%define environment for code
+\definecolor{orangepse}{RGB}{240,139,39}
+\definecolor{redpse}{RGB}{222,6,61}
+\newcommand{\rpse}[1]{\textcolor{redpse}{#1}}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\usepackage{listings}
+\lstset{frame=tblr,
+	language=R,
+	aboveskip=5mm,
+	belowskip=5mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=3
+}
+%---------------------------------------------------------------------------------------
+
+\usepackage[
+backend=biber,
+style=apa
+]{biblatex}
+\addbibresource{bib.bib}
+
+% New Commands ----------------------------
+\newcommand{\bb}{\bigbreak\noindent}
+
+
+%----------------------------------------------------------
+
+\definecolor{titlepagecolor}{cmyk}{1,.60,0,.40}
+\definecolor{namecolor}{cmyk}{1,.50,0,.10} 
+
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+\begin{document}
+	\bb
+	\vspace{20em}
+	\begin{center}
+		\Large{A Report On:}\\
+		\huge{``International Commodity Prices Transmission to Consumer Prices in Africa''}
+		
+	\end{center}
+	\vspace{1em}
+	\begin{center}
+		\large{Written By: Davide Davies-Biletta}\\
+		\today
+	\end{center}
+	\vspace{10em}
+	\begin{center}
+		Formatting instructions: 11pt text, 30 lines per page.
+	\end{center}
+	\vspace{\fill}
+	\pagenumbering{gobble}
+	
+	\pagebreak
+	\pagenumbering{arabic}
+	\setcounter{page}{1}
+	\begin{spacing}{2}
+		\bb
+		Global commodity prices play an important role in international trade, domestic economies, and even affect international political discussion. We need only think of the 1973 oil crisis for an apt example. In light of the substantial movements in global commodity prices in the wake of the Covid-19 pandemic, and then the Ukrainian war, there has been a renewed focus on understanding how these price fluctuations translate to consumer prices. This issue is of particular concern for nations heavily reliant on traded commodities.
+		In their recent working-paper, \cite{lemaire2023international} focus their analysis restricting their sample to African countries. The authors introduce a novel analysis of the transmission of global commodity prices to consumer prices. They present estimations at both continental and country levels. Unlike existing studies which rely on aggregate commodity price indices, the authors acknowledge the substantial differences across countries among commodity prices and their varied weights of consumption. The weights assigned to each commodity in these aggregate methods are often determined based on their significance in global trade. Larger economies and more traded commodities may receive higher weights in these indices, irrespective of their actual consumption patterns in a specific country. \cite{lemaire2023international} however, proposes a more refined approach which takes into account the specific weights of commodities in local consumption. This means that the weights assigned to each commodity are based on how much of that commodity is consumed locally rather than its global trade significance alone. This method allows for a more country-specific and granular analysis, recognizing the diversity in consumption patterns across different African nations. 
+		\section{Empirical Method \& Data }
+		In order to estimate the pass-through of global commodity prices to domestic consumer prices, the authors use a method called local projection \parencite{jorda2005estimation}.
+		
+		The authors include a series of time and country fixed effects to control for unobservable factors that might drive inflation. The included country fixed effects control for time-invariant country characteristics such as economic policy effectiveness and credibility, and (calendar) month and year fixed effects to capture common shocks such as the international business cycle. They also include country-specific seasonality patterns that are fixed across years, such as national holidays, and country-specific year fixed effects to capture country-specific shocks such as a bad harvest and oil and gas discoveries. The uses of fixed effects allows the authors to account for the impact of variables of interest by isolating within-country variations and distinguishing them from cross-country differences. Furthermore their use enhances the internal validity of their specification, reducing the risk of omitted variable bias and endogeneity, and facilitating more robust conclusions about the relationships under investigation.
+		
+		Yet, despite having a well designed model, the authors have difficulty satisfying the exogeneity assumption. While most African countries are net importers of the majority of the commodities included in the analysis, some are also simultaneously large exporters of globally desirable commodities. For example, certain countries in their samples are key producers and exporters of palm oil, petrol, coal, and wheat. This production not only has an effect on domestic prices but the exportation has an effect on international prices. With regard to their model, this suggests a bias in the authors' estimations. Ideally, an instrument would be used to account for exogenous variation in commodity prices.  Yet, this might prove difficult due to the number of commodities which would require robust instrumentation.  
+		
+		The authors constructed a dataset made up of 48 African countries, for which they could gather monthly data during the period 2002m02-2021m04. The main dependent variable is the growth rate of the Consumer Price Index (CPI). The price series is constructed from data released by the World Bank. However, the authors also use data from the Food and Agriculture Organisation (FAO) to test the robustness of their results. Their main explanatory variables are the month-over-month (MoM) global commodity prices. This series was constructed from the World Bank's Pink Sheet. 
+		\bb
+		It is worth mentioning, as covered during the course, that the analysis is done using Local Currency Pricing. 
+		The use of LCP over alternative methods, such as the Dominant Currency Paradigm, allows the authors to clearly account for the inflationary effects of changes in global commodity prices on local prices. The analysis is shielded from the immediate impact of currency fluctuations, and this channel is accounted for by a seperate nominal exchange rate control variable. Yet despite these advantages, the authors are unable to isolate the full effect of global commodity prices on domestic prices. The ideal and more exhaustive approach would be to combine their estimates on consumer prices with effects on producer prices, in order to identify the diffusion of the pass-through along the production chain. However, this remains difficult to appropriately remedy as producer prices series are not available for African countries as consistently and frequently as consumer prices.
+		\bb
+		Moreover, while the authors incorporate all accessible energy commodities as reported in the Pink Sheet, they exercise selectivity in their inclusion of certain food commodities to maintain parsimony. Their focus is directed towards vegetable oils, cereals, and sugars, chosen for their substantial contribution to caloric intake in Africa. Nonetheless, notable categories such as meat, fruit, beverages, and seafood are deliberately omitted. The authors contend that the choice of variables in prior literature has consequential implications for subsequent results.  To pre-emptively address this concern, it might be prudent for the authors to consider including a robustness test in which initially excluded items are included or substituted in for current items. This would help to further assess the sensitivity of their model.
+		
+		
+		
+		\section{Connection to the course}
+
+		\subsection{Exchange Rate Pass Through}
+		The model estimates that a 1\% depreciation of the local currency is associated with a noteworthy increase in consumer prices, demonstrating a significant pass-through effect. This effect raises to about 8.5\% after 3 months, but consistently returns to zero approximately a year later. Importantly, this pass-through effect is markedly lower than similar estimates for exchange rate pass-through in Sub-Saharan Africa. For instance, \cite{razafimahefa2012exchange} reports an exchange rate pass-through of about 40\% in the region. However, it is essential to highlight that this lower pass-through, as observed in \cite{lemaire2023international}, is obtained while controlling for commodity prices. This suggests that a substantial portion of the exchange rate pass-through in Africa may be mediated through heightened commodity prices in local currencies, subsequently impacting consumer prices. The inclusion of commodity prices in the analysis suggests a nuanced understanding of the transmission mechanisms involved in the exchange rate pass-through in the African context which were not previously identified.
+		Furthermore the authors find evidence which shows that not only does price pass-through tend to be lower in countries with flexible exchange rate regimes but they find that it to be significantly lower in countries which also have higher levels of central bank independence. These final results are consistent with the findings of \cite{ha2020inflation}. 
+		
+		\subsection{Elasticities}
+		While the authors fail to explicitly mention it in their paper, their results have implications for the topic of trade elasticities. 
+		
+		\subsection{Tariffs \& Monetary Policy}
+		While not directly addressed in the paper itself, 
+		
+		Using data from the world bank it is clear that 
+		
+		
+		\pagebreak
+		\printbibliography
+		
+	\end{spacing}
+\end{document}

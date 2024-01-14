@@ -1,0 +1,19 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'P1_DAVIESBILETTA_APEM2.blg'
+[111] biber-MSWIN64:340> INFO - === 
+[148] Biber.pm:419> INFO - Reading 'P1_DAVIESBILETTA_APEM2.bcf'
+[267] Biber.pm:979> INFO - Found 3 citekeys in bib section 0
+[287] Biber.pm:4419> INFO - Processing section 0
+[298] Biber.pm:4610> INFO - Looking for bibtex file 'bibp1.bib' for section 0
+[404] bibtex.pm:1713> INFO - LaTeX decoding ...
+[412] bibtex.pm:1519> INFO - Found BibTeX data source 'bibp1.bib'
+[459] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[459] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[459] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[459] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[472] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[472] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[472] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[472] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[476] bbl.pm:660> INFO - Writing 'P1_DAVIESBILETTA_APEM2.bbl' with encoding 'latin1'
+[479] bbl.pm:763> INFO - Output to P1_DAVIESBILETTA_APEM2.bbl
