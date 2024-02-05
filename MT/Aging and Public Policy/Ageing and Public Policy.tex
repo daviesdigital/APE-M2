@@ -1,0 +1,139 @@
+\documentclass[11pt]{report}
+
+%use European style
+\usepackage[a4paper,left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+
+%few useful packages ------------------------------------------------------------------
+\usepackage{setspace}
+\let\Tiny=\tiny %remove annoying warnings
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{colortbl}
+\usepackage{xcolor}
+\usepackage{eurosym}
+\usepackage{enumitem}
+\usepackage{chngpage}
+\usepackage{fancyhdr}
+\usepackage{fancyvrb}
+\usepackage{float}
+\usepackage{framed}
+\usepackage{multirow}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{geometry}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage[linktocpage]{hyperref}
+
+%define environment for code
+\definecolor{orangepse}{RGB}{240,139,39}
+\definecolor{redpse}{RGB}{222,6,61}
+\newcommand{\rpse}[1]{\textcolor{redpse}{#1}}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\usepackage{listings}
+\lstset{frame=tblr,
+	language=R,
+	aboveskip=5mm,
+	belowskip=5mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=3
+}
+%---------------------------------------------------------------------------------------
+
+
+% New Commands ----------------------------
+\newcommand{\bb}{\bigbreak\noindent}
+
+\makeatletter
+\renewcommand\section{\leftskip 0pt\@startsection {section}{1}{\z@}%
+	{-3.5ex \@plus -1ex \@minus -.2ex}%
+	{2.3ex \@plus.2ex}%
+	{\normalfont\Large\bfseries}}
+
+\renewcommand\subsection{\leftskip 4ex\@startsection{subsection}{2}{\z@}%
+	{-3.25ex\@plus -1ex \@minus -.2ex}%
+	{1.5ex \@plus .2ex}%
+	{\normalfont\large\bfseries}}
+
+\renewcommand\subsubsection{\leftskip 14ex\@startsection{subsubsection}{3}{\z@}%
+	{-3.25ex\@plus -1ex \@minus -.2ex}%
+	{1.5ex \@plus .2ex}%
+	{\normalfont\large\bfseries}}
+\makeatother
+
+%----------------------------------------------------------
+
+\definecolor{titlepagecolor}{cmyk}{1,.60,0,.40}
+\definecolor{namecolor}{cmyk}{1,.50,0,.10} 
+
+
+\begin{document}
+	\setcounter{page}{1}
+	\begin{spacing}{1.5}
+		
+		% Table of Contents ----------------------------------
+		\tableofcontents
+		\setcounter{secnumdepth}{-2}
+		\newpage
+		
+		% Start of Content ---------------------------------------------
+		\chapter{General Notes:} 
+		
+		\chapter{Lecture 1: Measuring Aging}
+		Defining ageing.
+		\begin{itemize}
+			\item Demographic Process
+			\item Change in health
+			\item Change in productivity
+		\end{itemize}
+		
+		\section{Life Tables}
+		\textbf{EXAM QUESTION EVERY YEAR:} What is the difference between period and cohort life tables
+		
+		\subsection{Observed data vs fictitious cohort}
+		
+		\begin{itemize}[leftmargin=10ex]
+			\item  Period life table can be observed at each period, but does  not reflect mortality experience of a real cohort
+			\item  Cohort life table can be observed once every individual of a cohort has died.
+		\end{itemize}
+		
+		
+		
+		\section{Old Age Dependency Ratios}
+		\[ \dfrac{Number \:\: of \:\: People \:\:Older \:\: than \:\:65}{Number \:\: of \:\: People \:\:between \:\: 15-65} \]
+		\[ \dfrac{D_{65+}}{N_{15-64}} \]
+		
+	\section{Ageing by the Top}
+	
+		\subsection{From the bottom}
+			Ageing driven by fertility decrease : reductions in number of youths or prime aged individuals
+			\begin{itemize}[leftmargin=10ex]
+				\item Historically decline in infant mortality led to increase in the share of the 60+
+			\end{itemize}
+			
+		\subsection{From the Top}
+		More recent realisation that recent ageing process is essentially ageing by the top
+		\begin{itemize}[leftmargin=10ex]
+			\item Recent gains in life expectancy come from gains at older ages
+			\item Variety of experience at international level
+		\end{itemize}
+		
+		
+	\end{spacing}
+\end{document}

@@ -1,0 +1,17 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{General Notes:}{2}{chapter*.2}%
+\contentsline {chapter}{Lecture 1: Microsimulation}{3}{chapter*.3}%
+\contentsline {section}{Model Complexity}{3}{section*.4}%
+\contentsline {subsection}{Population Complexity}{3}{section*.5}%
+\contentsline {subsection}{Behavioural Complexity}{3}{section*.6}%
+\contentsline {subsection}{Temporal (Dynamic) Complexity}{3}{section*.7}%
+\contentsline {subsection}{Spacial Complexity}{3}{section*.8}%
+\contentsline {section}{Typology of microsimulation models}{3}{section*.9}%
+\contentsline {subsection}{Hypothetical Model}{3}{section*.10}%
+\contentsline {subsubsection}{Limitations}{3}{section*.11}%
+\contentsline {subsection}{Static Models}{4}{section*.12}%
+\contentsline {subsection}{Behavioural Models}{4}{section*.13}%
+\contentsline {subsection}{Dynamic Models}{4}{section*.14}%
+\contentsline {section}{Static Models}{4}{section*.15}%
+\contentsline {subsection}{Baseline Data}{4}{section*.16}%
+\contentsline {subsection}{Coding Policies}{4}{section*.17}%

@@ -19,6 +19,90 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global}
+    \entry{bussiere2013exchange}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b0cf4e7eac421ba95c0494c156704d1a}{%
+           family={Bussière},
+           familyi={B\bibinitperiod},
+           given={Matthieu},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b73f901487d9a0820c48d55bf823c182}{%
+           family={Delle\bibnamedelima Chiaie},
+           familyi={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Simona},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1808b741e33f67235cd6912c68b55127}{%
+           family={Peltonen},
+           familyi={P\bibinitperiod},
+           given={Tuomas\bibnamedelima A},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7eef3a230fdc2fb53896f771e893bbb8}
+      \strng{fullhash}{5dee526e2eddf3c760b64874a40e21d3}
+      \strng{bibnamehash}{5dee526e2eddf3c760b64874a40e21d3}
+      \strng{authorbibnamehash}{5dee526e2eddf3c760b64874a40e21d3}
+      \strng{authornamehash}{7eef3a230fdc2fb53896f771e893bbb8}
+      \strng{authorfullhash}{5dee526e2eddf3c760b64874a40e21d3}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Available at SSRN 2226259}
+      \field{title}{Exchange Rate Pass-Through in the Global Economy}
+      \field{year}{2013}
+    \endentry
+    \entry{bussiere2020global}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b0cf4e7eac421ba95c0494c156704d1a}{%
+           family={Bussière},
+           familyi={B\bibinitperiod},
+           given={Matthieu},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f2fc8b164ccf232ed6633cf7cef37d79}{%
+           family={Gaulier},
+           familyi={G\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c2bbaf6164ba9dd9a639944081a2cf3}{%
+           family={Steingress},
+           familyi={S\bibinitperiod},
+           given={Walter},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{7eef3a230fdc2fb53896f771e893bbb8}
+      \strng{fullhash}{915091df889a3f8a7e18c66354a976d2}
+      \strng{bibnamehash}{915091df889a3f8a7e18c66354a976d2}
+      \strng{authorbibnamehash}{915091df889a3f8a7e18c66354a976d2}
+      \strng{authornamehash}{7eef3a230fdc2fb53896f771e893bbb8}
+      \strng{authorfullhash}{915091df889a3f8a7e18c66354a976d2}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Open Economies Review}
+      \field{title}{Global trade flows: Revisiting the exchange rate elasticities}
+      \field{volume}{31}
+      \field{year}{2020}
+      \field{pages}{25\bibrangedash 78}
+      \range{pages}{54}
+    \endentry
     \entry{ha2020inflation}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=486c849b1fe1bedee9895eaab039d806}{%
@@ -161,6 +245,90 @@
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global}
+    \entry{bussiere2013exchange}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b0cf4e7eac421ba95c0494c156704d1a}{%
+           family={Bussière},
+           familyi={B\bibinitperiod},
+           given={Matthieu},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b73f901487d9a0820c48d55bf823c182}{%
+           family={Delle\bibnamedelima Chiaie},
+           familyi={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Simona},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1808b741e33f67235cd6912c68b55127}{%
+           family={Peltonen},
+           familyi={P\bibinitperiod},
+           given={Tuomas\bibnamedelima A},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7eef3a230fdc2fb53896f771e893bbb8}
+      \strng{fullhash}{5dee526e2eddf3c760b64874a40e21d3}
+      \strng{bibnamehash}{5dee526e2eddf3c760b64874a40e21d3}
+      \strng{authorbibnamehash}{5dee526e2eddf3c760b64874a40e21d3}
+      \strng{authornamehash}{7eef3a230fdc2fb53896f771e893bbb8}
+      \strng{authorfullhash}{5dee526e2eddf3c760b64874a40e21d3}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Available at SSRN 2226259}
+      \field{title}{Exchange Rate Pass-Through in the Global Economy}
+      \field{year}{2013}
+    \endentry
+    \entry{bussiere2020global}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b0cf4e7eac421ba95c0494c156704d1a}{%
+           family={Bussière},
+           familyi={B\bibinitperiod},
+           given={Matthieu},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f2fc8b164ccf232ed6633cf7cef37d79}{%
+           family={Gaulier},
+           familyi={G\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c2bbaf6164ba9dd9a639944081a2cf3}{%
+           family={Steingress},
+           familyi={S\bibinitperiod},
+           given={Walter},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{7eef3a230fdc2fb53896f771e893bbb8}
+      \strng{fullhash}{915091df889a3f8a7e18c66354a976d2}
+      \strng{bibnamehash}{915091df889a3f8a7e18c66354a976d2}
+      \strng{authorbibnamehash}{915091df889a3f8a7e18c66354a976d2}
+      \strng{authornamehash}{7eef3a230fdc2fb53896f771e893bbb8}
+      \strng{authorfullhash}{915091df889a3f8a7e18c66354a976d2}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Open Economies Review}
+      \field{title}{Global trade flows: Revisiting the exchange rate elasticities}
+      \field{volume}{31}
+      \field{year}{2020}
+      \field{pages}{25\bibrangedash 78}
+      \range{pages}{54}
+    \endentry
     \entry{ha2020inflation}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=486c849b1fe1bedee9895eaab039d806}{%

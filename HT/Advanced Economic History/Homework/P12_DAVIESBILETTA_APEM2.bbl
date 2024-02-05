@@ -1,0 +1,573 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{clark1980impact}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7fea8a7231aba4a1132ef7e17861b0aa}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={Kim\bibnamedelima B},
+           giveni={K\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications Sage CA: Los Angeles, CA}%
+      }
+      \strng{namehash}{7fea8a7231aba4a1132ef7e17861b0aa}
+      \strng{fullhash}{7fea8a7231aba4a1132ef7e17861b0aa}
+      \strng{bibnamehash}{7fea8a7231aba4a1132ef7e17861b0aa}
+      \strng{authorbibnamehash}{7fea8a7231aba4a1132ef7e17861b0aa}
+      \strng{authornamehash}{7fea8a7231aba4a1132ef7e17861b0aa}
+      \strng{authorfullhash}{7fea8a7231aba4a1132ef7e17861b0aa}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ILR Review}
+      \field{number}{4}
+      \field{title}{The impact of unionization on productivity: A case study}
+      \field{volume}{33}
+      \field{year}{1980}
+      \field{pages}{451\bibrangedash 469}
+      \range{pages}{19}
+    \endentry
+    \entry{doucouliagos2003unions}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3fe3d7db04d6203ed623667b90e2d2b7}{%
+           family={Doucouliagos},
+           familyi={D\bibinitperiod},
+           given={Christos},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4946c568aa4db666052864500c1d4622}{%
+           family={Laroche},
+           familyi={L\bibinitperiod},
+           given={Patrice},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{3c10f73a0e9eb9b5b9277a7f10a83741}
+      \strng{fullhash}{3c10f73a0e9eb9b5b9277a7f10a83741}
+      \strng{bibnamehash}{3c10f73a0e9eb9b5b9277a7f10a83741}
+      \strng{authorbibnamehash}{3c10f73a0e9eb9b5b9277a7f10a83741}
+      \strng{authornamehash}{3c10f73a0e9eb9b5b9277a7f10a83741}
+      \strng{authorfullhash}{3c10f73a0e9eb9b5b9277a7f10a83741}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Industrial Relations: A Journal of Economy and Society}
+      \field{number}{4}
+      \field{title}{What do unions do to productivity? A meta-analysis}
+      \field{volume}{42}
+      \field{year}{2003}
+      \field{pages}{650\bibrangedash 691}
+      \range{pages}{42}
+    \endentry
+    \entry{freeman1980unionism}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7bdf661ac95e32e79d20712993b388a2}{%
+           family={Freeman},
+           familyi={F\bibinitperiod},
+           given={Richard\bibnamedelima B},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications Sage CA: Los Angeles, CA}%
+      }
+      \strng{namehash}{7bdf661ac95e32e79d20712993b388a2}
+      \strng{fullhash}{7bdf661ac95e32e79d20712993b388a2}
+      \strng{bibnamehash}{7bdf661ac95e32e79d20712993b388a2}
+      \strng{authorbibnamehash}{7bdf661ac95e32e79d20712993b388a2}
+      \strng{authornamehash}{7bdf661ac95e32e79d20712993b388a2}
+      \strng{authorfullhash}{7bdf661ac95e32e79d20712993b388a2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ILR Review}
+      \field{number}{1}
+      \field{title}{Unionism and the Dispersion of Wages}
+      \field{volume}{34}
+      \field{year}{1980}
+      \field{pages}{3\bibrangedash 23}
+      \range{pages}{21}
+    \endentry
+    \entry{freeman1979two}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7bdf661ac95e32e79d20712993b388a2}{%
+           family={Freeman},
+           familyi={F\bibinitperiod},
+           given={Richard\bibnamedelima B},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2512873a0aea4ed5a9bbb1d949a2d1c8}{%
+           family={Medoff},
+           familyi={M\bibinitperiod},
+           given={James\bibnamedelima L},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {National Bureau of Economic Research Cambridge, Mass., USA}%
+      }
+      \strng{namehash}{1babe1b8de7da8e818c77719c5c53e0b}
+      \strng{fullhash}{1babe1b8de7da8e818c77719c5c53e0b}
+      \strng{bibnamehash}{1babe1b8de7da8e818c77719c5c53e0b}
+      \strng{authorbibnamehash}{1babe1b8de7da8e818c77719c5c53e0b}
+      \strng{authornamehash}{1babe1b8de7da8e818c77719c5c53e0b}
+      \strng{authorfullhash}{1babe1b8de7da8e818c77719c5c53e0b}
+      \field{extraname}{1}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The two faces of unionism}
+      \field{year}{1979}
+    \endentry
+    \entry{freeman1985unions}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7bdf661ac95e32e79d20712993b388a2}{%
+           family={Freeman},
+           familyi={F\bibinitperiod},
+           given={Richard\bibnamedelima B},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2512873a0aea4ed5a9bbb1d949a2d1c8}{%
+           family={Medoff},
+           familyi={M\bibinitperiod},
+           given={James\bibnamedelima L},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Cornell University, New York State School of Industrial}%
+        {Labor Relations.}%
+      }
+      \strng{namehash}{1babe1b8de7da8e818c77719c5c53e0b}
+      \strng{fullhash}{1babe1b8de7da8e818c77719c5c53e0b}
+      \strng{bibnamehash}{1babe1b8de7da8e818c77719c5c53e0b}
+      \strng{authorbibnamehash}{1babe1b8de7da8e818c77719c5c53e0b}
+      \strng{authornamehash}{1babe1b8de7da8e818c77719c5c53e0b}
+      \strng{authorfullhash}{1babe1b8de7da8e818c77719c5c53e0b}
+      \field{extraname}{2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Industrial and Labor Relations Review}
+      \field{number}{4}
+      \field{title}{" What Do Unions Do"? By Richard B. Freeman and James L. Medoff: Reply to Reder}
+      \field{volume}{38}
+      \field{year}{1985}
+      \field{pages}{642}
+      \range{pages}{1}
+    \endentry
+    \entry{hirschman1972exit}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4ac5e72646e56b920bc07c21bf1d611f}{%
+           family={Hirschman},
+           familyi={H\bibinitperiod},
+           given={Albert\bibnamedelima O},
+           giveni={A\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Harvard university press}%
+      }
+      \strng{namehash}{4ac5e72646e56b920bc07c21bf1d611f}
+      \strng{fullhash}{4ac5e72646e56b920bc07c21bf1d611f}
+      \strng{bibnamehash}{4ac5e72646e56b920bc07c21bf1d611f}
+      \strng{authorbibnamehash}{4ac5e72646e56b920bc07c21bf1d611f}
+      \strng{authornamehash}{4ac5e72646e56b920bc07c21bf1d611f}
+      \strng{authorfullhash}{4ac5e72646e56b920bc07c21bf1d611f}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Exit, voice, and loyalty: Responses to decline in firms, organizations, and states}
+      \field{year}{1972}
+    \endentry
+    \entry{kuhn1998unions}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=10005bd943c85a857a98af23cad2c865}{%
+           family={Kuhn},
+           familyi={K\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{10005bd943c85a857a98af23cad2c865}
+      \strng{fullhash}{10005bd943c85a857a98af23cad2c865}
+      \strng{bibnamehash}{10005bd943c85a857a98af23cad2c865}
+      \strng{authorbibnamehash}{10005bd943c85a857a98af23cad2c865}
+      \strng{authornamehash}{10005bd943c85a857a98af23cad2c865}
+      \strng{authorfullhash}{10005bd943c85a857a98af23cad2c865}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Canadian Journal of Economics}
+      \field{title}{Unions and the economy: what we know; what we should know}
+      \field{year}{1998}
+      \field{pages}{1033\bibrangedash 1056}
+      \range{pages}{24}
+    \endentry
+    \entry{meltzer1965labor}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f17163556f9cb4adf699277de50581a7}{%
+           family={Meltzer},
+           familyi={M\bibinitperiod},
+           given={Bernard\bibnamedelima D},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{f17163556f9cb4adf699277de50581a7}
+      \strng{fullhash}{f17163556f9cb4adf699277de50581a7}
+      \strng{bibnamehash}{f17163556f9cb4adf699277de50581a7}
+      \strng{authorbibnamehash}{f17163556f9cb4adf699277de50581a7}
+      \strng{authornamehash}{f17163556f9cb4adf699277de50581a7}
+      \strng{authorfullhash}{f17163556f9cb4adf699277de50581a7}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The University of Chicago Law Review}
+      \field{number}{4}
+      \field{title}{Labor Unions, Collective Bargaining, and the Antitrust Laws}
+      \field{volume}{32}
+      \field{year}{1965}
+      \field{pages}{659\bibrangedash 734}
+      \range{pages}{76}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{clark1980impact}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7fea8a7231aba4a1132ef7e17861b0aa}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={Kim\bibnamedelima B},
+           giveni={K\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications Sage CA: Los Angeles, CA}%
+      }
+      \strng{namehash}{7fea8a7231aba4a1132ef7e17861b0aa}
+      \strng{fullhash}{7fea8a7231aba4a1132ef7e17861b0aa}
+      \strng{bibnamehash}{7fea8a7231aba4a1132ef7e17861b0aa}
+      \strng{authorbibnamehash}{7fea8a7231aba4a1132ef7e17861b0aa}
+      \strng{authornamehash}{7fea8a7231aba4a1132ef7e17861b0aa}
+      \strng{authorfullhash}{7fea8a7231aba4a1132ef7e17861b0aa}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ILR Review}
+      \field{number}{4}
+      \field{title}{The impact of unionization on productivity: A case study}
+      \field{volume}{33}
+      \field{year}{1980}
+      \field{pages}{451\bibrangedash 469}
+      \range{pages}{19}
+    \endentry
+    \entry{doucouliagos2003unions}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3fe3d7db04d6203ed623667b90e2d2b7}{%
+           family={Doucouliagos},
+           familyi={D\bibinitperiod},
+           given={Christos},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4946c568aa4db666052864500c1d4622}{%
+           family={Laroche},
+           familyi={L\bibinitperiod},
+           given={Patrice},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{3c10f73a0e9eb9b5b9277a7f10a83741}
+      \strng{fullhash}{3c10f73a0e9eb9b5b9277a7f10a83741}
+      \strng{bibnamehash}{3c10f73a0e9eb9b5b9277a7f10a83741}
+      \strng{authorbibnamehash}{3c10f73a0e9eb9b5b9277a7f10a83741}
+      \strng{authornamehash}{3c10f73a0e9eb9b5b9277a7f10a83741}
+      \strng{authorfullhash}{3c10f73a0e9eb9b5b9277a7f10a83741}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Industrial Relations: A Journal of Economy and Society}
+      \field{number}{4}
+      \field{title}{What do unions do to productivity? A meta-analysis}
+      \field{volume}{42}
+      \field{year}{2003}
+      \field{pages}{650\bibrangedash 691}
+      \range{pages}{42}
+    \endentry
+    \entry{freeman1980unionism}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7bdf661ac95e32e79d20712993b388a2}{%
+           family={Freeman},
+           familyi={F\bibinitperiod},
+           given={Richard\bibnamedelima B},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications Sage CA: Los Angeles, CA}%
+      }
+      \strng{namehash}{7bdf661ac95e32e79d20712993b388a2}
+      \strng{fullhash}{7bdf661ac95e32e79d20712993b388a2}
+      \strng{bibnamehash}{7bdf661ac95e32e79d20712993b388a2}
+      \strng{authorbibnamehash}{7bdf661ac95e32e79d20712993b388a2}
+      \strng{authornamehash}{7bdf661ac95e32e79d20712993b388a2}
+      \strng{authorfullhash}{7bdf661ac95e32e79d20712993b388a2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ILR Review}
+      \field{number}{1}
+      \field{title}{Unionism and the Dispersion of Wages}
+      \field{volume}{34}
+      \field{year}{1980}
+      \field{pages}{3\bibrangedash 23}
+      \range{pages}{21}
+    \endentry
+    \entry{freeman1979two}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7bdf661ac95e32e79d20712993b388a2}{%
+           family={Freeman},
+           familyi={F\bibinitperiod},
+           given={Richard\bibnamedelima B},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2512873a0aea4ed5a9bbb1d949a2d1c8}{%
+           family={Medoff},
+           familyi={M\bibinitperiod},
+           given={James\bibnamedelima L},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {National Bureau of Economic Research Cambridge, Mass., USA}%
+      }
+      \strng{namehash}{1babe1b8de7da8e818c77719c5c53e0b}
+      \strng{fullhash}{1babe1b8de7da8e818c77719c5c53e0b}
+      \strng{bibnamehash}{1babe1b8de7da8e818c77719c5c53e0b}
+      \strng{authorbibnamehash}{1babe1b8de7da8e818c77719c5c53e0b}
+      \strng{authornamehash}{1babe1b8de7da8e818c77719c5c53e0b}
+      \strng{authorfullhash}{1babe1b8de7da8e818c77719c5c53e0b}
+      \field{extraname}{1}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The two faces of unionism}
+      \field{year}{1979}
+    \endentry
+    \entry{freeman1985unions}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7bdf661ac95e32e79d20712993b388a2}{%
+           family={Freeman},
+           familyi={F\bibinitperiod},
+           given={Richard\bibnamedelima B},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2512873a0aea4ed5a9bbb1d949a2d1c8}{%
+           family={Medoff},
+           familyi={M\bibinitperiod},
+           given={James\bibnamedelima L},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Cornell University, New York State School of Industrial}%
+        {Labor Relations.}%
+      }
+      \strng{namehash}{1babe1b8de7da8e818c77719c5c53e0b}
+      \strng{fullhash}{1babe1b8de7da8e818c77719c5c53e0b}
+      \strng{bibnamehash}{1babe1b8de7da8e818c77719c5c53e0b}
+      \strng{authorbibnamehash}{1babe1b8de7da8e818c77719c5c53e0b}
+      \strng{authornamehash}{1babe1b8de7da8e818c77719c5c53e0b}
+      \strng{authorfullhash}{1babe1b8de7da8e818c77719c5c53e0b}
+      \field{extraname}{2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Industrial and Labor Relations Review}
+      \field{number}{4}
+      \field{title}{" What Do Unions Do"? By Richard B. Freeman and James L. Medoff: Reply to Reder}
+      \field{volume}{38}
+      \field{year}{1985}
+      \field{pages}{642}
+      \range{pages}{1}
+    \endentry
+    \entry{hirschman1972exit}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4ac5e72646e56b920bc07c21bf1d611f}{%
+           family={Hirschman},
+           familyi={H\bibinitperiod},
+           given={Albert\bibnamedelima O},
+           giveni={A\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Harvard university press}%
+      }
+      \strng{namehash}{4ac5e72646e56b920bc07c21bf1d611f}
+      \strng{fullhash}{4ac5e72646e56b920bc07c21bf1d611f}
+      \strng{bibnamehash}{4ac5e72646e56b920bc07c21bf1d611f}
+      \strng{authorbibnamehash}{4ac5e72646e56b920bc07c21bf1d611f}
+      \strng{authornamehash}{4ac5e72646e56b920bc07c21bf1d611f}
+      \strng{authorfullhash}{4ac5e72646e56b920bc07c21bf1d611f}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Exit, voice, and loyalty: Responses to decline in firms, organizations, and states}
+      \field{year}{1972}
+    \endentry
+    \entry{kuhn1998unions}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=10005bd943c85a857a98af23cad2c865}{%
+           family={Kuhn},
+           familyi={K\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{10005bd943c85a857a98af23cad2c865}
+      \strng{fullhash}{10005bd943c85a857a98af23cad2c865}
+      \strng{bibnamehash}{10005bd943c85a857a98af23cad2c865}
+      \strng{authorbibnamehash}{10005bd943c85a857a98af23cad2c865}
+      \strng{authornamehash}{10005bd943c85a857a98af23cad2c865}
+      \strng{authorfullhash}{10005bd943c85a857a98af23cad2c865}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Canadian Journal of Economics}
+      \field{title}{Unions and the economy: what we know; what we should know}
+      \field{year}{1998}
+      \field{pages}{1033\bibrangedash 1056}
+      \range{pages}{24}
+    \endentry
+    \entry{meltzer1965labor}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f17163556f9cb4adf699277de50581a7}{%
+           family={Meltzer},
+           familyi={M\bibinitperiod},
+           given={Bernard\bibnamedelima D},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{f17163556f9cb4adf699277de50581a7}
+      \strng{fullhash}{f17163556f9cb4adf699277de50581a7}
+      \strng{bibnamehash}{f17163556f9cb4adf699277de50581a7}
+      \strng{authorbibnamehash}{f17163556f9cb4adf699277de50581a7}
+      \strng{authornamehash}{f17163556f9cb4adf699277de50581a7}
+      \strng{authorfullhash}{f17163556f9cb4adf699277de50581a7}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The University of Chicago Law Review}
+      \field{number}{4}
+      \field{title}{Labor Unions, Collective Bargaining, and the Antitrust Laws}
+      \field{volume}{32}
+      \field{year}{1965}
+      \field{pages}{659\bibrangedash 734}
+      \range{pages}{76}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

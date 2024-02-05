@@ -1,0 +1,173 @@
+\documentclass[11pt]{report}
+
+%use European style
+\usepackage[a4paper,left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+
+%few useful packages ------------------------------------------------------------------
+\usepackage{setspace}
+\let\Tiny=\tiny %remove annoying warnings
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{colortbl}
+\usepackage{xcolor}
+\usepackage{eurosym}
+\usepackage{enumitem}
+\usepackage{chngpage}
+\usepackage{fancyhdr}
+\usepackage{fancyvrb}
+\usepackage{float}
+\usepackage{framed}
+\usepackage{multirow}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{geometry}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage[linktocpage]{hyperref}
+
+%define environment for code
+\definecolor{orangepse}{RGB}{240,139,39}
+\definecolor{redpse}{RGB}{222,6,61}
+\newcommand{\rpse}[1]{\textcolor{redpse}{#1}}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\usepackage{listings}
+\lstset{frame=tblr,
+	language=R,
+	aboveskip=5mm,
+	belowskip=5mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=3
+}
+%---------------------------------------------------------------------------------------
+
+
+% New Commands ----------------------------
+\newcommand{\bb}{\bigbreak\noindent}
+
+\makeatletter
+\renewcommand\section{\leftskip 0pt\@startsection {section}{1}{\z@}%
+	{-3.5ex \@plus -1ex \@minus -.2ex}%
+	{2.3ex \@plus.2ex}%
+	{\normalfont\Large\bfseries}}
+
+\renewcommand\subsection{\leftskip 4ex\@startsection{subsection}{2}{\z@}%
+	{-3.25ex\@plus -1ex \@minus -.2ex}%
+	{1.5ex \@plus .2ex}%
+	{\normalfont\large\bfseries}}
+
+\renewcommand\subsubsection{\leftskip 14ex\@startsection{subsubsection}{3}{\z@}%
+	{-3.25ex\@plus -1ex \@minus -.2ex}%
+	{1.5ex \@plus .2ex}%
+	{\normalfont\large\bfseries}}
+\makeatother
+
+%----------------------------------------------------------
+
+\definecolor{titlepagecolor}{cmyk}{1,.60,0,.40}
+\definecolor{namecolor}{cmyk}{1,.50,0,.10} 
+
+
+\begin{document}
+	\setcounter{page}{1}
+	\begin{spacing}{1.5}
+		
+		% Table of Contents ----------------------------------
+		\tableofcontents
+		\setcounter{secnumdepth}{-2}
+		\newpage
+		
+		% Start of Content ---------------------------------------------
+		\chapter{General Notes:} 
+		
+		\chapter{Lecture 1: Introduction}
+		\section{Patterns of FDI}
+		
+		\subsection{Section 1:}
+		
+		
+	\chapter{Horizontal FDI}
+		Should we invest in a factory abroad or should be invest on increasing production at home and exporting?
+		
+		\section{Proximity vs. Concentration}
+		Producing in proximity to customers abroad saves trade costs.
+		\bb
+		Concentration (at home) and exporting saves additional production fixed costs, and allows enjoying greater economies of scale.
+		\bb
+		Firms choose between these alternatives by comparing respective profits. 
+		\begin{itemize}
+			\item The larger trade costs- the more likely to observe firms choosing to serve destination by setting up affiliate.
+			\item The larger plant fixed costs (and hence economies of/returns to scale) the more likely to observe firms concentrating production at home and exporting.
+		\end{itemize}
+		
+		
+		\section{Theory and Evidence for the Proximity-Concentration Trade-off in the Presence of Heterogenous Firms}
+		Exporters (trading firms) are bigger, better, faster... different. \\
+		Different firms within an industry may resolve the proximity-concentration trade-off in opposite directions (Ex/FDl).
+		
+		\subsection{HMY (2004)}
+		\subsubsection{Positive Sorting Assumption (Productivity)}
+		MNE's are more productive than exporters.\\
+		Exporters are more productive than domestic firms.
+		
+		
+		\section{Irarrazabal, Moxnes and Opromolla (2013): The Margins of Multinational Production and the Role of Intrafirm Trade}
+		Why do affiliate sales drop with distance (from the head quarters)? In theory, this shouldn't happen as the whole point of an affiliate business is to avoid this. 
+		\bb
+		Firms opt for affiliates over exporting to avoid the trade barriers that come with exporting over distance.
+		
+		\bb
+		HMY (2004): affiliate sales should increase with distance at the aggregate level. Within firm distance shouldn't affect anything. 
+		
+		\subsection{Main Takeaways}
+		Convincing story: parents transfer inputs to affiliates.
+		This transfer is estimated to be an important part costs.
+		Distance, trade barriers increase cost/lower efficiency of transfer.
+		Great data, very elegant estimation, model, validation exercises.
+		Read this paper for inspiration!	
+		
+		
+		\section{Cross-Border M\&A or Greenfield Investment?}
+		So far we have assumed an affiliate business is a greenfield investment. However, M\&As (where the buyer gets more than 10 percent of the business) make over 50 percent of FDI.
+		\begin{itemize}
+			\item Removes fixed costs associated with building plants
+		\end{itemize}
+		
+		\subsection{Differences between two modes of entry}
+		On \textbf{buyer side}:\\
+		Nocke \& Yeaple (2008): Higher productivity of U.S. parents predicts higher likelihood of green÷eld investment, versus M\&A. $\rightarrow$ Suggests sorting across these two modes of entry.
+		\bb
+		On \textbf{target side}:\\
+		Arnold \& Javorcik (2009), Guadalupe, Kuzmina \& Thomas (2012): Higher productivity predicts likelihood of being a target of M\&A. \\
+		Recall: theory above predicts weaker firms get purchased.
+		
+		\subsection{Brown-field investments}
+		
+	\section{Vertical FDI}
+	Horizontal FDI motivated by serving demand in Foreign market.\\
+	FDI occurs mostly between developed economies, but when less developed economies involved, unidirectional North $\rightarrow$ South.
+	\begin{itemize}
+		\item Parents do most of R\&D. Affiliates do not do much R\&D.
+		\item Affiliates sell mostly to host country, but not all.
+	\end{itemize}
+	
+	\bb
+	\textbf{\textit{Vertical foreign direct investment}} occurs when a multinational acquires an operation that either acts as a supplier or distributor.
+	
+	\end{spacing}
+\end{document}

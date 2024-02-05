@@ -1,0 +1,340 @@
+\documentclass[11pt]{report}
+
+%use European style
+\usepackage[a4paper,left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+
+%few useful packages ------------------------------------------------------------------
+\usepackage{setspace}
+\let\Tiny=\tiny %remove annoying warnings
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{colortbl}
+\usepackage{xcolor}
+\usepackage{eurosym}
+\usepackage{enumitem}
+\usepackage{chngpage}
+\usepackage{fancyhdr}
+\usepackage{fancyvrb}
+\usepackage{float}
+\usepackage{framed}
+\usepackage{multirow}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{geometry}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage[linktocpage]{hyperref}
+
+%define environment for code
+\definecolor{orangepse}{RGB}{240,139,39}
+\definecolor{redpse}{RGB}{222,6,61}
+\newcommand{\rpse}[1]{\textcolor{redpse}{#1}}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\usepackage{listings}
+\lstset{frame=tblr,
+	language=R,
+	aboveskip=5mm,
+	belowskip=5mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=3
+}
+%---------------------------------------------------------------------------------------
+
+
+% New Commands ----------------------------
+\newcommand{\bb}{\bigbreak\noindent}
+
+\makeatletter
+\renewcommand\section{\leftskip 0pt\@startsection {section}{1}{\z@}%
+	{-3.5ex \@plus -1ex \@minus -.2ex}%
+	{2.3ex \@plus.2ex}%
+	{\normalfont\Large\bfseries}}
+
+\renewcommand\subsection{\leftskip 4ex\@startsection{subsection}{2}{\z@}%
+	{-3.25ex\@plus -1ex \@minus -.2ex}%
+	{1.5ex \@plus .2ex}%
+	{\normalfont\large\bfseries}}
+
+\renewcommand\subsubsection{\leftskip 14ex\@startsection{subsubsection}{3}{\z@}%
+	{-3.25ex\@plus -1ex \@minus -.2ex}%
+	{1.5ex \@plus .2ex}%
+	{\normalfont\large\bfseries}}
+\makeatother
+
+%----------------------------------------------------------
+
+\definecolor{titlepagecolor}{cmyk}{1,.60,0,.40}
+\definecolor{namecolor}{cmyk}{1,.50,0,.10} 
+
+
+\begin{document}
+	\setcounter{page}{1}
+	\begin{spacing}{1.5}
+		
+		% Table of Contents ----------------------------------
+		\tableofcontents
+		\setcounter{secnumdepth}{-2}
+		\newpage
+		
+		% Start of Content ---------------------------------------------
+		\chapter{General Notes:} 
+		Final paper:
+		\begin{itemize}
+			\item Reasearch Proposal
+			\item Find a data source
+			\item Propose a methodology
+			\item Find an interesting question
+		\end{itemize}
+		Look at previous works and see if you can propose 
+		
+		\bb
+		
+		
+		\chapter{Lecture 1:}
+		\section{M.Bordo \& Roberds}
+		Basically a history of money from commodity money to paper money
+		
+		\subsection{Friedman's monetary paradox}
+		
+		\quote{\textit{So long as the fiduciary currency has a market value greater than its cost of production -
+		which under favorable conditions can be compressed close to the cost of paper on which
+		it is printed - any individual issuer has an incentive to issue additional amounts. A
+		fiduciary currency would thus probably tend through increased issue to degenerate into a
+		commodity standard- there being no stable equilibrium price short of that at which the
+		money value of currency is no greater than that of the paper it contains. And in view of
+		the negligible cost of adding zeros, it is not clear that there is any finite price level for
+		which this is the case.} (Friedman, 1960, p. 7)}
+		
+		\bb
+		Basically, as long as money is worth more than it costs to make, there is an incentive to continue to produce it. There is no price level at which there is a stable equilibrium until the cost of production is higher than the value of the money. Given the cheap cost of paper money and just printing another zero, it is not clear where this point is. 
+		
+		\subsection{The effects of digital currency}
+		Digitalization of Money is a crossroad in monetary history. Gov. \& CB need to adapt to ensure that money remains a public good, financial stability objectives and make monetary policy effective; risk of contradiction between micro and macro objectives.
+		
+		\bb
+		There are benefits to fiat currency. 
+		
+		\subsection{Money or ``safe assets''? Gorton}
+		This interpretation reads the history of money \& finance through a constant ``demand for safe assets''
+		\begin{itemize}[leftmargin=10ex]
+			\item Views financial crises as a loss of safety of the safe assets
+			\item Views a central role of governments and central banks as provicding safe assets
+		\end{itemize}
+		Money is viewed as a financial asset (eg. Debt)
+		
+		
+		\section{Financing trade: early modern problems and solutions}
+		\subsection{The omnipresence of private credit it early modern societies}
+		The rich are all lenders, borrowers or both.\\
+		Despite their lack of guarantees, many poor (both in cities and rural villages) survive only thanks to credit, especially at times of crisis or accident
+		\bb
+		Various forms of credit : network of family and neighbours; local elites (nobilities, clergy); charitable institutions; ``foreigners'' (Lombards, Jews, peddlers).
+		
+		
+		\section{Trade Development \& Credit}
+		
+		
+	\chapter{Lecture 2: Coinage and monetary arrangements Financing government and war}
+	Commodity money = a quantity of a metal defines money.\\
+	This has issues as the metals also have other uses in other industries. This leads to arbitrage opportunities.
+	
+	\bb
+	Initially Charlamagne used widely circulated silver coins. Yet, at the fall of this empire small monarchies and local regions developed their own currencies. This became a problem because there was no standard. Eventually these currencies joined with others.
+	\bb
+	This system became complex in order to satisfy various needs, and required permanent adjustments because of the unequal wear and tear of different coins 
+	
+	\section{Exchange rate and Debasement}
+	Eastern governments set the mint price but did not control the supply of money.
+	\bb
+	Exchange rates: fixed between different coins (except for wear and tear) but possibility of flexible exchange rate between metal content and the unit of account.
+	\bb
+	To control for the changing value of coins, debasement was used. This involved reducing the value of metal found in the actual coins themselves.
+	
+	\section{Centralisation}
+	At certain point, there were so many different currencies it became a problem. The King of France monopolised the minting process. The crown now decided the value of the money and the monetary standard (size weight). 
+	\bb
+	This led to issues of low quality production. Production costs justify a small seigneurage in normal periods.
+	But profits from producing low-quality coins would be high compared to mint's normal profit. Therefore the crown colluded with the mint to use less silver than the stated value. The larger the seigneurage the larger the profit shared by the mint and the crown.
+	
+	\section{Debasement}
+	For debasement to generate inflation and tax revenues, coins need to be exchanged at face value.  \bb
+	After the debasement by the royal mint has been found out, they could officially increase the price of silver and therefore the value of the coin.
+	
+	\bb
+	Royal incomes skyrocketed through debasement. Those who lost out were those with nominal fixed incomes. Notably wage owners in the short term, and landowners in the long term.
+	
+	\section{Globalization \& international money flows}
+	With rising globalisation through colonisation, the stock of precious metals increased, with more metals making their way back to Europe. The inflationary or deflationary effects of these inflows is still up for debate.
+	
+	\section{Government Finance and War}
+	War was a huge part of government budget. The buying of ships and maintenance of an army and navy became very expensive as a percentage of GDP. Financing these wars became an issue of its own.
+	In periods of relative comfort, the govenments had multiple options;
+	\begin{itemize}
+		\item Selling monopolies / privileges
+		\item Short term borrowing from bankers;
+		\item Issuance of long term debt (initially based on the reputation of cities)
+		\item Seignorage
+	\end{itemize}
+	Yet in crisis times, only two options really stood out;
+	\begin{itemize}
+		\item Debt default (or restructuring)
+		\item Debasement (at various scales).
+	\end{itemize}
+	
+		\subsection{Selling Privileges}
+		
+		\subsection{Government Shortterm Borrowing}
+		Wars need lots of money quickly. Enter short term credit markets.
+		\bb
+		Credit was widely available but quite costly!
+		
+		\subsection{Government Long-Term Borrowing}
+		Short term debt could be consolidated into long term ones
+		
+		\chapter{Readings}
+		\section{Direct finance in the Dutch Golden Age - GELDERBLOM}
+		While Bruges, London, and Antwerp were early to adopt deposit banking, Amsterdam did not. Why did it take until the 1870s? Amsterdam instead preferred direct business financing. 
+		\bb
+			They distinguish six core functions performed by such systems:
+			\begin{itemize}
+				\item  payments \item pooling and dividing\item transfers across time, space, and sectors\item
+				managing risk\item generating price information\item and tackling asymmetric information.
+			\end{itemize}
+			
+			\subsection{Payments}
+			The Wisselbank, initiated in 1609, aimed to replace local payment services offered by cashiers. However, cashiers continued to handle payments, leading to a two-tier system. \textbf{Highly Segmented system}.
+			\bb
+			The creation of the Dutch East India Company - brought with it the use bonds which people borrowed against and used as payment. In 1612 the VOC, backed by the Estates General, refused
+			to liquidate its first 10 years? account to achieve permanence, but this effectively
+			barred the company from raising equity and made it entirely dependent on debt
+			finance
+			\bb
+			\textbf{NB} Commercial lending and borrowing thus typically took place without
+			intermediation, that is, it bypassed a formal institution. Notaries failed to build up the informational advantages they had in other cities like Paris. Only made up a very small percentage of loans.
+			
+			\subsection{Louis Trip's investment portfolio}
+			The paper uses lodgers from two prominent merchants.
+			\bb
+			Trip was an active private investor from the late 1650s to about 1670. During that time he supplied loans on a substantial scale, partly on bills partly on collateral of securities
+			\bb
+			He refrained from attracting deposits to increase the scale of his operations, probably because narrow interest rate spreads prevented that. 
+			\bb
+			His business model was direct finance; he acted as what we now call a private equity investor. 
+			
+			\subsection{Joseph Deutz's investment portfolio}
+			Replaced the Trip brothers as the holders of the Swedish tar and pitch monopoly in 1662.
+			\begin{itemize}[leftmargin=10ex]
+				\item Meant paying the King of Sweeden, 60\% of which was given to the brothers.
+			\end{itemize}
+			Deutz, like Trip, engaged in direct finance. He effected payments and
+			transfers across time, space, and sectors, but did so in the private equity mould,
+			without pooling and dividing, i.e. attracting deposits. Deutz raised debt with his
+			family to obtain and keep the pitch and tar monopoly, not to fund his subsequent
+			money market operations, presumably because narrow spreads prevented that
+		
+			\subsection{Compare the two}
+			Despite the monopoly, lending was a substantial part of their business dealings!
+			\bb
+			Deutz's loans spread far and wide and were for the most part collateralized.\\
+			Trip lent to people close to him and therefore were not collateralized were not and mostly given to 
+			\begin{itemize}[leftmargin=10ex]
+				\item The regression results show a remarkable similarity in the lending behaviour of the two merchants, with the exception of the role of share collateral in the regressions for the principal amount.
+			\end{itemize}
+			\bb
+			The evidence strongly suggests the \textbf{existence of a money market} with \textbf{mechanisms to generate price information, tackle asymmetric information, and manage risk,} enabling these two merchants to tailor \bb
+			Trip and Deutz stood at the half-way mark in this evolution. One part of their lending was still relationship-based, the other part no longer. But both parts show clear signs of market mechanisms existing, since they behaved similarly in response to changing circumstances.
+			
+			\subsection{Discussion}
+			\begin{itemize}[leftmargin=10ex]
+				\item Wisselbank 
+				\begin{itemize}
+					\item Played a central but secret role in payments.
+					\item Due to legal restrictions couldn't build a deposit base
+				\end{itemize}
+				\item Bill market Developed
+				\begin{itemize}
+					\item Merchants used private IOUs and using VOC shares as collateral for short-term loans.
+				\end{itemize}
+				\item Middle men provided credit
+				\begin{itemize}
+					\item Opting for equity over debt
+				\end{itemize}
+			\end{itemize}
+			The analysis challenges the traditional bank-based versus market-based dichotomy, emphasizing that while Amsterdam had a large bank (Wisselbank), credit was predominantly supplied through an active and liquid short-term credit market.
+			\bb
+			This paper suggests that deposit banking arose not as a norm or trend, but because it provided a way to simply bundle functions that well liquidated markets can already preform (as seen in the case of Amsterdam)
+			
+			
+	\section{The real effects of monetary expansions: evidence from a large-scale historical experiment - Nuno Palma}
+	
+		\subsection{Method \& Empirical Strategy}
+		Quasi-Experiment. \\
+		The discovery of massive deposits of precious metals in America during the early modern period caused an exogenous monetary injection to Europe's money supply. I use this episode to identify the causal effects of money. 
+		\bb
+		Exogenous variation in European money supply: $\rightarrow$ the production of precious metals in the Americas.
+		\bb
+		Local Projections (Jordà, 2005)
+		\bb
+		Shock is common to every country. Given that these were integrated economies, the shocks will have affected them all, even if possibly with different timings.
+		
+		
+		\subsection{Heterogeneous Effects}
+			Spain and Portugal see a significant immediate effect as they have more immediate (and less variable over time) passage of metals from production to coin minting. Other countries see a lag in the effect, as they receive these metals through trade links with Spain.
+			
+		\subsection{Precious Metals as an IV}
+			English Data is the only set complete enough.
+
+		The Instrument:
+		\begin{center}
+			Annual production of American precious metals\\
+			$\downarrow$\\
+			English mint output\\
+			$\downarrow$\\
+			English GDP
+		\end{center}
+			
+			\subsubsection{Justification}
+			At this point, 40 percent of people lived exclusively off their wages paid in coins. By the early 1780s, few people had no involvement in the cash economy. Money mattered not only for industry and services but also for the agricultural sector: workers in this sector used money both as purchasers of goods and services and as sellers and payers of taxes.
+			\bb
+			The lower effect on inflation is intuitive and relates to contemporary ideas of price stickiness.
+			
+			
+			\subsection{Endogeneity Threats}
+			The causal effect may be the inverse? What if the production of precious metals responded to increased demand in Europe. Therefore production would no longer be endogenous. To do this he tests the inverse hypothesis, that a rise in GDP is associated with an increase in metal production. They once again use an IV.
+			
+			\begin{itemize}[leftmargin=10ex]
+				\item I find his use of air temperatures in Europe unconvincing as a method to explain demand for precious metals across Europe. This does not account for large parts of the economy including industrial parts.
+			\end{itemize}
+			
+		\subsection{Conclusion}
+		Identification in macroeconomics is challenging due to a lack of convincing natural experiments or instrumental variables, making it difficult to answer important questions.
+		\bb
+		The effects of money on the real economy are hard to identify, leading to varied conclusions in the literature, ranging from no effects to strong and persistent effects.
+		\bb
+		Early modern monetary injections from America offer a source of identification for monetary non-neutrality, supporting the notion of large and persistent effects on real output during that period.
+		\bb
+		The study primarily focuses on the internal validity of results, emphasizing that the timing and magnitude of the effects apply only to the early modern European economy.
+		\bb
+		The interpretation is cautious, suggesting that the findings may not directly apply to modern economies due to significant differences in economic structures and practices.
+		\bb
+		Various extensions of the work are suggested for the future, including analyzing effects on different sectors and considering conditional effects based on the state of the economy.
+			
+			
+	\end{spacing}
+\end{document}

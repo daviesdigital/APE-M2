@@ -1,0 +1,9 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{General Notes:}{2}{chapter*.2}%
+\contentsline {chapter}{Lecture 1: Measuring Aging}{3}{chapter*.3}%
+\contentsline {section}{Life Tables}{3}{section*.4}%
+\contentsline {subsection}{Observed data vs fictitious cohort}{3}{section*.5}%
+\contentsline {section}{Old Age Dependency Ratios}{3}{section*.6}%
+\contentsline {section}{Ageing by the Top}{3}{section*.7}%
+\contentsline {subsection}{From the bottom}{3}{section*.8}%
+\contentsline {subsection}{From the Top}{4}{section*.9}%

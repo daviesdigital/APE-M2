@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.30)  14 JAN 2024 15:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.30)  15 JAN 2024 19:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1120,14 +1120,14 @@ LaTeX Font Info:    ... okay on input line 79.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
-* v-part:(T,H,B)=(42.67912pt, 759.6886pt, 42.67912pt)
+* v-part:(T,H,B)=(41.25641pt, 762.53403pt, 41.25641pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=512.14963pt
-* \textheight=759.6886pt
+* \textheight=762.53403pt
 * \oddsidemargin=-29.59087pt
 * \evensidemargin=-29.59087pt
-* \topmargin=-66.59087pt
+* \topmargin=-68.01358pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
@@ -1224,22 +1224,17 @@ Package biblatex Info: Reference segment=0 on input line 79.
 {C:/Users/david/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [1] [2] [3] 
 [4] [5] (DAVIESBILETTA_APEM2.aux)
 Package rerunfilecheck Info: File `DAVIESBILETTA_APEM2.out' has not changed.
-(rerunfilecheck)             Checksum: 7E54F73F6D78A57928433A97AA70D7F2;857.
-
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
+(rerunfilecheck)             Checksum: 8E94DF8F12AB289D22A9EE28BCAFB779;637.
 Package logreq Info: Writing requests to 'DAVIESBILETTA_APEM2.run.xml'.
 \openout1 = `DAVIESBILETTA_APEM2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33054 strings out of 476411
- 627577 string characters out of 5789134
+ 33071 strings out of 476411
+ 628101 string characters out of 5789134
  1859845 words of memory out of 5000000
- 52902 multiletter control sequences out of 15000+600000
- 514442 words of font info for 39 fonts, out of 8000000 for 9000
+ 52918 multiletter control sequences out of 15000+600000
+ 514135 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,5n,80p,1369b,5046s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
@@ -1248,9 +1243,9 @@ fonts/cm/cmr10.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmr12.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmr17.pfb><C:/Users/david/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on DAVIESBILETTA_APEM2.pdf (6 pages, 100446 bytes).
+Output written on DAVIESBILETTA_APEM2.pdf (6 pages, 104369 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 17 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 98 PDF objects out of 1000 (max. 8388607)
+ 18 named destinations out of 1000 (max. 500000)
+ 45 words of extra memory for PDF output out of 10000 (max. 10000000)
 
