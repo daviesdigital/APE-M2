@@ -13,4 +13,5 @@
 \contentsline {section}{Cross-Border M\&A or Greenfield Investment?}{5}{section*.13}%
 \contentsline {subsection}{Differences between two modes of entry}{5}{section*.14}%
 \contentsline {subsection}{Brown-field investments}{5}{section*.15}%
-\contentsline {section}{Vertical FDI}{5}{section*.16}%
+\contentsline {chapter}{Vertical FDI}{6}{chapter*.16}%
+\contentsline {section}{General Equilibrium Theory of Vertical MNEs, Krugman +}{6}{section*.17}%

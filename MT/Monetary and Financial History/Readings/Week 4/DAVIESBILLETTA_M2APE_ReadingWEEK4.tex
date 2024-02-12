@@ -1,0 +1,203 @@
+\documentclass[]{article}
+%use European style
+%\usepackage[a4paper,left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+
+%few useful packages ------------------------------------------------------------------
+\usepackage{setspace}
+\let\Tiny=\tiny %remove annoying warnings
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{colortbl}
+\usepackage{xcolor}
+\usepackage{eurosym}
+\usepackage{enumitem}
+\usepackage{chngpage}
+\usepackage{fancyhdr}
+\usepackage{fancyvrb}
+\usepackage{float}
+\usepackage{framed}
+\usepackage{multirow}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{geometry}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage[linktocpage]{hyperref}
+
+%define environment for code
+\definecolor{orangepse}{RGB}{240,139,39}
+\definecolor{redpse}{RGB}{222,6,61}
+\newcommand{\rpse}[1]{\textcolor{redpse}{#1}}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\usepackage{listings}
+\lstset{frame=tblr,
+	language=R,
+	aboveskip=5mm,
+	belowskip=5mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=3
+}
+%---------------------------------------------------------------------------------------
+
+
+% New Commands ----------------------------
+\newcommand{\bb}{\bigbreak\noindent}
+
+\makeatletter
+\renewcommand\section{\leftskip 0pt\@startsection {section}{1}{\z@}%
+	{-3.5ex \@plus -1ex \@minus -.2ex}%
+	{2.3ex \@plus.2ex}%
+	{\normalfont\Large\bfseries}}
+
+\renewcommand\subsection{\leftskip 4ex\@startsection{subsection}{2}{\z@}%
+	{-3.25ex\@plus -1ex \@minus -.2ex}%
+	{1.5ex \@plus .2ex}%
+	{\normalfont\large\bfseries}}
+
+\renewcommand\subsubsection{\leftskip 14ex\@startsection{subsubsection}{3}{\z@}%
+	{-3.25ex\@plus -1ex \@minus -.2ex}%
+	{1.5ex \@plus .2ex}%
+	{\normalfont\large\bfseries}}
+\makeatother
+
+
+%opening
+\title{Week 4: \textit{``Macroeconomic Features of the French
+		Revolution`''} by Sargent and Velde}
+\author{Davide Davies-Biletta}
+
+\begin{document}
+
+\maketitle
+
+\section{Relevant Macroeconomic Frameworks}
+Ideas: 
+\begin{itemize}
+	\item \textbf{Unpleasant arithmetic}:\\
+		    This idea suggests that the revolution was triggered by a fiscal crisis, emphasizing the role of government finances. It involves the concept of an upper limit on government borrowing, proposing that the French government was on the brink of reaching this limit.
+	\item \textbf{Sustainable plans}:\\
+		The idea that governments can manage their fiscal policies to avoid reaching critical thresholds and maintain stability.
+	\end{itemize}
+\bb
+Models:
+\begin{itemize}
+	\item \textbf{Tax-backed or asset-backed models of the demand for currency}\\
+			Fiat currency based on the future value of tax revenue or the traditional metal based model.
+			
+	\item \textbf{Legal restrictions models of the demand for currency}:\\
+		How can legal frameworks impact the demand for currency and its circulation in the economy.
+	
+	\item \textbf{Classical hyperinflation models}:\\
+		  factors such as excessive money supply, loss of confidence in currency, and their consequences on inflation rates
+	
+	
+	
+\end{itemize}
+
+
+\section{Data}
+This paper combines previous literature to create a coherent narrative. For that reason the source of their Data is not explicitly discussed in the paper. They cite previous literature throughout the text including some of Sargent's own work. The cited documents span from papers written in the 20th Century to certain accounts from the 18th Century. The latter are used to make up Military Spending and Tax Revenue series which we see in the graphs. 
+
+
+\section{Before the Revolution}
+France and Britain often involved in wars. Both often on opposing sides.
+
+	\subsection{British Strategy}
+	During a war, taxes were raised to assure adequate funds to service the loans. After a war, the floating debt was consolidated into perpetual annuities, and taxes were further increased to generate a sufficient net-of-interest surplus to service the debt.
+	\bb
+	The British government incurred large deficits in wartime and generated small but sufficient surpluses in peacetime. 
+	\bb
+	The British had not defaulted on debt in the previous 100 years.
+	\bb
+	The Bank of England played an important role in this since its formation in 1694, and since the burst of the south sea bubble in the 1720s.
+	
+	\subsection{In France} 
+	France frequently defaulted on their debts in the century prior to the revolution
+	\bb
+	Unlike England France never boasted a surplus in their accounts. This worsened after the burden of the Seven Year War and the American Revolution caused a large increase in government spending. 
+	\bb
+	In 1789, modernizing elements in France did not regard past and prospective government defaults as part of an optimal fiscal arrangement. They hoped to reform fiscal institutions to rid France of those defaults, and this is one of the reasons they welcomed the king's call to the Estates General.
+	\bb
+	King had absolute power. His domain was not centralised however, with many territories allowed
+	
+	\subsection{Incentive for change.}
+	Up to 1789, France's fiscal arrangements had evolved unevenly, and the ability to adjust taxes did not match the king's plans to service his debts.
+	
+	\bb
+	Wars cost Britain more than France. (Roughly 3 times more in terms of annual revenue). \\
+	Furthermore, England's population was also only a third of France's.
+	\bb
+	Yet Britain implemented tax smoothing.
+	\bb
+	French policymakers understood the advantages of Britain's constitution.\\
+	They also realised establishing a permanent legislative body, took power out of the hands of central government and provincial bodies, leading to cheaper credit.
+	\bb
+	The King was tempted to install this but decided against it, instead presiding over the defaults associated with John Law.
+	\begin{itemize}
+		\item Until the start of the Revolution, France remained under a nominal absolute monarchy encumbered by a tax system in need of reform.
+	\end{itemize}
+
+\section{Search for a New Order}
+Soon after Necker's speech, the Court understood the depth of the aspirations aroused by the Estates General, estimated the costs of reform to be unacceptable, and tried to retreat. This attempt failed to due public pressure and popularity.
+\bb
+The assembly took over the role of the Estates general and made all previous taxes illegal and abolished the feudal order. This abolished privileges and paid offices.
+
+	\subsection{Failed tax reform}
+	The assembly revoked consumption taxes and chose to tax pure rents. They therefore taxed land directly.
+	\begin{itemize}[leftmargin=10ex]
+		\item This failed as they did not have a central instituion tasked with registering and measuring land ownership but relied on local and regional administrations.
+	\end{itemize}
+	\bb
+	Per capita taxation in the French Empire did not reach prerevolutionary levels until 1810. Meaning these reforms did not alleviate the debt burden.
+	
+	\subsection{Birth of a currency}
+	The National Assembly planned to sell the National Estates, which were previously owned by the church, to raise revenues. The proceeds from these sales would be used to service the existing debt.
+	
+	\bb 
+	To facilitate this process, the government devised a scheme involving the creation of a new currency known as assignats. The assignats were backed by the prospective receipts from the sale of the National Estates.
+	\bb
+	This scheme was referred to as ``tax-backed money" because the government intended to use the revenue generated from future taxes, particularly those on the National Estates, to support and redeem the assignats. The assignats, therefore, were backed by the anticipated tax revenue from the sold lands.
+	 
+	\bb
+	 Neckers original plan had also proposed the creation of a central bank in the mould of the Bank of England. Yet, this was refused.
+	 
+	 \bb
+	 The initial assignats, issued in April 1790, had denominations of 200-1,000 livres. In September 1790, the lowest denomination was set at 50 livres, and subsequent reductions occurred. 
+	 \begin{itemize}
+	 	\item \textit{``They asserted that a low-denomination assignat would provide France with a new monetary instrument and do for its depressed economy what bank notes seemed to do in Britain: ease credit, lower interest rates,
+	 	and facilitate trade.''}
+	 \end{itemize}
+
+	\section{Rise and Fall of the Assignat}
+	The outbreak of war in 1792, the abolition of the monarchy in 1792, and military defeats led to financial strain. The value of the assignat fell, and the government faced challenges in maintaining fiscal resources.
+	\bb
+	Despite efforts to stabilize the currency, hyperinflation occurred. The government faced internal rebellion, external war, and a depleted fiscal base. Legal restrictions were lifted, and the assignat lost value rapidly.
+	\bb
+	The assignat's value continued to decline, and the government eventually ceased to support it. In 1797, a two-thirds bankruptcy was implemented, reducing the debt and leading to significant economic repercussions.
+	
+	\section{Consequences}
+	Money quickly left France and found its way to England.
+	\bb
+	The influx of specie into England fueled an expansion of credit and inflation there. The increased availability of gold and silver contributed to a period of credit expansion in England.
+	\bb
+	When hyperinflation began in France in the spring of 1795, market prices signalled for importing metal into France This, in turn, led to a halt in the credit expansion in England, and deflation ensued.
+	\bb
+	The drain on the Bank of England prompted the Bank Restriction Act of 1797. This act temporarily suspended the convertibility of banknotes into gold, allowing for the issuance of inconvertible currency.
+
+\end{document}

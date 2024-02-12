@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.30)  5 FEB 2024 15:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.30)  6 FEB 2024 15:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -632,19 +632,21 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [5] [6
 
-] [7] [8] [9
+] [7] [8] [9] [10
 
-] [10] [11] [12] [13] [14]
+] [11
+
+] [12] [13] [14] [15] [16]
 (Monetary and Financial History Notes.aux)
 Package rerunfilecheck Info: File `"Monetary and Financial History Notes".out' 
 has not changed.
-(rerunfilecheck)             Checksum: FAE7265228E64BC2FC08BC35CD50EBFF;6508.
+(rerunfilecheck)             Checksum: 90556CB573C56D4A7951E9B1D7CE71E2;7491.
  ) 
 Here is how much of TeX's memory you used:
- 15255 strings out of 476411
- 246918 string characters out of 5789134
+ 15269 strings out of 476411
+ 247214 string characters out of 5789134
  1865845 words of memory out of 5000000
- 35318 multiletter control sequences out of 15000+600000
+ 35323 multiletter control sequences out of 15000+600000
  519746 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,6n,77p,691b,694s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -655,10 +657,10 @@ ic/amsfonts/cm/cmbx12.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmr10.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/david/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "Monetary and Financial History Notes.pdf" (14 pages, 135368 
+Output written on "Monetary and Financial History Notes.pdf" (16 pages, 142692 
 bytes).
 PDF statistics:
- 264 PDF objects out of 1000 (max. 8388607)
- 48 named destinations out of 1000 (max. 500000)
- 249 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 301 PDF objects out of 1000 (max. 8388607)
+ 57 named destinations out of 1000 (max. 500000)
+ 289 words of extra memory for PDF output out of 10000 (max. 10000000)
 

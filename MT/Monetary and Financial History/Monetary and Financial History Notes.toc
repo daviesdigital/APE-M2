@@ -17,17 +17,24 @@
 \contentsline {subsection}{Selling Privileges}{8}{section*.17}%
 \contentsline {subsection}{Government Shortterm Borrowing}{8}{section*.18}%
 \contentsline {subsection}{Government Long-Term Borrowing}{8}{section*.19}%
-\contentsline {chapter}{Readings}{9}{chapter*.20}%
-\contentsline {section}{Direct finance in the Dutch Golden Age - GELDERBLOM}{9}{section*.21}%
-\contentsline {subsection}{Payments}{9}{section*.22}%
-\contentsline {subsection}{Louis Trip's investment portfolio}{10}{section*.23}%
-\contentsline {subsection}{Joseph Deutz's investment portfolio}{10}{section*.24}%
-\contentsline {subsection}{Compare the two}{10}{section*.25}%
-\contentsline {subsection}{Discussion}{11}{section*.26}%
-\contentsline {section}{The real effects of monetary expansions: evidence from a large-scale historical experiment - Nuno Palma}{12}{section*.27}%
-\contentsline {subsection}{Method \& Empirical Strategy}{12}{section*.28}%
-\contentsline {subsection}{Heterogeneous Effects}{12}{section*.29}%
-\contentsline {subsection}{Precious Metals as an IV}{12}{section*.30}%
-\contentsline {subsubsection}{Justification}{13}{section*.31}%
-\contentsline {subsection}{Endogeneity Threats}{13}{section*.32}%
-\contentsline {subsection}{Conclusion}{13}{section*.33}%
+\contentsline {section}{The emergence of Financial Institutions}{8}{section*.20}%
+\contentsline {subsection}{Life Annuities}{8}{section*.21}%
+\contentsline {subsection}{Early securities exchanges}{8}{section*.22}%
+\contentsline {subsection}{Establishing Banking Monopolies / Public Banks}{9}{section*.23}%
+\contentsline {subsubsection}{The Wisselbank}{9}{section*.24}%
+\contentsline {subsubsection}{Bank of England}{9}{section*.25}%
+\contentsline {chapter}{Lecture 3}{10}{chapter*.26}%
+\contentsline {chapter}{Readings}{11}{chapter*.27}%
+\contentsline {section}{Direct finance in the Dutch Golden Age - GELDERBLOM}{11}{section*.28}%
+\contentsline {subsection}{Payments}{11}{section*.29}%
+\contentsline {subsection}{Louis Trip's investment portfolio}{12}{section*.30}%
+\contentsline {subsection}{Joseph Deutz's investment portfolio}{12}{section*.31}%
+\contentsline {subsection}{Compare the two}{12}{section*.32}%
+\contentsline {subsection}{Discussion}{13}{section*.33}%
+\contentsline {section}{The real effects of monetary expansions: evidence from a large-scale historical experiment - Nuno Palma}{14}{section*.34}%
+\contentsline {subsection}{Method \& Empirical Strategy}{14}{section*.35}%
+\contentsline {subsection}{Heterogeneous Effects}{14}{section*.36}%
+\contentsline {subsection}{Precious Metals as an IV}{14}{section*.37}%
+\contentsline {subsubsection}{Justification}{15}{section*.38}%
+\contentsline {subsection}{Endogeneity Threats}{15}{section*.39}%
+\contentsline {subsection}{Conclusion}{15}{section*.40}%

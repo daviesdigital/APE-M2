@@ -7,3 +7,26 @@
 \contentsline {section}{Ageing by the Top}{3}{section*.7}%
 \contentsline {subsection}{From the bottom}{3}{section*.8}%
 \contentsline {subsection}{From the Top}{4}{section*.9}%
+\contentsline {chapter}{Institutional design of Pensions}{5}{chapter*.10}%
+\contentsline {section}{History Of Retirement}{5}{section*.11}%
+\contentsline {subsection}{Family Support}{5}{section*.12}%
+\contentsline {subsection}{Charity and Assistant}{5}{section*.13}%
+\contentsline {subsection}{Occupational Pensions}{5}{section*.14}%
+\contentsline {subsection}{Individual Savings}{5}{section*.15}%
+\contentsline {subsection}{Birth of the Welfare State: Bismark}{5}{section*.16}%
+\contentsline {subsubsection}{Work Related Accident Assurance}{5}{section*.17}%
+\contentsline {subsubsection}{Healthcare Insurance}{5}{section*.18}%
+\contentsline {subsubsection}{Old-age and disability insurance (1889)}{5}{section*.19}%
+\contentsline {subsection}{The UK and the Beverage Report}{5}{section*.20}%
+\contentsline {section}{Rationale for Public Intervention}{6}{section*.21}%
+\contentsline {subsection}{Market Failures}{6}{section*.22}%
+\contentsline {subsubsection}{Capital Markets}{6}{section*.23}%
+\contentsline {subsection}{Myopia}{6}{section*.24}%
+\contentsline {subsection}{Samaritan's dilemma}{6}{section*.25}%
+\contentsline {subsection}{Redistribution}{6}{section*.26}%
+\contentsline {subsection}{Efficiency and Administrative Costs}{6}{section*.27}%
+\contentsline {section}{Pension Design around the World}{7}{section*.28}%
+\contentsline {subsection}{Bismark vs Beveridge }{7}{section*.29}%
+\contentsline {section}{Types of Pensions}{7}{section*.30}%
+\contentsline {subsection}{Public vs mandatory private vs voluntary private}{7}{section*.31}%
+\contentsline {subsection}{Funded vs unfunded vs mixed funding}{7}{section*.32}%

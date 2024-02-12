@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.30)  1 FEB 2024 09:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.30)  8 FEB 2024 10:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -629,16 +629,25 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ]
 [3
 
-] [4] (Macro Micro Simulation Notes.aux)
-Package rerunfilecheck Info: File `"Macro Micro Simulation Notes".out' has not 
-changed.
-(rerunfilecheck)             Checksum: ABACD0000337D707815131FE6D2ACBE0;2288.
+] [4] [5
+
+] (Macro Micro Simulation Notes.aux)
+
+Package rerunfilecheck Warning: File `"Macro Micro Simulation Notes".out' has c
+hanged.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `"Macro Micro Simulation Notes".out'
+:
+(rerunfilecheck)             Before: 2825AB42561007656B61C0FE6C014823;2752
+(rerunfilecheck)             After:  EF127DE88EC90D42E4A4984CBD0CF161;2905.
  ) 
 Here is how much of TeX's memory you used:
- 15212 strings out of 476411
- 246328 string characters out of 5789134
- 1859845 words of memory out of 5000000
- 35301 multiletter control sequences out of 15000+600000
+ 15218 strings out of 476411
+ 246393 string characters out of 5789134
+ 1860845 words of memory out of 5000000
+ 35303 multiletter control sequences out of 15000+600000
  519746 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,5n,77p,569b,660s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -648,9 +657,9 @@ ts/cm/cmbx10.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmbx12.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmr10.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "Macro Micro Simulation Notes.pdf" (4 pages, 77846 bytes).
+Output written on "Macro Micro Simulation Notes.pdf" (5 pages, 83142 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 146 PDF objects out of 1000 (max. 8388607)
+ 26 named destinations out of 1000 (max. 500000)
+ 137 words of extra memory for PDF output out of 10000 (max. 10000000)
 

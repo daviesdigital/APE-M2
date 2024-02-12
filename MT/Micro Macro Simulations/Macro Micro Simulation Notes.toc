@@ -1,6 +1,6 @@
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{General Notes:}{2}{chapter*.2}%
-\contentsline {chapter}{Lecture 1: Microsimulation}{3}{chapter*.3}%
+\contentsline {chapter}{Lecture 1: Microsimulation in Static Models}{3}{chapter*.3}%
 \contentsline {section}{Model Complexity}{3}{section*.4}%
 \contentsline {subsection}{Population Complexity}{3}{section*.5}%
 \contentsline {subsection}{Behavioural Complexity}{3}{section*.6}%
@@ -15,3 +15,6 @@
 \contentsline {section}{Static Models}{4}{section*.15}%
 \contentsline {subsection}{Baseline Data}{4}{section*.16}%
 \contentsline {subsection}{Coding Policies}{4}{section*.17}%
+\contentsline {chapter}{Behavioural Responses and Dynamic Models}{5}{chapter*.18}%
+\contentsline {section}{Structural Models}{5}{section*.19}%
+\contentsline {section}{Reduced Form}{5}{section*.20}%
