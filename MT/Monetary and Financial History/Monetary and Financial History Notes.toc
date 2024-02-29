@@ -23,18 +23,27 @@
 \contentsline {subsection}{Establishing Banking Monopolies / Public Banks}{9}{section*.23}%
 \contentsline {subsubsection}{The Wisselbank}{9}{section*.24}%
 \contentsline {subsubsection}{Bank of England}{9}{section*.25}%
-\contentsline {chapter}{Lecture 3}{10}{chapter*.26}%
-\contentsline {chapter}{Readings}{11}{chapter*.27}%
-\contentsline {section}{Direct finance in the Dutch Golden Age - GELDERBLOM}{11}{section*.28}%
-\contentsline {subsection}{Payments}{11}{section*.29}%
-\contentsline {subsection}{Louis Trip's investment portfolio}{12}{section*.30}%
-\contentsline {subsection}{Joseph Deutz's investment portfolio}{12}{section*.31}%
-\contentsline {subsection}{Compare the two}{12}{section*.32}%
-\contentsline {subsection}{Discussion}{13}{section*.33}%
-\contentsline {section}{The real effects of monetary expansions: evidence from a large-scale historical experiment - Nuno Palma}{14}{section*.34}%
-\contentsline {subsection}{Method \& Empirical Strategy}{14}{section*.35}%
-\contentsline {subsection}{Heterogeneous Effects}{14}{section*.36}%
-\contentsline {subsection}{Precious Metals as an IV}{14}{section*.37}%
-\contentsline {subsubsection}{Justification}{15}{section*.38}%
-\contentsline {subsection}{Endogeneity Threats}{15}{section*.39}%
-\contentsline {subsection}{Conclusion}{15}{section*.40}%
+\contentsline {chapter}{Private financial revolutions in the 19th century}{10}{chapter*.26}%
+\contentsline {section}{Financing Industrialisation}{10}{section*.27}%
+\contentsline {section}{Legal innovations}{10}{section*.28}%
+\contentsline {subsection}{Differences between European laws}{11}{section*.29}%
+\contentsline {subsection}{Conclustions}{12}{section*.30}%
+\contentsline {section}{Bank-based vs Market-based Financial Systems}{12}{section*.31}%
+\contentsline {subsection}{Banks}{12}{section*.32}%
+\contentsline {subsection}{Exchanges}{12}{section*.33}%
+\contentsline {chapter}{Financial and Monetary Globalisation in the 19th Century}{13}{chapter*.34}%
+\contentsline {section}{The Gold Standard \& Civilisation}{13}{section*.35}%
+\contentsline {chapter}{Readings}{14}{chapter*.36}%
+\contentsline {section}{Direct finance in the Dutch Golden Age - GELDERBLOM}{14}{section*.37}%
+\contentsline {subsection}{Payments}{14}{section*.38}%
+\contentsline {subsection}{Louis Trip's investment portfolio}{15}{section*.39}%
+\contentsline {subsection}{Joseph Deutz's investment portfolio}{15}{section*.40}%
+\contentsline {subsection}{Compare the two}{15}{section*.41}%
+\contentsline {subsection}{Discussion}{16}{section*.42}%
+\contentsline {section}{The real effects of monetary expansions: evidence from a large-scale historical experiment - Nuno Palma}{17}{section*.43}%
+\contentsline {subsection}{Method \& Empirical Strategy}{17}{section*.44}%
+\contentsline {subsection}{Heterogeneous Effects}{17}{section*.45}%
+\contentsline {subsection}{Precious Metals as an IV}{17}{section*.46}%
+\contentsline {subsubsection}{Justification}{18}{section*.47}%
+\contentsline {subsection}{Endogeneity Threats}{18}{section*.48}%
+\contentsline {subsection}{Conclusion}{18}{section*.49}%

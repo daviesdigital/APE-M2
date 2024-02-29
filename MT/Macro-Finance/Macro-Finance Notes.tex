@@ -94,84 +94,48 @@
 		
 		% Start of Content ---------------------------------------------
 	\chapter{General Notes:} 
+	The aim of the course is to acquaint students with the central mechanisms through which financial variables (credit flows, credit spreads, asset prices) interact with macroeconomic variables such as consumption, investment and GDP over the business cycle and at times of financial crises. 
+	\bb
+	30\% Referee Report and 70\% Final Exam.
 		
-		First four classes - Microsimulation\\
-		Last four classes - Macrosimulation
+	\chapter{Lecture 1: Asset Pricing and Debt Limits under Complete Markets}
+	Basic Reference for this part: \texttt{Sargent \& Ljungqvist (2018, Chap. 8)}
+	\bb
+	Complete markets are an ideal, we study them as a benchmark, from which future frictions cause deviation. 
+		
+		\section{Section 1:}
+		We can think of assets as insurance against consumption shocks. We are interested in the equilibrium prices that arise. 
+		
+		
+		
+		\section{Perfect Risk Sharing}
+		
+		\section{Asset Pricing}
+		Note:\\
+		\[ q^0_t(s^t) = q\:^{\text{Price at time 0}}_{\text{Which pays me at time t}} \:(s^t)\]
+		Remember that:
+		\[ \pi(s^0) = q^0_0(s^0) = 1 \]
+		and that;
+		\[ \beta^t \pi(s^t) u'(c^i_t(s^t)) = \mu^i =q^0_t(s^0) (s^t) \]
+		Hence: 
+		\[ u'(c^i_t(s^t)) = \mu^i \]
+		This means the the price of an AD asset at time 0 is therefore: 
+		\[ q^0_t(s^0) = \beta^t \pi(s^t) \dfrac{u'(c^i_t(s^t))}{u'(c^i_0(s^0))} \]
+		This ratio is the same for every $i$. 
 		\bb
-		Practical Evaluation - Python completing code 
+		AD securities are like fundamental particles; all other assets are made of them
+		\bb
+		We can also imagine therefore an asset which pays a dividend in each time period.  We can still think of them as an AD security, by just adding up the life-time value of the dividend.\\
+		It's price in equilibrium must be;
+		\[ p^0_0 = \sum_{t=0}^{\infty} \sum_{s^t} q^0_t (s^t)\]
 		
-	\chapter{Lecture 1: Microsimulation in Static Models}
-		Where as random control trials and natural experiments measure the impact of a policy \textit{ex post}, micro and macro simulations were created to find the impacts \textit{ex ante}.
+		\bb
+		\textbf{No Arbitrage Condition:}\\
+		According to the no arbitrage condition: Purchasing asset which delivers 1 now costs the same as buying it later.
+		\[ q^0_t(s^t) = q^0_\tau(s^\tau)q^\tau_t(s^t) \]
+		We call this the term structure of AD securities.\\
+		We can use the term structure of AD securities to price any asset at any time $\tau$
 		
-		\section{Model Complexity}
-		
-			\subsection{Population Complexity}
-			Static model with no temporal element.\\
-			You have a database of a population with as many characteristics as you can gather about them. \\
-			See how this is effected by a proposed policy.
-			
-			\subsection{Behavioural Complexity}
-			
-			\subsection{Temporal (Dynamic) Complexity}
-			
-			\subsection{Spacial Complexity}
-			
-		\section{Typology of microsimulation models}
-			\subsection{Hypothetical Model}
-			Models tested using an synthetic/artificial population of households/individuals. \\
-			Used for:
-			\begin{itemize}[leftmargin=10ex]
-				\item Illustrative purposes
-				\item Validation
-				\item Cross country comparisons
-			\end{itemize}
-			
-				\subsubsection{Limitations}
-				As you can imagine this method has its own issues
-				\begin{itemize}[leftmargin=15ex]
-					\item Limited heterogeneity
-					\item Lack of representativeness
-					\item Will often disregard detailed aspects of policy that matters a lot
-				\end{itemize}
-				
-			\subsection{Static Models}
-			Models which use some form of micro-data, but no behavioural or temporal conditions.
-			This method provides a focus on the complexity of a policy interacted with the
-			complexity of population \& ``day after reform" effects
-			
-			\subsection{Behavioural Models}
-			
-			\subsection{Dynamic Models}
-			
-			
-		\section{Static Models}
-			\subsection{Baseline Data}
-			First you must build it:
-			\begin{itemize}[leftmargin=10ex]
-				\item Using Admin data and Survey Data
-			\end{itemize}
-			Then you must maintain it:
-			\begin{itemize}[leftmargin=10ex]
-				\item This brings a lag of a few years often
-			\end{itemize}
-			
-			
-			\subsection{Coding Policies}
-			
-		
-		
-	\chapter{Behavioural Responses and Dynamic Models}
-		In previous lecture we saw models with no behavioural dynamics and no time dimension.
-		
-		\section{Structural Models}
-		
-		\section{Reduced Form}
-		
-		
-\chapter{Macro Simulation}
-
-	\section{The Basic New Keynesian Model : Fiscal and Monetary Policies}
-			
 		
 	\end{spacing}
 \end{document}

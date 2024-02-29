@@ -1,0 +1,6 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{General Notes:}{2}{chapter*.2}%
+\contentsline {chapter}{Lecture 1: Asset Pricing and Debt Limits under Complete Markets}{3}{chapter*.3}%
+\contentsline {section}{Section 1:}{3}{section*.4}%
+\contentsline {section}{Perfect Risk Sharing}{3}{section*.5}%
+\contentsline {section}{Asset Pricing}{3}{section*.6}%

@@ -1,0 +1,198 @@
+\documentclass[]{article}
+%use European style
+%\usepackage[a4paper,left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+
+%few useful packages ------------------------------------------------------------------
+\usepackage{setspace}
+\let\Tiny=\tiny %remove annoying warnings
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{colortbl}
+\usepackage{xcolor}
+\usepackage{eurosym}
+\usepackage{enumitem}
+\usepackage{chngpage}
+\usepackage{fancyhdr}
+\usepackage{fancyvrb}
+\usepackage{float}
+\usepackage{framed}
+\usepackage{multirow}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{geometry}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage[linktocpage]{hyperref}
+
+%define environment for code
+\definecolor{orangepse}{RGB}{240,139,39}
+\definecolor{redpse}{RGB}{222,6,61}
+\newcommand{\rpse}[1]{\textcolor{redpse}{#1}}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\usepackage{listings}
+\lstset{frame=tblr,
+	language=R,
+	aboveskip=5mm,
+	belowskip=5mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=3
+}
+%---------------------------------------------------------------------------------------
+
+
+% New Commands ----------------------------
+\newcommand{\bb}{\bigbreak\noindent}
+
+\makeatletter
+\renewcommand\section{\leftskip 0pt\@startsection {section}{1}{\z@}%
+	{-3.5ex \@plus -1ex \@minus -.2ex}%
+	{2.3ex \@plus.2ex}%
+	{\normalfont\Large\bfseries}}
+
+\renewcommand\subsection{\leftskip 4ex\@startsection{subsection}{2}{\z@}%
+	{-3.25ex\@plus -1ex \@minus -.2ex}%
+	{1.5ex \@plus .2ex}%
+	{\normalfont\large\bfseries}}
+
+\renewcommand\subsubsection{\leftskip 14ex\@startsection{subsubsection}{3}{\z@}%
+	{-3.25ex\@plus -1ex \@minus -.2ex}%
+	{1.5ex \@plus .2ex}%
+	{\normalfont\large\bfseries}}
+\makeatother
+
+
+%opening
+\title{Week 5:\\
+	 \textit{``Real effects of stabilizing private money creation''}\\
+	  by Xu \& Yang}
+\author{Davide Davies-Biletta}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+All forms of money are a liability of the issuer. Their usefulness is depends on either the confidence users have in
+the value of the assets backing the liability or the willingness of others to accept the liability
+as payment.
+\bb
+Pre-Civil War, local banks issued their own currency. These had low liquidity which caused large risk whe/if the bank failed.
+\bb
+The National Banking Act of 1864 created a new class of federal banks that had no such liquidity problems and worked along side local banks.  In addition, the Act established structured procedures for insolvency and receivership that were designed to prioritize note holders against any losses.
+\bb
+Access to a national bank and its uniform currency altered the monetary frictions  and reduced transaction costs:
+\begin{itemize}[leftmargin=10ex]
+	\item \textbf{Increased the amount of liquid instruments:}\\
+	 reducing dependence on illiquid ones
+	
+	\item \textbf{Increased market access:}\\
+	Reduced frictions of having to exchange money to do trade with other localities.
+	
+	\item \textbf{Increased efficiency of other payment services:}\\
+	Such as cheque clearing.
+\end{itemize}
+
+\section{Method}
+The paper uses a natural experiment based on a discontinuous change across towns in the costs of accessing the new stable currency. 
+\bb
+Requirements for the optimal natural experimental setting:
+\begin{itemize}
+	\item \textbf{Change of regime:}\\
+	From a system where individuals face an insolvency risk to a system where this credit risk is removed
+	
+	\item \textbf{Wide use of both monies:}\\
+	Rules out more modern contexts where money issuance is tightly regulated.
+	
+	\item \textbf{Long time frame:}\\
+	The effects take time to propagate. 
+\end{itemize}
+The authors therefore use the United States in the 19th century.
+
+
+	\subsection{Regression Discontinuity Design:}
+		\subsubsection{Cut-off}
+		The authors use the regulatory capital requirements in the National Banking Act that were based on town population cut-offs
+		\begin{itemize}[leftmargin=20ex]
+			\item Banks established in towns with fewer than 6,000 people needed to raise \$50,000 of equity capital
+			\item Banks established in towns with greater than 6,000 people needed to raise \$100,000 of equity capital
+		\end{itemize}
+		The discontinuous jump in the implied capital per capita meant that towns just below the population cut-off faced significantly lower entry costs per capita for establishing a national bank. (These were binding restrictions).
+		
+		\subsubsection{Bandwidth}
+		Sample included towns with a population of 4000-8000 inhabitants. This tight band facilitates the authors limit to the sample to towns that likely share similar observable and unobservable characteristics.
+
+\section{Data Sources}
+	\begin{itemize}
+		\item  \textbf{Population levels}
+		\begin{itemize}
+			\item The 10th and 11th decennial census
+		\end{itemize}
+		
+		\item \textbf{Bank Locations}
+		\begin{itemize}
+			\item The Banker's Almanac and Register of 1885
+		\end{itemize}
+		
+		\item \textbf{Outcome Variables}
+		\begin{itemize}
+			\item \textit{Output}: \\
+			Decennial Census of Manufactures and the Census of Agriculture from 1860 to 1900
+			\vspace{1em}
+			\item \textit{Business Activity}:\\
+			Zell's Classified United States Business Directory in 1875 and 1887
+			
+			\vspace{1em}
+			\item \textit{Local Innovation}:\\
+			Patent Data from Petralia et al. (2016)
+		\end{itemize}
+		
+	\end{itemize}
+
+\section{Results} 
+The authors find that places gaining access to the new currency experienced a shift in the composition of agricultural production from non-traded to traded goods, increased employment in trade-related professions, increased manufacturing output and innovation, and more urbanization. The paper argues that these results are consistent with the stable currency improving market access and allowing economic agents to expand through trade. 
+
+	\subsection{Shifting of Production and Trade}
+	Towns which saw entry of these national banks, saw agricultural production stay the same but the composition of what they grew changed.
+	\bb
+	Furthermore, these localities saw an increase in the number of professions not tied to production but rather facilitating trade (commission merchants, buyers, and shippers.) 
+	
+	\subsection{Manufacturing}
+	Places that gained a national bank experienced significantly greater growth in total production between 1880 and 1890.
+	\bb
+	While manufacturing capital did not change, the use of inputs grew. Reducing frictions for sourcing inputs increases the quantity of inputs and also allows firms to source them more broadly and to achieve better matches. This sourcing channel can raise output without requiring credit expansion 
+	
+	\subsection{Growth in Innovation}
+	The reduction in trade costs from the improved stability of the money supply can generate innovation through two channel: first, there is an increase in the number of potential access that producers can reach (the ``market access'' channel) which increases the incentives to innovate; and second, the improvements in sourcing inputs can lead to quality upgrading.
+	\bb
+	Gaining a national bank led to 105 to 134 percentage points higher increase in the number of patents across the
+	two decades
+	
+\section{Contribution}
+The paper contributes to the literature on the role of money in economic development and the implications of privately created money for the real economy.
+\bb
+Pertinent today regarding the discussion around decentralised cryptocurrencies. 
+
+
+
+
+
+
+
+
+\end{document}

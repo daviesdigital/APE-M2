@@ -1,32 +1,56 @@
 \babel@toc {english}{}\relax 
-\contentsline {chapter}{General Notes:}{2}{chapter*.2}%
-\contentsline {chapter}{Lecture 1: Measuring Aging}{3}{chapter*.3}%
-\contentsline {section}{Life Tables}{3}{section*.4}%
-\contentsline {subsection}{Observed data vs fictitious cohort}{3}{section*.5}%
-\contentsline {section}{Old Age Dependency Ratios}{3}{section*.6}%
-\contentsline {section}{Ageing by the Top}{3}{section*.7}%
-\contentsline {subsection}{From the bottom}{3}{section*.8}%
-\contentsline {subsection}{From the Top}{4}{section*.9}%
-\contentsline {chapter}{Institutional design of Pensions}{5}{chapter*.10}%
-\contentsline {section}{History Of Retirement}{5}{section*.11}%
-\contentsline {subsection}{Family Support}{5}{section*.12}%
-\contentsline {subsection}{Charity and Assistant}{5}{section*.13}%
-\contentsline {subsection}{Occupational Pensions}{5}{section*.14}%
-\contentsline {subsection}{Individual Savings}{5}{section*.15}%
-\contentsline {subsection}{Birth of the Welfare State: Bismark}{5}{section*.16}%
-\contentsline {subsubsection}{Work Related Accident Assurance}{5}{section*.17}%
-\contentsline {subsubsection}{Healthcare Insurance}{5}{section*.18}%
-\contentsline {subsubsection}{Old-age and disability insurance (1889)}{5}{section*.19}%
-\contentsline {subsection}{The UK and the Beverage Report}{5}{section*.20}%
-\contentsline {section}{Rationale for Public Intervention}{6}{section*.21}%
-\contentsline {subsection}{Market Failures}{6}{section*.22}%
-\contentsline {subsubsection}{Capital Markets}{6}{section*.23}%
-\contentsline {subsection}{Myopia}{6}{section*.24}%
-\contentsline {subsection}{Samaritan's dilemma}{6}{section*.25}%
-\contentsline {subsection}{Redistribution}{6}{section*.26}%
-\contentsline {subsection}{Efficiency and Administrative Costs}{6}{section*.27}%
-\contentsline {section}{Pension Design around the World}{7}{section*.28}%
-\contentsline {subsection}{Bismark vs Beveridge }{7}{section*.29}%
-\contentsline {section}{Types of Pensions}{7}{section*.30}%
-\contentsline {subsection}{Public vs mandatory private vs voluntary private}{7}{section*.31}%
-\contentsline {subsection}{Funded vs unfunded vs mixed funding}{7}{section*.32}%
+\contentsline {chapter}{General Notes:}{3}{chapter*.2}%
+\contentsline {chapter}{Lecture 1: Measuring Aging}{4}{chapter*.3}%
+\contentsline {section}{Life Tables}{4}{section*.4}%
+\contentsline {subsection}{Observed data vs fictitious cohort}{4}{section*.5}%
+\contentsline {section}{Old Age Dependency Ratios}{4}{section*.6}%
+\contentsline {section}{Ageing by the Top}{4}{section*.7}%
+\contentsline {subsection}{From the bottom}{4}{section*.8}%
+\contentsline {subsection}{From the Top}{5}{section*.9}%
+\contentsline {chapter}{Institutional design of Pensions}{6}{chapter*.10}%
+\contentsline {section}{History Of Retirement}{6}{section*.11}%
+\contentsline {subsection}{Family Support}{6}{section*.12}%
+\contentsline {subsection}{Charity and Assistant}{6}{section*.13}%
+\contentsline {subsection}{Occupational Pensions}{6}{section*.14}%
+\contentsline {subsection}{Individual Savings}{6}{section*.15}%
+\contentsline {subsection}{Birth of the Welfare State: Bismark}{6}{section*.16}%
+\contentsline {subsubsection}{Work Related Accident Assurance}{6}{section*.17}%
+\contentsline {subsubsection}{Healthcare Insurance}{6}{section*.18}%
+\contentsline {subsubsection}{Old-age and disability insurance (1889)}{6}{section*.19}%
+\contentsline {subsection}{The UK and the Beverage Report}{6}{section*.20}%
+\contentsline {section}{Rationale for Public Intervention}{7}{section*.21}%
+\contentsline {subsection}{Market Failures}{7}{section*.22}%
+\contentsline {subsubsection}{Capital Markets}{7}{section*.23}%
+\contentsline {subsection}{Myopia}{7}{section*.24}%
+\contentsline {subsection}{Samaritan's dilemma}{7}{section*.25}%
+\contentsline {subsection}{Redistribution}{7}{section*.26}%
+\contentsline {subsection}{Efficiency and Administrative Costs}{7}{section*.27}%
+\contentsline {section}{Pension Design around the World}{8}{section*.28}%
+\contentsline {subsection}{Bismark vs Beveridge }{8}{section*.29}%
+\contentsline {section}{Types of Pensions}{8}{section*.30}%
+\contentsline {subsection}{Public vs mandatory private vs voluntary private}{8}{section*.31}%
+\contentsline {subsection}{Funded vs unfunded vs mixed funding}{8}{section*.32}%
+\contentsline {chapter}{Pensions and Capital Markets}{9}{chapter*.33}%
+\contentsline {section}{Funded vs Unfunded}{9}{section*.34}%
+\contentsline {subsection}{Chocolate Economy - Paul A. Samuelson}{9}{section*.35}%
+\contentsline {subsubsection}{NB. EXAM QUESTION}{9}{section*.36}%
+\contentsline {subsection}{Peter Diamond - National Debt in Neoclassical Growth Model}{9}{section*.37}%
+\contentsline {subsection}{Labour Supply Response}{10}{section*.38}%
+\contentsline {section}{Adequacy of Savings}{10}{section*.39}%
+\contentsline {subsection}{Drop in consumption at retirement}{10}{section*.40}%
+\contentsline {subsubsection}{Solving the Puzzle}{10}{section*.41}%
+\contentsline {section}{Impact of Pensions on Savings}{10}{section*.42}%
+\contentsline {section}{Retirement Saving Policies}{11}{section*.43}%
+\contentsline {subsection}{Tax Incentives}{11}{section*.44}%
+\contentsline {chapter}{Pensions and Labour Markets}{12}{chapter*.45}%
+\contentsline {section}{Modelling Retirement}{12}{section*.46}%
+\contentsline {subsection}{A Simple Retirement Model}{12}{section*.47}%
+\contentsline {subsubsection}{Income effects}{12}{section*.48}%
+\contentsline {subsubsection}{Limits}{12}{section*.49}%
+\contentsline {subsection}{Option Value Model}{13}{section*.50}%
+\contentsline {subsection}{Dynamic Programming Models}{13}{section*.51}%
+\contentsline {section}{Impact of Pensions on Incentives}{13}{section*.52}%
+\contentsline {subsection}{Retirement Spikes}{13}{section*.53}%
+\contentsline {subsection}{Pension Incentives}{13}{section*.54}%
+\contentsline {subsection}{NB ALWAYS A QUESTION ABOUT THE EARNINGS TEST}{13}{section*.55}%
+\contentsline {subsection}{Changes in Retirement age (Bozio did his PhD on this)}{13}{section*.56}%

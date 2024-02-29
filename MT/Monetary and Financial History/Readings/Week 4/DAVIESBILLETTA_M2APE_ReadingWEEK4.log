@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.30)  12 FEB 2024 15:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.30)  13 FEB 2024 10:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -623,16 +623,16 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [3] [4] (DAVIESBILLETTA_M2APE_ReadingWEEK4.aux)
 Package rerunfilecheck Info: File `DAVIESBILLETTA_M2APE_ReadingWEEK4.out' has n
 ot changed.
-(rerunfilecheck)             Checksum: 4550B677472AD1AA3FC3C1E978189114;1626.
+(rerunfilecheck)             Checksum: FABA0942DA0DDB895F0F642F5C8F1FF5;1789.
  ) 
 Here is how much of TeX's memory you used:
- 15177 strings out of 476411
- 245839 string characters out of 5789134
+ 15179 strings out of 476411
+ 245859 string characters out of 5789134
  1861845 words of memory out of 5000000
- 35274 multiletter control sequences out of 15000+600000
+ 35275 multiletter control sequences out of 15000+600000
  519479 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,7n,77p,572b,561s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,7n,77p,572b,563s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\david\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1000.pk><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -642,10 +642,10 @@ ype1/public/amsfonts/cm/cmr10.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/david/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/david/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on DAVIESBILLETTA_M2APE_ReadingWEEK4.pdf (4 pages, 125855 bytes)
+Output written on DAVIESBILLETTA_M2APE_ReadingWEEK4.pdf (4 pages, 127367 bytes)
 .
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 500000)
- 89 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 115 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
+ 97 words of extra memory for PDF output out of 10000 (max. 10000000)
 

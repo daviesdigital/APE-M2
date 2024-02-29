@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.30)  7 FEB 2024 11:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.30)  28 FEB 2024 11:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -616,23 +616,23 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
 
 (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
-\tf@toc=\write5
-\openout5 = `"Ageing and Public Policy.toc"'.
-
-
+)
 [1
 
 
-{C:/Users/david/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2
+{C:/Users/david/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])
+\tf@toc=\write5
+\openout5 = `"Ageing and Public Policy.toc"'.
 
-]
+ [2]
 [3
 
-] [4] [5
+] [4
+
+] [5] [6
 
 ]
-<screenshot001.png, id=171, 424.58624pt x 252.945pt>
+<screenshot001.png, id=275, 424.58624pt x 252.945pt>
 File: screenshot001.png Graphic file (type png)
 <use screenshot001.png>
 Package pdftex.def Info: screenshot001.png  used on input line 202.
@@ -641,32 +641,40 @@ Package pdftex.def Info: screenshot001.png  used on input line 202.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6] [7 <./screenshot001.png>] (Ageing and Public Policy.aux)
+[7] [8 <./screenshot001.png>] [9
+
+] [10] [11] [12
+
+] [13]
+(Ageing and Public Policy.aux)
 Package rerunfilecheck Info: File `"Ageing and Public Policy".out' has not chan
 ged.
-(rerunfilecheck)             Checksum: D8D15D4A477AE755AB7D4C82D62FD66E;4784.
+(rerunfilecheck)             Checksum: 45C43EF36A46BC3CBA5D98433F297C8F;8926.
  ) 
 Here is how much of TeX's memory you used:
- 15256 strings out of 476411
- 246824 string characters out of 5789134
- 1865845 words of memory out of 5000000
- 35325 multiletter control sequences out of 15000+600000
- 519746 words of font info for 59 fonts, out of 8000000 for 9000
+ 15312 strings out of 476411
+ 247473 string characters out of 5789134
+ 1866845 words of memory out of 5000000
+ 35348 multiletter control sequences out of 15000+600000
+ 520105 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,6n,77p,565b,658s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\david\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1095.pk><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmbx12.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmmi10.pfb><C:/Users/david/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/david/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/david/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/david/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/da
-vid/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "Ageing and Public Policy.pdf" (7 pages, 184831 bytes).
+ype1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/david/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/david/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/david/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/david/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/
+david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cms
+y8.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmti10.pfb>
+Output written on "Ageing and Public Policy.pdf" (13 pages, 236064 bytes).
 PDF statistics:
- 235 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 500000)
- 222 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 381 PDF objects out of 1000 (max. 8388607)
+ 72 named destinations out of 1000 (max. 500000)
+ 382 words of extra memory for PDF output out of 10000 (max. 10000000)
 
