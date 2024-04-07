@@ -1,0 +1,189 @@
+\documentclass[]{article}
+%use European style
+%\usepackage[a4paper,left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+
+%few useful packages ------------------------------------------------------------------
+\usepackage{setspace}
+\let\Tiny=\tiny %remove annoying warnings
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{colortbl}
+\usepackage{xcolor}
+\usepackage{eurosym}
+\usepackage{enumitem}
+\usepackage{chngpage}
+\usepackage{fancyhdr}
+\usepackage{fancyvrb}
+\usepackage{float}
+\usepackage{framed}
+\usepackage{multirow}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{geometry}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage[linktocpage]{hyperref}
+
+%define environment for code
+\definecolor{orangepse}{RGB}{240,139,39}
+\definecolor{redpse}{RGB}{222,6,61}
+\newcommand{\rpse}[1]{\textcolor{redpse}{#1}}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\usepackage{listings}
+\lstset{frame=tblr,
+	language=R,
+	aboveskip=5mm,
+	belowskip=5mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=3
+}
+%---------------------------------------------------------------------------------------
+
+
+% New Commands ----------------------------
+\newcommand{\bb}{\bigbreak\noindent}
+
+\makeatletter
+\renewcommand\section{\leftskip 0pt\@startsection {section}{1}{\z@}%
+	{-3.5ex \@plus -1ex \@minus -.2ex}%
+	{2.3ex \@plus.2ex}%
+	{\normalfont\Large\bfseries}}
+
+\renewcommand\subsection{\leftskip 4ex\@startsection{subsection}{2}{\z@}%
+	{-3.25ex\@plus -1ex \@minus -.2ex}%
+	{1.5ex \@plus .2ex}%
+	{\normalfont\large\bfseries}}
+
+\renewcommand\subsubsection{\leftskip 14ex\@startsection{subsubsection}{3}{\z@}%
+	{-3.25ex\@plus -1ex \@minus -.2ex}%
+	{1.5ex \@plus .2ex}%
+	{\normalfont\large\bfseries}}
+\makeatother
+
+
+%opening
+\title{Week 7:\\
+	 \textit{``Network Contagion and Interbank Amplification during the Great Depression''}\\
+	  by Kris James Mitchener}
+\author{Davide Davies-Biletta}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+ Well established in economic theory suggests many channels through which networks may transmit shocks (e.g., Allen and Babus 2009; Allen and Gale 2000; Allen, Babus, and Carletti 2010; Freixas, Parigi, and Rochet 2000, Lagunoff and Schreft 2001; Dasgupta 2004; Caballero and Simsek 2013).
+\bb
+How interbank connections amplified downturns is often over looked in history
+	
+	\subsection{Proposed Framework}
+	\begin{enumerate}[leftmargin=10ex]
+		\item During  panics banks take there money out of other banks
+		\item This forces correspondent banks to reduce lending to business.
+		\item After panics funds flowed back in but an increased proportion was invested in liquid assets such as treasury bills.
+	\end{enumerate}
+	The authors propose that this led to a substantial decline in aggregate lending, equal to approximately \textbf{15 percent of the total decline }in commercial bank lending from the peak in 1929 to the trough in 1933.
+	\bb
+	This paper builds on previous work such as that by Bernanke. The destruction of banks not only reduced credit to their customers but the customers of their correspondent banks too. 
+	\bb
+	The authors also discuss the concept of:
+	\begin{itemize}[leftmargin=10ex]
+		\item Contagion of fear
+	\end{itemize}
+	
+
+
+
+\section{Interbank connections}
+Regulations, particularly the national banking acts of the 1860s, cemented this pyramid structure, requiring country banks to meet legal reserve requirements by keeping a portion of their reserves as cash in their vaults and the remainder (originally to three fifths) in correspondent banks in reserve or central reserve cities.
+\begin{itemize}
+	\item Reinforced by state laws
+\end{itemize}
+
+	\subsection{Lack of Fed Response}
+	The FED could have stepped and provided liquidity, even to non-member institutions. Yet debates roared over their obligations to non-member institutions that did not contribute to their upkeep, and the legality of collateral created by non-member banks which was used to borrow from the Federal reserve.
+	\bb
+	These arguments paralysed the FED and their ability to respond to the crisis.
+	\bb
+	The authors analyse how this chain reaction induced reserve and central reserve city banks to alter their balance sheets, reducing the quantity of credit available to commerce and industry.
+
+
+\section{Data Sources}
+	\begin{itemize}
+		\item Polk's Bankers Encyclopedia (1929)
+		\begin{itemize}
+			\item Location of banks operating in the US and their connections between banks
+		\end{itemize}
+		
+		\item Federal Reserve Board?s Division of Bank Operations ST 6386 data
+		\begin{itemize}
+			\item Date and location of all bank suspensions, liquidations, and mergers under duress
+			\item Lists reasons why banks suspended operations
+			\item whether banks reopened
+		\end{itemize}
+		
+		
+		
+	\end{itemize}
+
+\section{Bank runs}
+
+	 \subsection{Two Methods of analysis}
+	 In the literature there are two main methods for analysing bank runs/banking panics:
+	 \begin{enumerate}[leftmargin=10ex]
+	 	\item Narrative Approach
+	 	\begin{itemize}
+	 		\item Uses aggregate quantitative data supported and justified by richer qualitative sources
+	 	\end{itemize}
+	 		
+	 	\item Micro-focused
+	 	\begin{itemize}
+	 		\item Uses micro-level data from examiners' reports of bank suspensions
+	 	\end{itemize}
+	 	
+	 \end{enumerate}
+	The Authors employ both.
+
+
+\section{Interbank Deposit Flows During Banking Panics}
+The authors asses the impact of bank runs on interbank deposit flows. Weekly aggregate data is examined using an event-study approach to understand how interbank balances behaved during large regional and national panics. A panel of quarterly call-report data is also analyzed to estimate the decline in interbank balances associated with bank suspensions during both large and local panics, inside and outside panic periods.
+
+	\subsection{Event Studies on Regional and National Panics}
+	Seven large banking panics are identified, and event windows are defined based on panic criteria. Data-driven definitions, considering spikes in spatial and temporal clustering of bank suspensions, ensure the analysis captures short-term movements. Examining assets and liabilities of reporting member banks reveals substantial drops in demand and interbank deposits during panics from 1930 to 1932.
+
+	\subsection{Panel Estimates using Call Report Data}
+	A panel database, constructed from commercial bank call reports, enables causal estimates of suspension effects on interbank deposit flows during the Great Depression. The estimation strategy incorporates the reserve pyramid structure and includes district-level and time-varying control variables. Results show that interbank outflows are associated with bank suspensions, particularly during panics, and the Bayesian model averaging exercise supports these findings.
+
+		\subsubsection{Baseline OLS Regression}
+		The baseline OLS regression indicates that, on average, interbank deposits in New York and Chicago fell by approximately \$294,683 when a suspension forced a bank to shut its doors.
+
+		\subsubsection{Fixed-Effects Models}
+		Various fixed-effects models control for observed and unobserved influences, confirming the negative impact of bank suspensions on interbank deposits in New York and Chicago during panics.
+
+		\subsubsection{Bayesian Model Averaging}
+		Bayesian model averaging strongly favors including district fixed effects and dividing suspensions into panic and non-panic groups. The results indicate that each bank suspension is associated with an outflow of about \$472,000 from each central reserve city and about \$442,000 from the relevant reserve cities.
+
+
+
+
+
+
+
+
+\end{document}

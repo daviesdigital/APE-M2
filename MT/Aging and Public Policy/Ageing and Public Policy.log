@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.30)  28 FEB 2024 11:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.30)  20 MAR 2024 11:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -620,19 +620,19 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [1
 
 
-{C:/Users/david/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])
+{C:/Users/david/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2])
 \tf@toc=\write5
 \openout5 = `"Ageing and Public Policy.toc"'.
 
- [2]
-[3
 
-] [4
+[3] [4
 
-] [5] [6
+] [5
+
+] [6] [7
 
 ]
-<screenshot001.png, id=275, 424.58624pt x 252.945pt>
+<screenshot001.png, id=365, 424.58624pt x 252.945pt>
 File: screenshot001.png Graphic file (type png)
 <use screenshot001.png>
 Package pdftex.def Info: screenshot001.png  used on input line 202.
@@ -641,24 +641,36 @@ Package pdftex.def Info: screenshot001.png  used on input line 202.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[7] [8 <./screenshot001.png>] [9
+[8] [9 <./screenshot001.png>] [10
 
-] [10] [11] [12
+] [11] [12] [13
 
-] [13]
-(Ageing and Public Policy.aux)
-Package rerunfilecheck Info: File `"Ageing and Public Policy".out' has not chan
-ged.
-(rerunfilecheck)             Checksum: 45C43EF36A46BC3CBA5D98433F297C8F;8926.
+] [14] [15
+
+] [16] [17
+
+] [18
+
+]
+[19] (Ageing and Public Policy.aux)
+
+Package rerunfilecheck Warning: File `"Ageing and Public Policy".out' has chang
+ed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `"Ageing and Public Policy".out':
+(rerunfilecheck)             Before: 921050BC934AB28229EFB1981555AA24;12105
+(rerunfilecheck)             After:  EA8328EACF9994D6751C313DEEFA44C3;12240.
  ) 
 Here is how much of TeX's memory you used:
- 15312 strings out of 476411
- 247473 string characters out of 5789134
+ 15361 strings out of 476411
+ 248007 string characters out of 5789134
  1866845 words of memory out of 5000000
- 35348 multiletter control sequences out of 15000+600000
+ 35365 multiletter control sequences out of 15000+600000
  520105 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,77p,565b,658s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,6n,77p,565b,666s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\david\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1095.pk><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -672,9 +684,9 @@ david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
 C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cms
 y8.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmti10.pfb>
-Output written on "Ageing and Public Policy.pdf" (13 pages, 236064 bytes).
+Output written on "Ageing and Public Policy.pdf" (19 pages, 260474 bytes).
 PDF statistics:
- 381 PDF objects out of 1000 (max. 8388607)
- 72 named destinations out of 1000 (max. 500000)
- 382 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 508 PDF objects out of 1000 (max. 8388607)
+ 104 named destinations out of 1000 (max. 500000)
+ 518 words of extra memory for PDF output out of 10000 (max. 10000000)
 

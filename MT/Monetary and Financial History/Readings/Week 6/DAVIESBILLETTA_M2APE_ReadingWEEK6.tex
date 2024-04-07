@@ -1,0 +1,252 @@
+\documentclass[]{article}
+%use European style
+%\usepackage[a4paper,left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+
+%few useful packages ------------------------------------------------------------------
+\usepackage{setspace}
+\let\Tiny=\tiny %remove annoying warnings
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{colortbl}
+\usepackage{xcolor}
+\usepackage{eurosym}
+\usepackage{enumitem}
+\usepackage{chngpage}
+\usepackage{fancyhdr}
+\usepackage{fancyvrb}
+\usepackage{float}
+\usepackage{framed}
+\usepackage{multirow}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{geometry}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage[linktocpage]{hyperref}
+
+%define environment for code
+\definecolor{orangepse}{RGB}{240,139,39}
+\definecolor{redpse}{RGB}{222,6,61}
+\newcommand{\rpse}[1]{\textcolor{redpse}{#1}}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\usepackage{listings}
+\lstset{frame=tblr,
+	language=R,
+	aboveskip=5mm,
+	belowskip=5mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=3
+}
+%---------------------------------------------------------------------------------------
+
+
+% New Commands ----------------------------
+\newcommand{\bb}{\bigbreak\noindent}
+
+\makeatletter
+\renewcommand\section{\leftskip 0pt\@startsection {section}{1}{\z@}%
+	{-3.5ex \@plus -1ex \@minus -.2ex}%
+	{2.3ex \@plus.2ex}%
+	{\normalfont\Large\bfseries}}
+
+\renewcommand\subsection{\leftskip 4ex\@startsection{subsection}{2}{\z@}%
+	{-3.25ex\@plus -1ex \@minus -.2ex}%
+	{1.5ex \@plus .2ex}%
+	{\normalfont\large\bfseries}}
+
+\renewcommand\subsubsection{\leftskip 14ex\@startsection{subsubsection}{3}{\z@}%
+	{-3.25ex\@plus -1ex \@minus -.2ex}%
+	{1.5ex \@plus .2ex}%
+	{\normalfont\large\bfseries}}
+\makeatother
+
+
+%opening
+\title{Week 6:\\
+	 \textit{``How the West India Trade Fostered Last Resort Lending by the Bank of England''}\\
+	  by Sissoko \& Ishizu}
+\author{Davide Davies-Biletta}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+ To what extent did the gains from the colonial slavery trade benefit early industrialisation in Britain? This a broad question that has inspired or motivated recent literature. This paper focuses solely on the impact that the slave trade and its associated profits had on the banking sector in Britain.
+ \bb
+ Founding memebers in banks that had worked in mercantile trades had often been involved in slave trade.
+ \bb
+ The slave economy has also been linked to the development of domestic credit markets in the 18th century. As to the long distances involved and the difficulties associated with remittances, credit became crucial to the merchant trade.
+ \begin{itemize}
+ 	\item Trade bills were developed to finance trade in the West Indies.
+ 	\item The widespread demand for these bills led to integration of peripheral markets with London
+ \end{itemize}
+Despite growing evidence, the difficulty associated with analysing the 18th Century data there lacks empirical evidence.
+
+\bb
+Records show BoE was worried about bankruptcy of West Indie trading companies.
+\begin{itemize}[leftmargin=10ex]
+	\item Had to develop lending procedures to support them.
+	\item These last resort lending measures became a cornerstone of the British Financial System
+\end{itemize}
+
+\bb
+Authors argue that the size of the loans were negligible and therefore not quantitatively important, but led to large scale procedural change, and therefore qualitatively important.
+\section{Data Sources}
+Court of Director's meeting minutes of the Bank of England, particularly concerning the private sector.
+\begin{itemize}[leftmargin=10ex]
+	\item from December 1787 to April 1823.
+\end{itemize}
+\bb
+Legacies of British Slave Ownership searchable database.
+\bb
+References to previous literature that didn't explicitly see the connection due to the previous database not being available. (Clapham, Pressnell , etc.)
+
+\section{Methodology}
+The authors use these established data sources along with a modern database outlining companies that dealt in the Slave trade. They contribute to both colonial and industrialisation literature analysing the relationship between the West India trade and the Bank of England?s role during banking crises.
+
+\subsection{Flaws}
+\begin{itemize}[leftmargin=10ex]
+	\item This paper lacks any sort of quantitative analysis. 
+	\begin{itemize}
+		\item Their arguments follow a coherent narrative yet it seems as if they are unable to offer compelling evidence to defend it.
+		\item Fails to do what they set out to do in the introduction
+	\end{itemize}
+	
+	
+	
+	\item Disentangle West Indies Trade and other colonial trading merchant markets.
+	\begin{itemize}
+		\item They often lump in West Indies trade with the rest of the overseas merchant trade such as the East India and South Sea Company.
+	\end{itemize}
+	
+	\item Correlational
+	\begin{itemize}
+		\item The paper claims that the gains from the colonial slavery trade benefited early industrialization in Britain. However, the authors fail to convincingly establish a direct causal link between the West India trade and industrialization. 
+	\end{itemize}
+	
+\end{itemize}
+
+
+
+\section{Financing the West India Trade: Bills of Exchange and Commission Houses in London}
+Triangle Trade:
+\begin{itemize}
+	\item Slaves were purchased or obtained in West Africa
+	\item Brought to the Caribbean and sold to plantaion owners in exchange for sugar initially, then  bills of exchange.
+	\item These would then be brought back to Britain to be sold or exchanged.
+\end{itemize}
+\bb
+There were two types of bill: One for slave traders and one for planters.
+\bb
+Commission Houses developed in port cities to deal with these bills of exchange.They would accept the bill and pay the stated amount of money to the payee. They charged a commission for then bearing the risk of associated with this bill.
+\bb
+Then the agents would be engaged by sugar plantation owners to manage the shipping and sale of their sugar in the British market according to the terms of a commission agreement. 
+\begin{itemize}[leftmargin=10ex]
+	\item The receipts from these sales would be credited to the planters account at the commission house, from which the planter could draw bills of exchange. 
+	\item Commission House agents also charged a commission for this service.
+\end{itemize}
+\bb
+These commission houses could therefore, using two types of instruments, provide both longer term credit to planters and shorter term credit to slave traders.
+
+	\subsection{Liquidity and the Market for Bills}
+	Before the demand for short term credit by the West Indies traders, bills normally ha
+
+\section{The Bank of England and the crises of 1793 and 1799}
+The authors contest that the West Indian paper's volatility contributed to financial market instability. Despite booming trade after the American Civil Wars, the war against France in 1793 led to a huge economic crash. Banks held large outstanding bills to these West Indies traders. This led to a contagion in the financial system and led to a liquidity freeze which threatened to wipe out the economy. 
+\begin{itemize}
+	\item in March 1793 West India bills accounted for 34\% of the bills of bankrupt merchant firms, measured by value. American bills, including the cotton trade, accounted for another substantial portion of the defaulted bills.
+\end{itemize}
+
+\subsection{Bank of England's Response in 1793:}
+\begin{itemize}[leftmargin=15ex]
+	\item West Indian paper's volatility contributed to financial market instability.
+	\item Government and Bank of England's plan to exchange long bills for Exchequer Bills to support liquidity.
+	\item The success of the plan, but less than half of authorized Exchequer Bills were issued.
+	\item Geographical concentrations of bankruptcies linked to West India and American trades.
+\end{itemize}
+
+\subsection{Bank of England's Response in 1799:}
+In 1799, the Slave Act was brought in which limited the slave trade to trade in three ports exclusively (London,Liverpool, and Bristol) and brought in additional regulation. This lowered public confidence.
+\begin{itemize}[leftmargin=15ex]
+	\item Sudden liquidity crisis in October; Bank of England provided extraordinary loans to West India merchants.
+	\item The Bank's deviation from regular lending policy, marked shift in providing support beyond state and chartered companies.
+	\item Factors influencing the Bank's decision, included lessons from the 1793 crisis, potential broader impact, and delicate position of the Bank.
+\end{itemize}
+
+\section{Extraordinary Lending by The Bank of England}
+\begin{itemize}
+	\item Outstanding loans to West India merchants extended through 1813.
+	\item Bank's support continued sporadically until at least 1820.
+	\item Bank extended long-term loans only to West India merchants in the earliest years of extraordinary lending.
+\end{itemize}
+
+	\subsection{Noteworthy Loans to West India Merchants:}
+	\begin{itemize}[leftmargin=15ex]
+		\item Loan in June 1801 to Hibberts, Fuhr \& Purrier was innovative, reducing standard security requirements.
+		\item Shift in general discount policy observed by 1804, with almost 40% of discounts being promissory notes.
+	\end{itemize}
+	
+	\subsection{Loan to Willis \& Co. (1803):}
+	\begin{itemize}[leftmargin=15ex]
+		\item Bank lending to effectively bankrupt companies - a documented case.
+		\item Bank acted as a trustee for general creditors, demanding fair treatment in case of liquidation.
+	\end{itemize}
+	
+	\subsection{Loan to Donaldson and Glenny (1803):}
+	\begin{itemize}[leftmargin=15ex]
+		\item Loan procedure laid the foundation for a standard procedure for requesting extraordinary assistance from the Bank in 1811.
+		\item Clue suggesting the Bank's involvement in supporting West India merchants.
+	\end{itemize}
+
+\section{The 1811 Policy of Emergency Lending:}
+\begin{itemize}
+	\item Boom years of 1808 and 1809 reflected desperate responses of British merchants to the disruption of overseas trade during the Napoleonic Wars.
+	\item War threatened European and American trade, leading to a trade boom in late 1809 and subsequent bankruptcies in 1810.
+	\item Commercial crisis left the Bank with more accounts in default and unpaid bills.
+	\item Bank committed to supporting commercial activity; introduced emergency lending policy based on structures developed for West India merchants.
+\end{itemize}
+
+	\subsection*{Regulations for Emergency Loans (February 1811):}
+	\begin{enumerate}[leftmargin=15ex]
+		\item Two or more "respectable persons" not affiliated with the Bank, nor creditors or debtors to the estate, inspected applicant's accounting statements and became securities for part of the loan.
+		\item Inspectors certified that the loan amount would be sufficient to settle the applicant's affairs and satisfy all creditors.
+		\item No loan granted to houses that have already stopped unless upon a "very special occasion."
+		\item If the purpose of the loan was frustrated, and the applicant stopped payment or declared bankruptcy, securities understood they would be called upon to take up their notes.
+	\end{enumerate}
+	
+	\subsection*{Analysis of Regulations:}
+	\begin{itemize}[leftmargin=15ex]
+		\item Regulations resembled procedures used in the Donaldson and Glenny case in 1803.
+		\item Bank's aversion to lending to firms likely to go bankrupt due to past losses on loans.
+		\item Flexibility allowed exceptions "upon very special occasion."
+		\item Fourth regulation ensured that the Bank did not become a creditor in bankruptcy.
+	\end{itemize}
+	
+	\subsection*{Effectiveness of Regulations:}
+	\begin{itemize}[leftmargin=15ex]
+		\item Regulations were effective in some cases, with successful repayments of loans to West India and South American merchants.
+		\item However, the loan to O'Reilly Young \& Co. in 1816 resulted in bankruptcy within four months, requiring extra time for the securities to make payments.
+	\end{itemize}
+
+
+
+
+
+\end{document}

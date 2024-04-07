@@ -15,3 +15,4 @@
 \contentsline {subsection}{Brown-field investments}{5}{section*.15}%
 \contentsline {chapter}{Vertical FDI}{6}{chapter*.16}%
 \contentsline {section}{General Equilibrium Theory of Vertical MNEs, Krugman +}{6}{section*.17}%
+\contentsline {chapter}{Internal Organization of Multinational Production}{7}{chapter*.18}%

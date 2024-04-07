@@ -20,3 +20,8 @@
 \contentsline {section}{Reduced Form}{5}{section*.20}%
 \contentsline {chapter}{Macro Simulation}{6}{chapter*.21}%
 \contentsline {section}{The Basic New Keynesian Model : Fiscal and Monetary Policies}{6}{section*.22}%
+\contentsline {section}{Applied DSGE models: Impact of the Financial Acts during the Covid19 crisis}{6}{section*.23}%
+\contentsline {subsection}{Extensions to previous Framework}{6}{section*.24}%
+\contentsline {subsubsection}{Ricardian Households:}{6}{section*.25}%
+\contentsline {subsubsection}{Openness of the Economy:}{6}{section*.26}%
+\contentsline {subsubsection}{Introduction of Taxation:}{6}{section*.27}%
