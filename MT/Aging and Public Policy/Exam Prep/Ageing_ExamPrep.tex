@@ -1,0 +1,196 @@
+\documentclass[11pt]{report}
+
+%use European style
+\usepackage[a4paper,left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+
+%few useful packages ------------------------------------------------------------------
+\usepackage{setspace}
+\let\Tiny=\tiny %remove annoying warnings
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{colortbl}
+\usepackage{xcolor}
+\usepackage{eurosym}
+\usepackage{enumitem}
+\usepackage{chngpage}
+\usepackage{fancyhdr}
+\usepackage{fancyvrb}
+\usepackage{float}
+\usepackage{framed}
+\usepackage{multirow}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{geometry}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage[linktocpage]{hyperref}
+
+%define environment for code
+\definecolor{orangepse}{RGB}{240,139,39}
+\definecolor{redpse}{RGB}{222,6,61}
+\newcommand{\rpse}[1]{\textcolor{redpse}{#1}}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\usepackage{listings}
+\lstset{frame=tblr,
+	language=R,
+	aboveskip=5mm,
+	belowskip=5mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=3
+}
+%---------------------------------------------------------------------------------------
+
+
+% New Commands ----------------------------
+\newcommand{\bb}{\bigbreak\noindent}
+
+\makeatletter
+\renewcommand\section{\leftskip 0pt\@startsection {section}{1}{\z@}%
+	{-3.5ex \@plus -1ex \@minus -.2ex}%
+	{2.3ex \@plus.2ex}%
+	{\normalfont\Large\bfseries}}
+
+\renewcommand\subsection{\leftskip 4ex\@startsection{subsection}{2}{\z@}%
+	{-3.25ex\@plus -1ex \@minus -.2ex}%
+	{1.5ex \@plus .2ex}%
+	{\normalfont\large\bfseries}}
+
+\renewcommand\subsubsection{\leftskip 14ex\@startsection{subsubsection}{3}{\z@}%
+	{-3.25ex\@plus -1ex \@minus -.2ex}%
+	{1.5ex \@plus .2ex}%
+	{\normalfont\large\bfseries}}
+\makeatother
+
+%----------------------------------------------------------
+
+\definecolor{titlepagecolor}{cmyk}{1,.60,0,.40}
+\definecolor{namecolor}{cmyk}{1,.50,0,.10} 
+
+
+\begin{document}
+	\setcounter{page}{1}
+	\begin{spacing}{1.5}
+		
+% Table of Contents ----------------------------------
+\tableofcontents
+\setcounter{secnumdepth}{-2}
+\newpage
+
+% Start of Content ---------------------------------------------
+\section{Short Answer Questions:}
+
+	\subsection{What is the difference between a period and cohort life table?}
+	Period life table can be observed at each period, but does not reflect mortality experience
+	of a real cohort. While, cohort life table can be observed once every individual of a cohort has died.
+
+	\subsection{To what refers the term ``ageing by the top"?}
+	Ageing from the top is an increase in life expectancy driven by an older people living longer
+	
+	\subsection{To what refers the term ``ageing by the bottom"?}
+	Ageing from the bottom is driven by decreases in fertility rates, reducing the number of young and prime age individuals.
+	
+	\subsection{What are the different rationales for public interventions in matter of pensions?}
+	\begin{itemize}[leftmargin=10ex]
+		\item \textbf{Market Failures:}\\
+		Capital markets are volatile, in such an event, older people would be severely disadvantaged. Furthermore, asymmetric information and adverse selection cause failures in private insurance markets
+		
+		\item \textbf{Myopia:}\\
+		Individuals consistently under-save for retirement.
+		
+		\item \textbf{Redistribution:}\\
+		The government aims to prevent poverty of the elderly. 
+		
+		\item 
+		
+	\end{itemize}
+	
+	
+	\subsection{What is the rate of return of an unfunded pension scheme? Explain why this is the case.}
+	Unfunded pension systems offer a return of: 
+	\[ (1 + g )(1 + n) - 1 \]
+	Where $g$ is productivity growth and $n$ is population growth.
+	
+	
+	\subsection{In an economy with capital stock, what are the welfare implications of the introduction of an unfunded pension system? [FINISH]}
+	In the Diamond model, of an economy with capital stock; the introduction of an unfunded system is no longer pareto improving.  
+	\bb
+	In the real world, one of the fears of transitioning from a funded to an unfunded system is a reduction in investment 
+	
+	
+	\subsection{What is the implicit debt of an unfunded pension scheme? What is the difference with public debt? [FINISH]}
+	The implicit pension debt measures total unfunded liabilities. These debts are often several times the level of GDP. 
+	
+	
+	\subsection{What is the retirement consumption puzzle?}
+	Consumption smoothing theory suggests that we should smooth our consumption over our lifetime and so we shouldn't see large changes in levels of consumption over time. However upon retirement we see a drastic drop in expenditure. While this drop makes sense as people don't have to pay for things associated with working, costs associated with increased leisure activity and healthcare would mean that spending shouldn't really dramatically decrease, yet it does. What we see is that while spending decreases, utility or consumption (as measured by calorie intake for example) does not drop. 
+	
+	\subsection{What is an internal rate of return in a pay-as-you-go pension scheme? To which level should this IRR converge?}
+	Internal rate of return ($IRR$) of unfunded pension schemes is growth rate of the economy ($n + g $). The IRR can be temporarily higher when the scheme is created (windfall to first cohorts). Yet, with a mature system, IRR cannot be higher than $n + g$.
+	
+	\subsection{What is the load of an insurance policy? Why are loads high for long-term care policies?}
+	Loading refers to an additional cost built into the insurance policy. This extra amount is included in the premium to cover losses that are higher than anticipated for the insurance company. Loading typically comes into play when insuring individuals who are prone to specific risks. 
+	\bb
+	Long-term care (LTC) insurance covers expenses related to extended care, especially for the elderly.
+	The LTC market is relatively small due to several factors:
+	\begin{itemize}[leftmargin=10ex]
+		\item Supply Side Market Failures:\\
+		 The typical LTC policy exhibits premiums marked up substantially above expected benefits. Additionally, it provides limited coverage relative to total expenditure risk.
+		\item Gender Differences:\\
+		 Despite gender-based pricing differences, coverage remains similar. Men face higher premiums, but this doesn't necessarily translate into better coverage.
+		\item Limited Demand: \\
+		More comprehensive LTC policies are available but are rarely purchased. Factors limiting demand play a crucial role in the market size.
+		
+	\end{itemize}
+	In summary, loading serves as a loss cover option for insurance companies, but both supply-side market imperfections and demand-side factors contribute to the small size of the private long-term care insurance market. 
+	
+	
+	\subsection{Describe how a Notional defined contribution (NDC) pension system works.}
+	The Notional Defined Contribution (NDC) pension system is a public pension scheme that incorporates elements from both defined benefit and defined contribution plans. It is designed to be financially sustainable and responsive to changing economic and demographic conditions.
+	\begin{enumerate}
+		\item \textbf{Contributions:} Individuals contribute a portion of their earnings to the pension system, akin to a Pay-As-You-Go (PAYG) scheme.
+		\item \textbf{Notional Accounts:} Contributions are recorded in notional accounts, which are accounting records rather than actual funds.
+		\item \textbf{Rate of Return:} Notional accounts earn a government-set rate of return, often linked to wage growth or GDP growth.
+		\item \textbf{Benefits Calculation:} Retirement benefits are calculated based on the value in the notional account, life expectancy, and an expected interest rate during retirement.
+		\item \textbf{Adjustments for Demographics and Economy:} The system reflects demographic and economic changes, adjusting notional returns and annuity sizes accordingly.
+		\item \textbf{Liquidity Reserve:} A liquidity reserve is maintained to pay for future liabilities.
+		\item \textbf{Minimum Pension Guarantee:} A guaranteed minimum pension is often offered to ensure a decent pension level.
+	\end{enumerate}
+	
+	NDC pension systems aim to address the challenges faced by traditional pension systems and are implemented in several countries, offering a more sustainable approach to public pensions.
+
+
+\subsection{Under which conditions can an unfunded pension scheme be Pareto improving?}
+An unfunded pension scheme can be Pareto improving if it meets certain conditions. These include situations where the scheme is dynamically efficient, meaning the return on contributions is higher than the growth rate of the economy. Additionally, if individuals tend to undersave due to present-biased preferences, a mandatory pension scheme can help ensure adequate savings for retirement.
+
+\subsection{What are the potential deadweight loss of mandating a pay-as-you-go pension scheme?}
+Mandating a pay-as-you-go pension scheme can lead to potential deadweight losses. These losses may arise from distortions in labor supply decisions, as individuals might reduce their work effort or retire earlier due to the tax burden. Additionally, there could be a decrease in personal savings and investments, which can negatively affect overall economic growth.
+
+\subsection{What is an earnings test for pension claiming? Explain its rationale and its potential impact.}
+An earnings test for pension claiming is a policy mechanism that reduces pension benefits for individuals who have not yet reached the full retirement age but are earning above a certain threshold. The rationale behind this test is to encourage individuals to continue working and delay claiming their pension benefits. The potential impact includes a temporary reduction in benefits, which can be offset by increased benefits upon reaching full retirement age.
+
+\subsection{Why have internal rate of return of pay-as-you-go pension schemes declined over time?}
+The internal rate of return of pay-as-you-go pension schemes has declined over time primarily due to demographic changes, such as increased life expectancy and lower birth rates. These changes result in a growing proportion of retirees relative to the working population, which reduces the overall rate of return for the system.
+
+\subsection{What is the implicit debt of unfunded pension systems? Why does this debt occur?}
+The implicit debt of unfunded pension systems refers to the future pension obligations that are not backed by corresponding assets. This debt occurs because the contributions from the current workforce are used to pay the pensions of current retirees, rather than being saved and invested. As the ratio of workers to retirees decreases, the system accrues a debt that future generations will need to address.
+
+
+
+\end{spacing}
+\end{document}
