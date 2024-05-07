@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.30)  19 APR 2024 11:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.30)  20 APR 2024 11:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -890,12 +890,12 @@ been already used, duplicate ignored
                    \relax 
 l.111 \bb
           [1] [2]
-<screenshot001.png, id=69, 485.56406pt x 309.40594pt>
+<screenshot001.png, id=70, 485.56406pt x 309.40594pt>
 File: screenshot001.png Graphic file (type png)
 <use screenshot001.png>
 Package pdftex.def Info: screenshot001.png  used on input line 138.
 (pdftex.def)             Requested size: 301.00192pt x 191.79665pt.
-<screenshot002.png, id=71, 1076.52188pt x 335.00156pt>
+<screenshot002.png, id=72, 1076.52188pt x 335.00156pt>
 File: screenshot002.png Graphic file (type png)
 <use screenshot002.png>
 Package pdftex.def Info: screenshot002.png  used on input line 144.
@@ -913,7 +913,7 @@ Package logreq Info: Writing requests to 'DAVIESBILLETTA_M2APE_REFREP.run.xml'.
 Here is how much of TeX's memory you used:
  22472 strings out of 476411
  392956 string characters out of 5789134
- 1860845 words of memory out of 5000000
+ 1861845 words of memory out of 5000000
  42511 multiletter control sequences out of 15000+600000
  519171 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -926,7 +926,7 @@ pe1/public/amsfonts/cm/cmr12.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/david/AppData/Local/Programs
 /MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/david/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on DAVIESBILLETTA_M2APE_REFREP.pdf (6 pages, 283824 bytes).
+Output written on DAVIESBILLETTA_M2APE_REFREP.pdf (6 pages, 283823 bytes).
 PDF statistics:
  126 PDF objects out of 1000 (max. 8388607)
  22 named destinations out of 1000 (max. 500000)
