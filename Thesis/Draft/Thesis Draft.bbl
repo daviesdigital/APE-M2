@@ -1,0 +1,547 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{bianchi2024fiscal}{article}{}
+      \name{author}{3}{}{%
+        {{hash=dfe871bc119cf94cc4560d234ac13b53}{%
+           family={Bianchi-Vimercati},
+           familyi={B\bibinithyphendelim V\bibinitperiod},
+           given={Riccardo},
+           giveni={R\bibinitperiod}}}%
+        {{hash=3c07f9d81d480d76a0e2d1ca23c79c74}{%
+           family={Eichenbaum},
+           familyi={E\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ad432bfa55ef7a41fb0817e941c600c6}{%
+           family={Guerreiro},
+           familyi={G\bibinitperiod},
+           given={Joao},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{978157fb3632f86555ae7de558c36c93}
+      \strng{fullhash}{978157fb3632f86555ae7de558c36c93}
+      \strng{bibnamehash}{978157fb3632f86555ae7de558c36c93}
+      \strng{authorbibnamehash}{978157fb3632f86555ae7de558c36c93}
+      \strng{authornamehash}{978157fb3632f86555ae7de558c36c93}
+      \strng{authorfullhash}{978157fb3632f86555ae7de558c36c93}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Economic Theory}
+      \field{title}{Fiscal stimulus with imperfect expectations: Spending vs. tax policy}
+      \field{volume}{217}
+      \field{year}{2024}
+      \field{pages}{105814}
+      \range{pages}{1}
+    \endentry
+    \entry{calvo1983staggered}{article}{}
+      \name{author}{1}{}{%
+        {{hash=fc885233ab77bfb12503064c4e0094d0}{%
+           family={Calvo},
+           familyi={C\bibinitperiod},
+           given={Guillermo\bibnamedelima A},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{fc885233ab77bfb12503064c4e0094d0}
+      \strng{fullhash}{fc885233ab77bfb12503064c4e0094d0}
+      \strng{bibnamehash}{fc885233ab77bfb12503064c4e0094d0}
+      \strng{authorbibnamehash}{fc885233ab77bfb12503064c4e0094d0}
+      \strng{authornamehash}{fc885233ab77bfb12503064c4e0094d0}
+      \strng{authorfullhash}{fc885233ab77bfb12503064c4e0094d0}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of monetary Economics}
+      \field{number}{3}
+      \field{title}{Staggered prices in a utility-maximizing framework}
+      \field{volume}{12}
+      \field{year}{1983}
+      \field{pages}{383\bibrangedash 398}
+      \range{pages}{16}
+    \endentry
+    \entry{christiano2011government}{article}{}
+      \name{author}{3}{}{%
+        {{hash=501e5adc78e2f6013e900537482b2bc7}{%
+           family={Christiano},
+           familyi={C\bibinitperiod},
+           given={Lawrence},
+           giveni={L\bibinitperiod}}}%
+        {{hash=3c07f9d81d480d76a0e2d1ca23c79c74}{%
+           family={Eichenbaum},
+           familyi={E\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=65fea4c7ef2b4aa3f90e7f9ec562b644}{%
+           family={Rebelo},
+           familyi={R\bibinitperiod},
+           given={Sergio},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press Chicago, IL}%
+      }
+      \strng{namehash}{97bb45a5626b91350a0046ed99e54099}
+      \strng{fullhash}{97bb45a5626b91350a0046ed99e54099}
+      \strng{bibnamehash}{97bb45a5626b91350a0046ed99e54099}
+      \strng{authorbibnamehash}{97bb45a5626b91350a0046ed99e54099}
+      \strng{authornamehash}{97bb45a5626b91350a0046ed99e54099}
+      \strng{authorfullhash}{97bb45a5626b91350a0046ed99e54099}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Political Economy}
+      \field{number}{1}
+      \field{title}{When is the government spending multiplier large?}
+      \field{volume}{119}
+      \field{year}{2011}
+      \field{pages}{78\bibrangedash 121}
+      \range{pages}{44}
+    \endentry
+    \entry{correia2013unconventional}{article}{}
+      \name{author}{4}{}{%
+        {{hash=47d23737471068fb5edc7f7021cef21a}{%
+           family={Correia},
+           familyi={C\bibinitperiod},
+           given={Isabel},
+           giveni={I\bibinitperiod}}}%
+        {{hash=5fb706b34f8ca1ef9ead708d5b7f606f}{%
+           family={Farhi},
+           familyi={F\bibinitperiod},
+           given={Emmanuel},
+           giveni={E\bibinitperiod}}}%
+        {{hash=eebb9f811048c349f41c53fb1c09b1e9}{%
+           family={Nicolini},
+           familyi={N\bibinitperiod},
+           given={Juan\bibnamedelima Pablo},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=4699a698c6e486e4b9704496bd829ce2}{%
+           family={Teles},
+           familyi={T\bibinitperiod},
+           given={Pedro},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Economic Association}%
+      }
+      \strng{namehash}{571977eb6570588e384cf37fd8cae9d9}
+      \strng{fullhash}{463e630dd5836d130a57ba380a0fd83e}
+      \strng{bibnamehash}{571977eb6570588e384cf37fd8cae9d9}
+      \strng{authorbibnamehash}{571977eb6570588e384cf37fd8cae9d9}
+      \strng{authornamehash}{571977eb6570588e384cf37fd8cae9d9}
+      \strng{authorfullhash}{463e630dd5836d130a57ba380a0fd83e}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Review}
+      \field{number}{4}
+      \field{title}{Unconventional fiscal policy at the zero bound}
+      \field{volume}{103}
+      \field{year}{2013}
+      \field{pages}{1172\bibrangedash 1211}
+      \range{pages}{40}
+    \endentry
+    \entry{eggertsson2011fiscal}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ea9e103a858ea269392e3096739a082c}{%
+           family={Eggertsson},
+           familyi={E\bibinitperiod},
+           given={Gauti\bibnamedelima B},
+           giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press Chicago, IL}%
+      }
+      \strng{namehash}{ea9e103a858ea269392e3096739a082c}
+      \strng{fullhash}{ea9e103a858ea269392e3096739a082c}
+      \strng{bibnamehash}{ea9e103a858ea269392e3096739a082c}
+      \strng{authorbibnamehash}{ea9e103a858ea269392e3096739a082c}
+      \strng{authornamehash}{ea9e103a858ea269392e3096739a082c}
+      \strng{authorfullhash}{ea9e103a858ea269392e3096739a082c}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{NBER macroeconomics annual}
+      \field{number}{1}
+      \field{title}{What fiscal policy is effective at zero interest rates?}
+      \field{volume}{25}
+      \field{year}{2011}
+      \field{pages}{59\bibrangedash 112}
+      \range{pages}{54}
+    \endentry
+    \entry{eggertsson2004optimal}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=ea9e103a858ea269392e3096739a082c}{%
+           family={Eggertsson},
+           familyi={E\bibinitperiod},
+           given={Gauti\bibnamedelima B},
+           giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=4e7f6ec4eb22dde123b8ebb1e85954fd}{%
+           family={Woodford},
+           familyi={W\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a2b0180dd0fc5dab1b9f6ae5710c4101}{%
+           family={Einarsson},
+           familyi={E\bibinitperiod},
+           given={Tor},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9b69ead901d740bbee61cdcb750094c1}{%
+           family={Leeper},
+           familyi={L\bibinitperiod},
+           given={Eric\bibnamedelima M},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {The University of Chicago Press Chicago, IL}%
+      }
+      \strng{namehash}{9b93ba01389e096ca75f7e3cc91aa8dc}
+      \strng{fullhash}{183b38fdff5f4f23495a2df3deeed7c6}
+      \strng{bibnamehash}{9b93ba01389e096ca75f7e3cc91aa8dc}
+      \strng{authorbibnamehash}{9b93ba01389e096ca75f7e3cc91aa8dc}
+      \strng{authornamehash}{9b93ba01389e096ca75f7e3cc91aa8dc}
+      \strng{authorfullhash}{183b38fdff5f4f23495a2df3deeed7c6}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{NBER international seminar on macroeconomics}
+      \field{number}{1}
+      \field{title}{Optimal Monetary and Fiscal Policy in a Liquidity Trap [with Comments]}
+      \field{volume}{2004}
+      \field{year}{2004}
+      \field{pages}{75\bibrangedash 144}
+      \range{pages}{70}
+    \endentry
+    \entry{ferriere2024heterogeneous}{article}{}
+      \name{author}{2}{}{%
+        {{hash=5e49988e3afde5430269995a55ad86e2}{%
+           family={Ferriere},
+           familyi={F\bibinitperiod},
+           given={Axelle},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a6d49f5880c8a5422c8a6c4a49126145}{%
+           family={Navarro},
+           familyi={N\bibinitperiod},
+           given={Gaston},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press UK}%
+      }
+      \strng{namehash}{86aad5f81f59c4ce59b381b7007b95d9}
+      \strng{fullhash}{86aad5f81f59c4ce59b381b7007b95d9}
+      \strng{bibnamehash}{86aad5f81f59c4ce59b381b7007b95d9}
+      \strng{authorbibnamehash}{86aad5f81f59c4ce59b381b7007b95d9}
+      \strng{authornamehash}{86aad5f81f59c4ce59b381b7007b95d9}
+      \strng{authorfullhash}{86aad5f81f59c4ce59b381b7007b95d9}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Review of Economic Studies}
+      \field{title}{The heterogeneous effects of government spending: It's all about taxes}
+      \field{year}{2024}
+      \field{pages}{rdae032}
+      \range{pages}{-1}
+    \endentry
+    \entry{gabaix2014sparsity}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b53634e8226ff6b3b6e290047a5cb42c}{%
+           family={Gabaix},
+           familyi={G\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{b53634e8226ff6b3b6e290047a5cb42c}
+      \strng{fullhash}{b53634e8226ff6b3b6e290047a5cb42c}
+      \strng{bibnamehash}{b53634e8226ff6b3b6e290047a5cb42c}
+      \strng{authorbibnamehash}{b53634e8226ff6b3b6e290047a5cb42c}
+      \strng{authornamehash}{b53634e8226ff6b3b6e290047a5cb42c}
+      \strng{authorfullhash}{b53634e8226ff6b3b6e290047a5cb42c}
+      \field{extraname}{1}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Quarterly Journal of Economics}
+      \field{number}{4}
+      \field{title}{A sparsity-based model of bounded rationality}
+      \field{volume}{129}
+      \field{year}{2014}
+      \field{pages}{1661\bibrangedash 1710}
+      \range{pages}{50}
+    \endentry
+    \entry{gabaix2016behavioral}{report}{}
+      \name{author}{1}{}{%
+        {{hash=b53634e8226ff6b3b6e290047a5cb42c}{%
+           family={Gabaix},
+           familyi={G\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {National Bureau of Economic Research}%
+      }
+      \strng{namehash}{b53634e8226ff6b3b6e290047a5cb42c}
+      \strng{fullhash}{b53634e8226ff6b3b6e290047a5cb42c}
+      \strng{bibnamehash}{b53634e8226ff6b3b6e290047a5cb42c}
+      \strng{authorbibnamehash}{b53634e8226ff6b3b6e290047a5cb42c}
+      \strng{authornamehash}{b53634e8226ff6b3b6e290047a5cb42c}
+      \strng{authorfullhash}{b53634e8226ff6b3b6e290047a5cb42c}
+      \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Behavioral macroeconomics via sparse dynamic programming}
+      \field{type}{techreport}
+      \field{year}{2016}
+    \endentry
+    \entry{gabaix2020behavioural}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b53634e8226ff6b3b6e290047a5cb42c}{%
+           family={Gabaix},
+           familyi={G\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Economic Association 2014 Broadway, Suite 305, Nashville, TN 37203}%
+      }
+      \strng{namehash}{b53634e8226ff6b3b6e290047a5cb42c}
+      \strng{fullhash}{b53634e8226ff6b3b6e290047a5cb42c}
+      \strng{bibnamehash}{b53634e8226ff6b3b6e290047a5cb42c}
+      \strng{authorbibnamehash}{b53634e8226ff6b3b6e290047a5cb42c}
+      \strng{authornamehash}{b53634e8226ff6b3b6e290047a5cb42c}
+      \strng{authorfullhash}{b53634e8226ff6b3b6e290047a5cb42c}
+      \field{extraname}{3}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Review}
+      \field{number}{8}
+      \field{title}{A behavioral New Keynesian model}
+      \field{volume}{110}
+      \field{year}{2020}
+      \field{pages}{2271\bibrangedash 2327}
+      \range{pages}{57}
+    \endentry
+    \entry{lubik2021fiscal}{article}{}
+      \name{author}{2}{}{%
+        {{hash=42f74c65b4e8e805e48a4dcc50f04c2f}{%
+           family={Lubik},
+           familyi={L\bibinitperiod},
+           given={Thomas\bibnamedelima A},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=e9891f66645de1f87fc92b4cc188d501}{%
+           family={Marzo},
+           familyi={M\bibinitperiod},
+           given={Massimiliano},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Peking University Press}%
+      }
+      \strng{namehash}{b1b4e9169b69e0b30ec1763f938baeea}
+      \strng{fullhash}{b1b4e9169b69e0b30ec1763f938baeea}
+      \strng{bibnamehash}{b1b4e9169b69e0b30ec1763f938baeea}
+      \strng{authorbibnamehash}{b1b4e9169b69e0b30ec1763f938baeea}
+      \strng{authornamehash}{b1b4e9169b69e0b30ec1763f938baeea}
+      \strng{authorfullhash}{b1b4e9169b69e0b30ec1763f938baeea}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annals of Economics and Finance}
+      \field{number}{2}
+      \field{title}{Fiscal Policy Perceptions in a Behavioral New Keynesian Model}
+      \field{volume}{22}
+      \field{year}{2021}
+      \field{pages}{255\bibrangedash 287}
+      \range{pages}{33}
+    \endentry
+    \entry{pfauti2022behavioral}{article}{}
+      \name{author}{2}{}{%
+        {{hash=96ebca70df1fae7d966809617309e229}{%
+           family={Pfäuti},
+           familyi={P\bibinitperiod},
+           given={Oliver},
+           giveni={O\bibinitperiod}}}%
+        {{hash=bf95361d12836f6ff218b72c920e5284}{%
+           family={Seyrich},
+           familyi={S\bibinitperiod},
+           given={Fabian},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {DIW Berlin Discussion Paper}%
+      }
+      \strng{namehash}{02f60f78184ae59ae288fa94a0d9693d}
+      \strng{fullhash}{02f60f78184ae59ae288fa94a0d9693d}
+      \strng{bibnamehash}{02f60f78184ae59ae288fa94a0d9693d}
+      \strng{authorbibnamehash}{02f60f78184ae59ae288fa94a0d9693d}
+      \strng{authornamehash}{02f60f78184ae59ae288fa94a0d9693d}
+      \strng{authorfullhash}{02f60f78184ae59ae288fa94a0d9693d}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A behavioral heterogeneous agent New Keynesian model}
+      \field{year}{2022}
+    \endentry
+    \entry{uhlig2010some}{article}{}
+      \name{author}{1}{}{%
+        {{hash=23c65b2fd3969e3b79f89556ae2384b8}{%
+           family={Uhlig},
+           familyi={U\bibinitperiod},
+           given={Harald},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Economic Association}%
+      }
+      \strng{namehash}{23c65b2fd3969e3b79f89556ae2384b8}
+      \strng{fullhash}{23c65b2fd3969e3b79f89556ae2384b8}
+      \strng{bibnamehash}{23c65b2fd3969e3b79f89556ae2384b8}
+      \strng{authorbibnamehash}{23c65b2fd3969e3b79f89556ae2384b8}
+      \strng{authornamehash}{23c65b2fd3969e3b79f89556ae2384b8}
+      \strng{authorfullhash}{23c65b2fd3969e3b79f89556ae2384b8}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Review}
+      \field{number}{2}
+      \field{title}{Some fiscal calculus}
+      \field{volume}{100}
+      \field{year}{2010}
+      \field{pages}{30\bibrangedash 34}
+      \range{pages}{5}
+    \endentry
+    \entry{woodford1998control}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=4e7f6ec4eb22dde123b8ebb1e85954fd}{%
+           family={Woodford},
+           familyi={W\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{4e7f6ec4eb22dde123b8ebb1e85954fd}
+      \strng{fullhash}{4e7f6ec4eb22dde123b8ebb1e85954fd}
+      \strng{bibnamehash}{4e7f6ec4eb22dde123b8ebb1e85954fd}
+      \strng{authorbibnamehash}{4e7f6ec4eb22dde123b8ebb1e85954fd}
+      \strng{authornamehash}{4e7f6ec4eb22dde123b8ebb1e85954fd}
+      \strng{authorfullhash}{4e7f6ec4eb22dde123b8ebb1e85954fd}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Debt Burden and its Consequences for Monetary Policy: Proceedings of a Conference held by the International Economic Association at the Deutsche Bundesbank, Frankfurt, Germany}
+      \field{title}{Control of the public debt: a requirement for price stability?}
+      \field{year}{1998}
+      \field{pages}{117\bibrangedash 158}
+      \range{pages}{42}
+    \endentry
+    \entry{woodford2013macroeconomic}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4e7f6ec4eb22dde123b8ebb1e85954fd}{%
+           family={Woodford},
+           familyi={W\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Annual Reviews}%
+      }
+      \strng{namehash}{4e7f6ec4eb22dde123b8ebb1e85954fd}
+      \strng{fullhash}{4e7f6ec4eb22dde123b8ebb1e85954fd}
+      \strng{bibnamehash}{4e7f6ec4eb22dde123b8ebb1e85954fd}
+      \strng{authorbibnamehash}{4e7f6ec4eb22dde123b8ebb1e85954fd}
+      \strng{authornamehash}{4e7f6ec4eb22dde123b8ebb1e85954fd}
+      \strng{authorfullhash}{4e7f6ec4eb22dde123b8ebb1e85954fd}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annu. Rev. Econ.}
+      \field{number}{1}
+      \field{title}{Macroeconomic analysis without the rational expectations hypothesis}
+      \field{volume}{5}
+      \field{year}{2013}
+      \field{pages}{303\bibrangedash 346}
+      \range{pages}{44}
+    \endentry
+  \enddatalist
+  \missing{eggertsson2009paradox}
+\endrefsection
+\endinput
+
