@@ -1,25 +1,24 @@
 \babel@toc {english}{}\relax 
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
 \contentsline {subsection}{\numberline {1.1}title}{2}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}title}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.2}Outline}{3}{subsection.1.2}%
 \contentsline {section}{\numberline {2}The Standard Model}{4}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Households}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.1}Households}{5}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Firms}{6}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Taylor Rule}{8}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Government}{8}{subsection.2.4}%
 \contentsline {subsection}{\numberline {2.5}Calibrating Fiscal Policy to Avoid a Recession}{9}{subsection.2.5}%
 \contentsline {section}{\numberline {3}The Behavioural Model}{11}{section.3}%
-\contentsline {subsection}{\numberline {3.1}General Approach}{11}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}The Behavioural Euler Equation}{13}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}The Behavioural Philips Curve}{15}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Tax Implications}{16}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Impact of a Negative Preference Shock on Our Results}{17}{subsection.3.5}%
-\contentsline {subsection}{\numberline {3.6}Time Consistency}{18}{subsection.3.6}%
-\contentsline {subsection}{\numberline {3.7}Sales Tax vs VAT}{19}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.1}General Approach}{12}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}The Behavioural Euler Equation}{14}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}The Behavioural Phillips Curve}{16}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Impact of a Negative Preference Shock on Our Results}{17}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Time Consistency}{19}{subsection.3.5}%
 \contentsline {section}{\numberline {4}Introducing Deficit financing}{19}{section.4}%
 \contentsline {subsection}{\numberline {4.1}An Approximated Equilibrium}{21}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Fiscal Multiplier}{23}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Conclusion}{23}{section.5}%
-\contentsline {section}{\numberline {6}Appendix: The log-linearized model}{27}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Behavioural Euler Equation}{27}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Behavioural Philips Curve}{28}{subsection.6.2}%
+\contentsline {subsection}{\numberline {4.2}Fiscal Multiplier}{22}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Conclusion}{24}{section.5}%
+\contentsline {section}{\numberline {6}Appendix: The log-linearized model}{28}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Behavioural Euler Equation}{28}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Behavioural Philips Curve}{29}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Appendix: Sales Tax vs VAT}{31}{section.7}%
