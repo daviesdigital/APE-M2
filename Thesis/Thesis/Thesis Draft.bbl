@@ -59,6 +59,52 @@
       \field{pages}{105814}
       \range{pages}{1}
     \endentry
+    \entry{bordalo2020overreaction}{article}{}
+      \name{author}{4}{}{%
+        {{hash=754ef93ac5f9e9323e8d410ace8d947b}{%
+           family={Bordalo},
+           familyi={B\bibinitperiod},
+           given={Pedro},
+           giveni={P\bibinitperiod}}}%
+        {{hash=fb79d42b4fe32269d4bb5047f82354e2}{%
+           family={Gennaioli},
+           familyi={G\bibinitperiod},
+           given={Nicola},
+           giveni={N\bibinitperiod}}}%
+        {{hash=5d6ceebb38d5424b8c2b681f7a049441}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Yueran},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=73d7bf2d3105674f373111fc7356eec3}{%
+           family={Shleifer},
+           familyi={S\bibinitperiod},
+           given={Andrei},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Economic Association 2014 Broadway, Suite 305, Nashville, TN 37203}%
+      }
+      \strng{namehash}{df488e7b58dbd1ade1ac1530d6028103}
+      \strng{fullhash}{492b65e013fcf25bc9e45e0748829a97}
+      \strng{bibnamehash}{df488e7b58dbd1ade1ac1530d6028103}
+      \strng{authorbibnamehash}{df488e7b58dbd1ade1ac1530d6028103}
+      \strng{authornamehash}{df488e7b58dbd1ade1ac1530d6028103}
+      \strng{authorfullhash}{492b65e013fcf25bc9e45e0748829a97}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Review}
+      \field{number}{9}
+      \field{title}{Overreaction in macroeconomic expectations}
+      \field{volume}{110}
+      \field{year}{2020}
+      \field{pages}{2748\bibrangedash 2782}
+      \range{pages}{35}
+    \endentry
     \entry{calvo1983staggered}{article}{}
       \name{author}{1}{}{%
         {{hash=fc885233ab77bfb12503064c4e0094d0}{%
@@ -130,6 +176,42 @@
       \field{year}{2011}
       \field{pages}{78\bibrangedash 121}
       \range{pages}{44}
+    \endentry
+    \entry{coibion2015information}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e712cf58dfcb5e2fa93a359e9e046e56}{%
+           family={Coibion},
+           familyi={C\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod}}}%
+        {{hash=0ad029570a1d06a8211c1e6ee120b535}{%
+           family={Gorodnichenko},
+           familyi={G\bibinitperiod},
+           given={Yuriy},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Economic Association 2014 Broadway, Suite 305, Nashville, TN 37203}%
+      }
+      \strng{namehash}{510f2431ffc3b03bf32e04cb4443c7c5}
+      \strng{fullhash}{510f2431ffc3b03bf32e04cb4443c7c5}
+      \strng{bibnamehash}{510f2431ffc3b03bf32e04cb4443c7c5}
+      \strng{authorbibnamehash}{510f2431ffc3b03bf32e04cb4443c7c5}
+      \strng{authornamehash}{510f2431ffc3b03bf32e04cb4443c7c5}
+      \strng{authorfullhash}{510f2431ffc3b03bf32e04cb4443c7c5}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Review}
+      \field{number}{8}
+      \field{title}{Information rigidity and the expectations formation process: A simple framework and new facts}
+      \field{volume}{105}
+      \field{year}{2015}
+      \field{pages}{2644\bibrangedash 2678}
+      \range{pages}{35}
     \endentry
     \entry{correia2013unconventional}{article}{}
       \name{author}{4}{}{%
@@ -254,6 +336,42 @@
       \field{pages}{75\bibrangedash 144}
       \range{pages}{70}
     \endentry
+    \entry{farhi2019monetary}{article}{}
+      \name{author}{2}{}{%
+        {{hash=5fb706b34f8ca1ef9ead708d5b7f606f}{%
+           family={Farhi},
+           familyi={F\bibinitperiod},
+           given={Emmanuel},
+           giveni={E\bibinitperiod}}}%
+        {{hash=ebd1f60a438be53ef8d9913fec909524}{%
+           family={Werning},
+           familyi={W\bibinitperiod},
+           given={Iván},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Economic Association 2014 Broadway, Suite 305, Nashville, TN 37203}%
+      }
+      \strng{namehash}{a63c1771f2d907b81f6839a6e03fb1f4}
+      \strng{fullhash}{a63c1771f2d907b81f6839a6e03fb1f4}
+      \strng{bibnamehash}{a63c1771f2d907b81f6839a6e03fb1f4}
+      \strng{authorbibnamehash}{a63c1771f2d907b81f6839a6e03fb1f4}
+      \strng{authornamehash}{a63c1771f2d907b81f6839a6e03fb1f4}
+      \strng{authorfullhash}{a63c1771f2d907b81f6839a6e03fb1f4}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Review}
+      \field{number}{11}
+      \field{title}{Monetary policy, bounded rationality, and incomplete markets}
+      \field{volume}{109}
+      \field{year}{2019}
+      \field{pages}{3887\bibrangedash 3928}
+      \range{pages}{42}
+    \endentry
     \entry{ferriere2024heterogeneous}{article}{}
       \name{author}{2}{}{%
         {{hash=5e49988e3afde5430269995a55ad86e2}{%
@@ -320,7 +438,7 @@
       \field{pages}{1661\bibrangedash 1710}
       \range{pages}{50}
     \endentry
-    \entry{gabaix2016behavioral}{report}{}
+    \entry{gabaix2016behavioural}{report}{}
       \name{author}{1}{}{%
         {{hash=b53634e8226ff6b3b6e290047a5cb42c}{%
            family={Gabaix},
@@ -344,7 +462,7 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Behavioral macroeconomics via sparse dynamic programming}
+      \field{title}{behavioural macroeconomics via sparse dynamic programming}
       \field{type}{techreport}
       \field{year}{2016}
     \endentry
@@ -374,13 +492,13 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{American Economic Review}
       \field{number}{8}
-      \field{title}{A behavioral New Keynesian model}
+      \field{title}{A behavioural New Keynesian model}
       \field{volume}{110}
       \field{year}{2020}
       \field{pages}{2271\bibrangedash 2327}
       \range{pages}{57}
     \endentry
-    \entry{hommes2021behavioral}{article}{}
+    \entry{hommes2021behavioural}{article}{}
       \name{author}{1}{}{%
         {{hash=2523de056a116d7920861703e2185018}{%
            family={Hommes},
@@ -405,7 +523,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Economic Literature}
       \field{number}{1}
-      \field{title}{Behavioral and experimental macroeconomics and policy analysis: A complex systems approach}
+      \field{title}{behavioural and experimental macroeconomics and policy analysis: A complex systems approach}
       \field{volume}{59}
       \field{year}{2021}
       \field{pages}{149\bibrangedash 219}
@@ -441,13 +559,13 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Annals of Economics and Finance}
       \field{number}{2}
-      \field{title}{Fiscal Policy Perceptions in a Behavioral New Keynesian Model}
+      \field{title}{Fiscal Policy Perceptions in a behavioural New Keynesian Model}
       \field{volume}{22}
       \field{year}{2021}
       \field{pages}{255\bibrangedash 287}
       \range{pages}{33}
     \endentry
-    \entry{pfauti2022behavioral}{article}{}
+    \entry{pfauti2022behavioural}{article}{}
       \name{author}{2}{}{%
         {{hash=96ebca70df1fae7d966809617309e229}{%
            family={Pfäuti},
@@ -475,7 +593,7 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{A behavioral heterogeneous agent New Keynesian model}
+      \field{title}{A behavioural heterogeneous agent New Keynesian model}
       \field{year}{2022}
     \endentry
     \entry{uhlig2010some}{article}{}
@@ -539,6 +657,41 @@
       \field{year}{2013}
       \field{pages}{303\bibrangedash 346}
       \range{pages}{44}
+    \endentry
+    \entry{woodford2019policy}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=4e7f6ec4eb22dde123b8ebb1e85954fd}{%
+           family={Woodford},
+           familyi={W\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1de15018a064594545ed0447143ba8eb}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Yinxi},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {American Economic Association 2014 Broadway, Suite 305, Nashville, TN 37203}%
+      }
+      \strng{namehash}{7b9f3c26647e55d7c7f949eb0b5e524a}
+      \strng{fullhash}{7b9f3c26647e55d7c7f949eb0b5e524a}
+      \strng{bibnamehash}{7b9f3c26647e55d7c7f949eb0b5e524a}
+      \strng{authorbibnamehash}{7b9f3c26647e55d7c7f949eb0b5e524a}
+      \strng{authornamehash}{7b9f3c26647e55d7c7f949eb0b5e524a}
+      \strng{authorfullhash}{7b9f3c26647e55d7c7f949eb0b5e524a}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{AEA Papers and Proceedings}
+      \field{title}{Policy options at the zero lower bound when foresight is limited}
+      \field{volume}{109}
+      \field{year}{2019}
+      \field{pages}{433\bibrangedash 437}
+      \range{pages}{5}
     \endentry
   \enddatalist
 \endrefsection

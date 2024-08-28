@@ -1,17 +1,17 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'Thesis Draft.blg'
-[107] biber-MSWIN64:340> INFO - === 
-[153] Biber.pm:419> INFO - Reading 'Thesis Draft.bcf'
-[280] Biber.pm:979> INFO - Found 15 citekeys in bib section 0
-[294] Biber.pm:4419> INFO - Processing section 0
-[304] Biber.pm:4610> INFO - Looking for bibtex file 'bib.bib' for section 0
-[339] bibtex.pm:1713> INFO - LaTeX decoding ...
-[362] bibtex.pm:1519> INFO - Found BibTeX data source 'bib.bib'
-[453] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[453] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[453] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[453] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[465] bbl.pm:660> INFO - Writing 'Thesis Draft.bbl' with encoding 'latin1'
-[472] bbl.pm:763> INFO - Output to Thesis Draft.bbl
-[472] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\david\AppData\Local\Temp\biber_tmp_AqK6\283e1cb250985c2debc501124f55eeff_33060.utf8, line 106, warning: 218 characters of junk seen at toplevel
-[472] Biber.pm:133> INFO - WARNINGS: 1
+[97] biber-MSWIN64:340> INFO - === 
+[129] Biber.pm:419> INFO - Reading 'Thesis Draft.bcf'
+[238] Biber.pm:979> INFO - Found 19 citekeys in bib section 0
+[252] Biber.pm:4419> INFO - Processing section 0
+[265] Biber.pm:4610> INFO - Looking for bibtex file 'bib.bib' for section 0
+[336] bibtex.pm:1713> INFO - LaTeX decoding ...
+[365] bibtex.pm:1519> INFO - Found BibTeX data source 'bib.bib'
+[484] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[484] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[485] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[485] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[501] bbl.pm:660> INFO - Writing 'Thesis Draft.bbl' with encoding 'latin1'
+[510] bbl.pm:763> INFO - Output to Thesis Draft.bbl
+[511] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\david\AppData\Local\Temp\biber_tmp_uDyU\283e1cb250985c2debc501124f55eeff_20036.utf8, line 141, warning: 221 characters of junk seen at toplevel
+[511] Biber.pm:133> INFO - WARNINGS: 1

@@ -128,13 +128,13 @@
 		\vspace{3cm}
 		{\Large \textbf{Acknowledgements}\par}
 		\vspace*{10pt}
-		I would like to express my deepest gratitude to my supervisor, Tobias Broer, for his support and teaching through out the year.  His patience in indulging my particular fascination with this topic, even during moments when I felt adrift, has been invaluable.
+		I would like to express my gratitude to my supervisor, Tobias Broer, for his patience in indulging my particular fascination with this topic, even at times when I felt adrift.
 		\bb
-		I also extend my sincerest thanks to Olivier Blanchard for his invaluable insights and for generously dedicating time to numerous meetings, in which I often arrived with very little and left with a wealth of knowledge.
+		I also extend my sincerest thanks to Olivier Blanchard for his invaluable insights and for generously dedicating time to numerous meetings, to which I often arrived with very little and left with a wealth of knowledge.
 		\bb
-		Special thanks are due to Paul De Grauwe, whose guidance and encouragement set me on the path to behavioural macroeconomics. His work not only opened my eyes to this field, but our conversations and correspondence played a crucial role in my decision to pursue this master's program, helping me to bridge the gaps in my understanding.
+		Special thanks also are due to Paul De Grauwe, whose guidance and encouragement set me on the path to behavioural macroeconomics. His work not only opened my eyes to this field, but our conversations and correspondence played a crucial role in my decision to pursue this master's program, helping me to bridge the gaps in my understanding.
 		\bb
-		Je voudrais également remercier Daniel, Habib, et Claire, qui m'ont permis de me sentir chez moi à Paris tout au long de mon séjour et qui m'ont offert une famille lorsque la mienne n'était pas proche
+		Je voudrais également remercier Daniel, Habib, et Claire, qui m'ont permis de me sentir chez moi à Paris tout au long de mon séjour et qui m'ont offert une famille lorsque la mienne n'était pas proche.
 		\bb
 		Finally, I would also like to extend my appreciation to my Mother, my Father, and the Coinage brothers. Without their love and support, none of this would have been possible.
 	\end{minipage}
@@ -148,7 +148,7 @@
 	{\Large \textbf{Abstract}\par}
 \end{center}
 \bb
-This paper presents a novel extension of the Behavioural New Keynesian model by integrating distortionary taxes and exploring their impact through the lens of cognitive discounting. We first develop and analyse a modified framework incorporating distortionary taxes without deficit spending, highlighting how cognitive biases alter traditional macroeconomic dynamics. Following this, we examine how the introduction of deficit spending modifies these dynamics, assessing the effects on debt sustainability and fiscal multipliers under cognitive discounting. This innovative extension provides new insights into the role of behavioural biases in fiscal policy, offering valuable implications for both theoretical advancements and practical policy applications.
+This paper extends the Behavioural New Keynesian model by incorporating distortionary taxes and analysing their effects through the lens of cognitive discounting. We begin by developing and examining a framework with distortionary taxes but without deficit spending, evaluating the robustness of fiscal policies under cognitive discounting. We then investigate how incorporating deficit spending modifies these dynamics, focusing on debt sustainability and fiscal multipliers. Our results highlight that behavioural biases influence fiscal policy outcomes in significant ways, leading to higher fiscal multipliers compared to traditional models. This extension enriches our understanding of the interaction between Behavioural biases and fiscal policy, offering valuable insights for both theoretical research and practical policy formulation.
 \vspace{1cm}
 \begin{center}
 	JEL: E7, E70, E12, E6, E62, E40, E63, H20
@@ -167,44 +167,26 @@ This paper presents a novel extension of the Behavioural New Keynesian model by 
 
 
 \section{Introduction}
-A vast portion of policy analysis is still based on rational expectations models, often with a perfectly rational representative agent \cite{hommes2021behavioral}. Recent financial-economic crises, have shown however, that alternative approaches are needed in order to more appropriately model, understand, and manage crises. In recent years we have seen the emergence of behavioural macroeconomic models which challenge these traditional assumptions, claiming to better capture more nuanced, real-world economic behaviour, particularly during times of turmoil.
+The intersection of behavioural economics and macroeconomics has witnessed a burgeoning interest in recent years, as researchers seek to bridge the gap between theoretical models and empirical observations. Traditional macroeconomic models, and a vast portion of policy analysis still rely heavily on rational expectations models, often with perfectly rational, forward-looking representative agents \parencite{hommes2021behavioural}. Such an assumption is quite stringent because it requires agents to have complete knowledge of all potential future states and to be able to create fully state-contingent plans by solving intricate optimization problems. However, numerous empirical studies using survey data tend to reject the idea of full information rational expectations \parencite{coibion2015information,bordalo2020overreaction}. In response, there has been an emergence of a behavioural macroeconomic field of research, which aims to challenge these strict assumptions of rationality, claiming to better capture more nuanced, real-world economic behaviour.
 \bb
-The integration of behavioural economics into macroeconomic theory has opened new avenues for understanding how policy decisions influence economic outcomes. One recent impactful advancemnet in the field is the work done by Xavier Gabaix. His work on Sparse maximisation 
-
-
-
-Talk about how, while his paper broke much needed ground, fiscal policy in the model is limited to lump-sum transfers/taxes.
-
-If the aim of behavioural macroeconomics is to better model everyday economic behaviour we must analyse how cognitive biases interact with distortionary taxes 
-
-While previous work done on distortionary taxes has born fruitful conclusions, there has yet to be an integration of these distortionary taxes within a behavioural new keynesian framework
-
-
-
-
-\textbf{Insert MORE GENERAL TALK ABOUT DISTORTIONARY TAXES}
+One notable  advancement in the field has been the work done by Xavier Gabaix on sparse maximization \parencite{gabaix2014sparsity,gabaix2016behavioural}, which provides a tractable approach to modelling bounded rationality and cognitive limitations within macroeconomic frameworks. Building on this foundation, \cite{gabaix2020behavioural} introduced a behavioural extension of the New Keynesian model. This model incorporated elements of bounded rationality into the traditional framework, enhancing our understanding of both monetary and fiscal under cognitive constraints. However, the extent of Gabaix's analysis of fiscal policy, within the Behavioural New Keynesian (BeNK) model, is restricted solely to the use of lump-sum taxes. While this approach has laid crucial groundwork for behavioural macroeconomic research, it does not address the complexities introduced by more realistic taxes policies. 
 \bb
-Distortionary taxes, which alter the incentives for labour supply, savings, and investment, are a cornerstone of fiscal policy analysis. Previous influential works by Eggertsson and Correia have rigorously examined the macroeconomic implications of such taxes within the standard New Keynesian framework, revealing the trade-offs and inefficiencies they introduce. However, these analyses operate under the assumption of rational expectations, where agents are assumed to fully anticipate and optimally respond to future tax liabilities. This assumption overlooks the cognitive limitations highlighted by Gabaix, which could fundamentally alter the way agents respond to distortionary taxes and, consequently, the overall effectiveness of fiscal policy.
+Our paper aims to extend the current Behavioural New Keynesian framework by integrating distortionary taxes, such as those on labour and consumption. This extension seeks to deepen our understanding of how fiscal decisions influence economic behaviour within a behavioural context. To achieve this, we first incorporate cognitive constraints into an existing New Keynesian model that already includes distortionary taxes. Our approach draws on foundational insights from seminal works by \cite{correia2013unconventional} and \cite{eggertsson2011fiscal}. Both papers investigate the impact of fiscal policy during periods of economic slack, highlighting the crucial role of distortionary taxes in determining the effectiveness of fiscal interventions. Yet, while \cite{eggertsson2011fiscal} focuses on the effects of altering one tax at a time, \cite{correia2013unconventional} examines the simultaneous adjustment of multiple taxes. By incorporating there model into a behavioural framework, our aim is to evaluate how cognitive biases and bounded rationality influence the robustness of their findings.
 \bb
-The integration of behavioural economics into macroeconomic theory has opened new avenues for understanding how policy decisions influence economic outcomes. \textbf{One recent advancement in this domain is Xavier Gabaix?s Behavioral New Keynesian model, which introduces the concept of cognitive discounting. This model challenges the traditional assumption of fully rational agents by accounting for cognitive limitations that cause individuals to overweight the present relative to the future. The incorporation of this behavioral parameter has profound implications for how we understand the transmission of monetary policy and th  broader dynamics of macroeconomic stabilization.}
+Our work is therefore closely aligned with recent contributions by \cite{bianchi2024fiscal}, who examined the sensitivity of fiscal policy, as outline in \cite{correia2013unconventional}, to the rational expectations assumption. Building on \cite{farhi2019monetary}, Bianchi employs a level-\textit{k} thinking model that incorporates bounded rationality by accounting for varying degrees of cognitive sophistication among agents. Their findings suggest that the effectiveness of distortionary taxes remains robust even when deviating from the rational expectations paradigm. Similarly, our research, which utilizes a cognitive discounting model, corroborates these results, demonstrating that the efficacy of distortionary taxes is consistent under alternative assumptions about cognitive constraints.
 \bb
-Gabaix's pioneering work has laid the foundation for a behavioural perspective in macroeconomic modelling, offering insights into how cognitive biases, such as myopia, influence agents? responses to policy interventions. However, Gabaix's initial exploration of fiscal policy is limited exclusively to the case of lump-sum taxes. This simplification, while a common assumption in many macroeconomic models, leaves a significant gap in our understanding of how cognitive discounting might interact with more complex and realistic fiscal policies, particularly those involving distortionary taxes.
+In the second part of our paper, we examine how distortionary taxes influence deficit dynamics within a behavioural framework. Traditional New Keynesian models, which assume Ricardian equivalence, suggest that government financing methods?whether through taxes or debt?do not affect overall economic activity since rational agents adjust their savings to offset future tax liabilities. However, \cite{gabaix2020behavioural} and \cite{woodford2019policy} show that bounded rationality can disrupt Ricardian equivalence, causing significant impacts on aggregate demand and economic activity. Behavioural agents, in particular, perceive government debt as an increase in their wealth, leading to higher consumption and altered economic dynamics. To explore these effects, we incorporate the deficit dynamics proposed by \cite{uhlig2010some} into our behavioural New Keynesian framework. Unlike \cite{gabaix2020behavioural} and \cite{woodford2019policy}, which analyse only lump-sum taxes, our model includes distortionary taxes. This approach allows us to assess how the structure of deficit financing and the associated tax distortions influence the dynamics of government debt and the fiscal multiplier. Our findings are consistent with previous those of other behavioural frameworks however the dynamics differ slightly. 
+\bb
+Ultimately, our analysis provides a foundation for future research into the broader implications of cognitive discounting in macroeconomic modelling. The results from our representative agent model serve as a foundation for future extensions such as the inclusion of distortionary taxes in heterogeneous agent models,  such as the one developed by  \cite{pfauti2022behavioural}, and the investigation of progressive taxation, such as \cite{ferriere2024heterogeneous}, within a behavioural context. These extensions could provide further insights into the distributional effects of fiscal policy under cognitive discounting and deepen our understanding of the macroeconomic implications of behavioural biases.
+\bb
+This research should be of interest not only to academics but also to policymakers. By highlighting how cognitive constraints and distortionary taxes influence economic dynamics, our findings can inform more effective and realistic fiscal policies. Understanding these effects is crucial for designing interventions that align with actual economic behaviour, thereby improving the efficacy of policy measures in real-world scenarios.
 
-\bb
-This thesis seeks to bridge this critical gap by expanding Gabaix's Behavioral New Keynesian model to include the effects of distortionary taxes. By incorporating cognitive discounting into a framework that accounts for taxes on labour and consumption, this research aims to provide a more comprehensive understanding of fiscal policy in a world where agents are influenced by cognitive biases. Specifically, the thesis explores how the presence of cognitive discounting affects the traditional results derived from models with distortionary taxes, and how these effects might differ from those observed under rational expectations.
-
-\subsection{Literature Review}
-This paper serves as an extension to the recent literature on Behavioural New Keynesian modelling \parencite{gabaix2020behavioural, lubik2021fiscal}. By adding distortionary taxes (on labour and consumption) in accordance with \cite{correia2013unconventional}, we move past the simple lump sum examples previously discussed in the literature. 
-\bb
-This paper is closely aligned with recent work by \cite{bianchi2024fiscal} in which the authors analyse the sensitivity of fiscal policy at the zero lower bound to the assumption of rational expectations. Yet, while they use level-\textit{k} thinking to model imperfect expectations, we instead operationalise cognitive discounting techniques outlined in recent work by \cite{gabaix2020behavioural}. \textbf{By doing so, we depart from the assumption of rational expectations, positing instead that individuals form beliefs about future endogenous variables that are discounted by a behavioral parameter. This approach allows us to assume that while individuals understand the structure of the economy, their ability to predict the time-path of certain endogenous variables, such as output, is limited. }
-\bb
-Moreover, the results from our representative agent model serve as a foundation for future extensions into heterogeneous agent frameworks, such as those explored by \parencite{pfauti2022behavioral}. These extensions could provide further insights into the distributional effects of fiscal policy under cognitive discounting and deepen our understanding of the macroeconomic implications of behavioral biases.
 
 
 \subsection{Outline}
-This paper begins by introducing traditional New Keynesian model with distortionary taxes as developed in papers by \cite{correia2013unconventional} and \cite{correia2013unconventional}. This will serve as a foundation on which we can build and provides a basis for understanding how distortionary taxes, such as those on labor and consumption, influence economic behaviour under standard assumptions.
+This paper begins by introducing traditional New Keynesian model with distortionary taxes as developed in papers by \cite{correia2013unconventional} and \cite{correia2013unconventional}. This will serve as a foundation on which we can build and provides a basis for understanding how distortionary taxes, such as those on labour and consumption, influence economic behaviour under standard assumptions.
 \bb
-The analysis then shifts to incorporate these distortionary taxes into a Behavioral New Keynesian framework, building on the bounded rationality model proposed by \cite{gabaix2014sparsity}. We first explain the concept of cognitive discounting, where individuals place greater emphasis on present conditions over future outcomes, and demonstrate how this cognitive bias can be operationalized within our economic model.
+The analysis then shifts to incorporate these distortionary taxes into a Behavioural New Keynesian framework, building on the bounded rationality model proposed by \cite{gabaix2014sparsity}. We first explain the concept of cognitive discounting, where individuals place greater emphasis on present conditions over future outcomes, and demonstrate how this cognitive bias can be operationalized within our economic model.
 \bb
 We round out the first part of the analysis by examining the sensitivity of fiscal policy outcomes to the presence of cognitive discounting. Specifically, it investigates how the behavioural biases affect the standard trade-offs associated with distortionary taxes, such as the impact on labour supply, and consumption decisions. This section builds on the previous literature by adapting their insights and comparing their results with those from a behavioural context. This section aims to provide more nuanced understanding of how these taxes function in a world where agents do not possess perfect foresight.
 \bb
@@ -218,7 +200,7 @@ This paper thus seeks to advance our understanding of fiscal policy in the prese
 
 
 \section{The Standard Model}
-This section summarizes a standard New Keynesian DGSE model as seen in \cite{correia2013unconventional}.
+This section summarizes a standard New Keynesian DGSE model as seen in \cite{correia2013unconventional} and \cite{eggertsson2011fiscal}.
 At its core, this is a standard stochastic growth model (real business cycle model) with two added frictions: a monopolistic competition among firms and frictions in the firms' price setting through fixed nominal contracts that have a stochastic duration as in \cite{calvo1983staggered}. This model however, has a more detailed description of taxes. This section summarizes a simplified version of the model that will serve as the baseline illustration. Those familiar with the paper and its derivations may find it more useful to skip directly to the proceeding sections in which we introduce the notion of behavioural agents.
 \bb
 The model contains three types of agents, a representative household, a continuum of monopolistic firms, and a set of policymakers, made up of a central bank and a fiscal authority. The optimization problem of the household results in an output Euler-equation, interchangeably refereed to as the IS-curve, the firms' problem results in a Phillips-curve governing inflation dynamics, and the model is closed by specifying the behaviour of the policy authorities in terms of feedback rules.
@@ -226,83 +208,69 @@ The model contains three types of agents, a representative household, a continuu
 \subsection{Households}
 The household maximizes the inter-temporal utility function:
 \begin{align}
-	 U_t = \mathbb{E}_t \sum_{t=0}^{\infty} \beta^t \xi_t \bigg( \dfrac{C_t^{1-\sigma}}{1-\sigma} - \dfrac{N_t^{1+\varphi}}{1+\varphi} \bigg) 
+	U_t = \mathbb{E}_t \sum_{t=0}^{\infty} \beta^t \xi_t \left( \frac{C_t^{1-\sigma}}{1-\sigma} - \frac{N_t^{1+\varphi}}{1+\varphi} \right)
 \end{align}
 subject to the budget constraint:
 \begin{align}
-	P_t(1+\tau_t^c)Ct + B_t = R_{t-1}B_{t-1} + (1 - \tau_t^n)W_t N_t + (1 - \tau_t^d)\Pi_t + T_t
+	P_t(1+\tau_t^c)C_t + B_t = R_{t-1}B_{t-1} + (1 - \tau_t^n)W_t N_t + (1 - \tau_t^d)\Pi_t + T_t
 \end{align}
-where $C_t$ is consumption, $N_t$ is employment for the nominal wage $W_t$, $B_t$ is a risk-free nominal government bond paying a gross nominal interest rate $R_t$, $T_t$ is a lump-sum tax, and the aggregate price level is $P_t$. The household is the residual claimant to firms' aggregate profits $\Pi_t$. $0 < \beta < 1$ is the discount factor, $\sigma > 0$ is the coefficient of relative risk aversion, and $\eta > 0$ is the labour supply elasticity. $\mathbb{E}_t$ is the standard rational expectations operator. $\tau_t^c$, $\tau_t^n$, $\tau_t^d$ are taxes on consumption, labour, and profits respectively. As in \cite{correia2013unconventional}, we assume that profits are fully taxed, implying $\tau_t^d = 1$.
+where \( C_t \) denotes consumption, \( N_t \) represents employment with the nominal wage \( W_t \), \( B_t \) is a risk-free nominal government bond paying a gross nominal interest rate \( R_t \) (with \( R_t = 1+i_t \)), \( T_t \) is a lump-sum tax, and \( P_t \) is the aggregate price level. The household is also the residual claimant of firms' aggregate profits \( \Pi_t \). The parameters \( 0 < \beta < 1 \) is the discount factor, \( \sigma > 0 \) is the coefficient of relative risk aversion, and \( \varphi > 0 \) represents the labour supply elasticity. \( \mathbb{E}_t \) denotes the standard rational expectations operator. Taxes on consumption, labour, and profits are denoted by \( \tau_t^c \), \( \tau_t^n \), and \( \tau_t^d \), respectively. As in \cite{correia2013unconventional}, we assume that profits are fully taxed, implying \( \tau_t^d = 1 \).
 \bb
-From the first order conditions we can derive the consumption Euler equation:
+From the first-order conditions, we derive the consumption Euler equation:
 \begin{align}
-	\dfrac{u_C(C_t, N_t)\xi_t}{P_t(1+\tau_t^c)} =& \beta R_t \mathbb{E}_t \dfrac{u_C(C_{t+1}, N_{t+1}) \xi_{t+1}}{P_{t+1}(1+\tau_{t+1}^c)}\\
-	u_C(C_t, N_t) =& \beta R_t \mathbb{E}_t u_C(C_{t+1}, N_{t+1}) \dfrac{\xi_{t+1}}{\xi_t} \dfrac{P_t}{P_{t+1}} \dfrac{(1+\tau_{t}^c)}{(1+\tau_{t+1}^c)}.
+	\frac{u_C(C_t, N_t)\xi_t}{P_t(1+\tau_t^c)} &= \beta R_t \mathbb{E}_t \frac{u_C(C_{t+1}, N_{t+1}) \xi_{t+1}}{P_{t+1}(1+\tau_{t+1}^c)} \\
+	u_C(C_t, N_t) &= \beta R_t \mathbb{E}_t u_C(C_{t+1}, N_{t+1}) \frac{\xi_{t+1}}{\xi_t} \frac{P_t}{P_{t+1}} \frac{(1+\tau_t^c)}{(1+\tau_{t+1}^c)}.
 \end{align}
-Like in traditional versions of the model we observe the effect of ex-ante real interest, given by $R_t\mathbb{E}_t\pi_{t+1}^{-1}$ rate in deciding the inter temporal allocation of consumption between period $t$ and $t + 1$. However, we now also see the pivotal role played by changes in consumption taxes. 
- In log-linear terms, the Euler equation can be written as:
- \begin{align}
- 	\tilde{C}_t = \mathbb{E}_t \tilde{C}_{t+1}  - \dfrac{1}{\sigma}\mathbb{E}_t(\tilde{R}_t - \tilde{\pi}_{t+1}) + \dfrac{1}{\sigma}\mathbb{E}_t(\tilde{\tau}_{t+1}^c - \tilde{\tau}_{t}^c)
- \end{align}
-where each variable with $\sim$ indicate its log-deviation from non-stochastic steady state.
+This equation illustrates the influence of the ex-ante real interest rate, given by \( R_t \mathbb{E}_t \pi_{t+1}^{-1} \), on the inter-temporal allocation of consumption between periods \( t \) and \( t+1 \). Additionally, it highlights the crucial role of changes in consumption taxes. Additionally, the labour supply condition is derived as:
+\begin{align}
+	- \frac{U_N(C_t, N_t)}{U_C(C_t, N_t)} &= \frac{(1-\tau_t^n)W_t}{(1+\tau_t^c)P_t}
+\end{align}
+which reflect the first-order conditions of the household's utility maximization problem.
 \bb
-Additionally, we can derive the Labour supply condition:
+Ultimately, we can express the Euler equation in log-linear terms:
 \begin{align}
-	- \dfrac{U_N(C_t,N_t)}{U_C(C_t,N_t)} =& \dfrac{(1-\tau_t^n)W_t}{(1+\tau_t^c)P_t}
+	\hat{C}_t &= \mathbb{E}_t \hat{C}_{t+1} - \frac{1}{\sigma} \mathbb{E}_t (\hat{i}_t - \hat{\pi}_{t+1} - r_t) + \frac{1}{\sigma} \mathbb{E}_t (\hat{\tau}_{t+1}^c - \hat{\tau}_t^c)
 \end{align}
-Substituting the expressions for the marginal utilities into the labour supply condition:
-\begin{align*}
-	 C_t^{\sigma} N_t^{\varphi} =  \dfrac{(1-\tau_t^n)W_t}{(1+\tau_t^c)P_t}
-\end{align*}
-Rearranging for $W_t$, we can find the associated wage:
-\begin{align*}
-	W_t =  \dfrac{C_t^{\sigma} N_t^{\varphi}(1+\tau_t^c)P_t  }{(1-\tau_t^n)}
-\end{align*}
-\begin{align*}
-		w_t - p_t = \sigma c_t + \varphi n_t + (1+\tau_t^c) - (1-\tau_t^n)
-\end{align*}
-
+where \( r_t \) represents the real interest rate, and each variable with a hat above it denotes its log-deviation from the non-stochastic steady state.
 
 
 \subsection{Firms}
-On the firms side we assume their production function follows:
+Firms are assumed to follow a production function given by:
 \begin{align}
-	Y_t = A_t N_t^\alpha 
+	Y_t = A_t N_t^\alpha
 \end{align}
-where \(Y_t\) is output, and \(A_t\) is an exogenous productivity shock. 
-
-Firms are monopolistically competitive and have pricing power over their final output. Final goods are imperfectly substitutable among an infinite set of different varieties indexed by \(i \in [0, 1]\). Each \(i\)-th variety of final goods is produced by an \(i\)-th firm and they are aggregated via the traditional CES Dixit-Stiglitz aggregator:
+where \( Y_t \) denotes output, and \( A_t \) represents an exogenous productivity shock.
+\bb
+Firms operate in a monopolistically competitive market and possess pricing power over their final output. Final goods are imperfectly substitutable among an infinite set of varieties indexed by \( i \in [0, 1] \). Each \( i \)-th variety is produced by a distinct firm and aggregated via the CES Dixit-Stiglitz aggregator:
 \begin{align}
-	C_t = \left[ \int_0^1 C_t(i)^{\frac{\varepsilon-1}{\varepsilon}} di \right]^{\frac{\varepsilon}{\varepsilon-1}}
+	C_t = \left[ \int_0^1 C_t(i)^{\frac{\varepsilon-1}{\varepsilon}} \, di \right]^{\frac{\varepsilon}{\varepsilon-1}}
 \end{align}
-where \(\varepsilon > 1\) is the elasticity of substitution among different final goods varieties. From this, we can derive a demand function for variety \(i\):
+where \( \varepsilon > 1 \) is the elasticity of substitution among different final goods varieties. The demand function for variety \( i \) is:
 \begin{align}
 	Y_t(i) = \left[ \frac{p_t(i)}{P_t} \right]^{-\varepsilon} Y_t
 \end{align}
-where demand \(Y_t(i) = C_t(i) + G_t(i)\), and \(Y_t\) is aggregate demand. Similarly, \(p_t(i)\) is the price of the \(i\)-th variety, while
+where \( p_t(i) \) is the price of the \( i \)-th variety, \( Y_t \) is aggregate demand, and
 \begin{align}
-	P_t = \left( \int_0^1 p_t(i)^{1-\varepsilon} di \right)^{\frac{1}{1-\varepsilon}}
+	P_t = \left[\int_0^1 p_t(i)^{1-\varepsilon} \, di \right]^{\frac{1}{1-\varepsilon}}
 \end{align}
 is the aggregate price index.
 \bb
-Assuming Calvo-type price setting, firms in each period can reset their prices with probability \(1 - \theta\), while with probability \(\theta\), they keep their price fixed from one period to the next. The optimal pricing problem of a monopolistically competitive firm is to maximize profits. If firms were rational, firms resetting their price would set their price according to:
-\bb
+Under Calvo-type price setting, firms can reset their prices with probability \( 1 - \theta \), while with probability \( \theta \), they keep their price fixed. A rational firm's optimal pricing problem is to maximize profits, given by:
 \begin{align}
-	max\mathbb{E}_t \sum_{k=0}^{\infty} (\theta \beta)^k \lambda_{t+k} \big[P_{t+k}Y_{t+k} - W_{t+j}Y_{t+k} \big] 
+	\max \mathbb{E}_t \sum_{k=0}^{\infty} (\theta \beta)^k \lambda_{t+k} \left[ P_{t+k}Y_{t+k} - W_{t+k}Y_{t+k} \right]
 \end{align}
-Behavioural firms do this, but with cognitive discounting, so that:
+where \( \lambda_{t+k} \) is the marginal utility of nominal income for the representative household. An important assumption from \cite{eggertsson2011fiscal} is that the price set by the firm excludes sales tax. Thus, a reduction in sales taxes directly lowers the consumer price by the amount of the tax cut for firms that have not yet reset their prices.
+Using the assumption that a fraction \( \theta \) of firms keep their prices fixed while \( 1 - \theta \) reset them to \( p_t \), we can express the price index as:
 \begin{align}
-	max\mathbb{E}_t^{BR} \sum_{k=0}^{\infty} (\theta \beta \bar{m})^k \lambda_{t+k} \big[P_{t+k}Y_{t+k} - W_{t+j}Y_{t+k} \big] 
+	P_t = \left[ (1- \theta)(p_t)^{1-\varepsilon} + \theta P_{t-1}^{1-\varepsilon} \right]^{\frac{1}{1-\varepsilon}}
 \end{align}
-Where $\lambda_{t+k}$ is the marginal utility of nominal income for the representative household. An important assumption, set out in \cite{eggertsson2011fiscal}, is that the price the firm sets is exclusive of the sales tax. This means that if the government cuts sales taxes, then consumers face a lower store price of exactly the amount of the tax cuts for firms that have not reset their prices.
 \bb
-Using the assumption that a fraction of $\theta$ keep their prices fixed, while $1 - \theta$ set them at $p_t$, we can express the price index as:
-\begin{align}
-	P_t = \big[ (1- \theta)(p_t)^{1-\varepsilon} + \theta P_{t-1}^{1-\varepsilon}  \big] ^{\frac{1}{1-\varepsilon}}
-\end{align}
-The presence of behavioural aspects manifests itself via the use of the operator EBR t , defined as before. The decision-relevant variables for the firm?s managers are thus perceived imperfectly, and more so the further distant they are from the present.6 At the same time, the structural relationships underlying the production and sales processes are perfectly known and understood, so that any deviation from RE stems from discounting alone.
-\bb
-Following the usual steps for Calvo-price setting, we can then derive the behavioural Phillips curve:
+Following the standard derivation for Calvo pricing, \cite{correia2013unconventional} derives the Behavioural Phillips curve:
+\begin{align*}
+	\pi_t &\approx \beta \mathbb{E}_t \pi_{t+1} + \kappa \hat{y}_t + \kappa \psi (\hat{\tau}_t^c + \hat{\tau}_t^n)
+\end{align*}
+This formulation differs slightly from the Phillips curve presented in \cite{eggertsson2011fiscal}, as \cite{correia2013unconventional} assumes that government spending \( G_t = G \).
+
 
 \subsection{Taylor Rule}
 Both \cite{eggertsson2011fiscal} and \cite{correia2013unconventional} assume passive monetary policy which explicitly accounts for the lower bound on nominal interest rates. Such that the nominal interest rate must always be equal to or lager than 0. 
@@ -315,15 +283,18 @@ Central banks in our model therefore follow a Taylor rule in accordance with:
 \end{align}
 
 \subsection{Government}
-The government minimizes the expenditure on the individual goods for a given aggregate, and finances it with time-varying taxes on consumption, \(\tau_t^c\), and labor income, \(\tau_t^n\). As is standard in the New Keynesian literature, we also allow for lump-sum taxes, \(T_t\), which is a residual variable that adjusts so that the government budget constraint is satisfied. If we let 
-\[
-P_t = \left(\int_0^1 p_{it}^{1-\epsilon} \, di \right)^{\frac{1}{1-\epsilon}},
-\]
-where \(p_{it}\) is the price of variety \(i\), then the minimization of expenditure on the individual goods implies 
-\[
-\frac{g_{it}}{G_t} = \left(\frac{p_{it}}{P_t}\right)^{-\epsilon}.
-\]
-The government has a set of policy variables which can be adjusted in response to economic shocks, making fiscal policy a flexible and powerful tool.
+The government aims to minimize expenditure on individual goods for a given level of aggregate spending. To finance this expenditure, it utilizes time-varying taxes on consumption, \( \tau_t^c \), and labor income, \( \tau_t^n \). Additionally, lump-sum taxes, \( T_t \), are employed as a residual variable to ensure the government budget constraint is met. 
+\bb
+Given the aggregate price index:
+\begin{align}
+	P_t = \left(\int_0^1 p_{it}^{1-\epsilon} \, di \right)^{\frac{1}{1-\epsilon}},
+\end{align}
+where \( p_{it} \) represents the price of variety \( i \), the minimization of expenditure on individual goods implies that the share of expenditure on variety \( i \) is given by:
+\begin{align}
+	\frac{g_{it}}{G_t} = \left(\frac{p_{it}}{P_t}\right)^{-\epsilon}.
+\end{align}
+While \cite{correia2013unconventional} assumes constant government spending, their framework allows for a set of policy variables that can be adjusted in response to economic shocks. This flexibility makes fiscal policy a powerful tool for managing economic fluctuations.
+
 
 \subsection{Calibrating Fiscal Policy to Avoid a Recession}
 Let us now look to how we might adjust fiscal policy in response to such a shock. Consider a particular case, outlined in both \cite{eggertsson2011fiscal} and \cite{christiano2011government}  in which a negative preference shock, in combination with the meeting of the zero lower bound condition, generates a potentially large recession. For the sake of simplicity, as in  \cite{correia2013unconventional}, we assume that $G_t = G$, $A_t = 1$, so that the only shock is the preference shock. These strict assumptions imply that the efficient allocation is constant and unaffected by preference shock. Importantly, we notice from our utility function that preferences ($\xi_t$) are multiplicative. 
@@ -338,14 +309,14 @@ Hence, both \cite{eggertsson2011fiscal} and \cite{christiano2011government} cons
 \end{align*} 
 This results in a natural rate of interest given by \(\frac{\xi_t}{\xi_{t+1}} < 1\) if \(t < T\) and \(\frac{\xi_t}{\xi_{t+1}} > 1\) for \(t \geq T\). We set the nominal interest rate to \(1 + i_t = 1\) for \(t \leq T - 1\) and \(1 + i_t = \frac{1}{\xi}\) for \(t > T\). \cite{correia2013unconventional} sets the path of consumption taxes according to
 \[
-\frac{1 + \tau_{t+1}^c}{1 + \tau_t^c} = \frac{\xi_{t+1}}{\xi_t}, \quad \text{for } t = 0, 1, 2, \dots, T - 1.
+\frac{1 + \tau_{t+1}^c}{1 + \tau_t^c} = \beta\frac{\xi_{t+1}}{\xi_t}, \quad \text{for } t = 0, 1, 2, \dots, T - 1.
 \]
 And sets labour taxes as follows:
 \[
 \dfrac{(1 + \tau_t^c)}{(1 - \tau_t^n)} \frac{\epsilon}{\epsilon - 1} = 1, \quad \text{for all } t.
 \]
 \bb
-In this deterministic model, the initial level of the consumption tax \(\tau_0^c\) determines the future paths of both consumption and labor taxes. Consumption taxes rise over time until they stabilize, while labor taxes decrease and then stabilize. The strategy aims to induce inflation in consumer prices while keeping producer prices stable, leading to negative real interest rates and avoiding distortions from producer price inflation. To achieve this, a temporary reduction in consumption tax must be paired with a temporary increase in labor tax to counteract the lowered marginal cost for firms and prevent them from reducing prices. 
+In this deterministic model, the initial level of the consumption tax \(\tau_0^c\) determines the future paths of both consumption and labour taxes. Consumption taxes rise over time until they stabilize, while labour taxes decrease and then stabilize. The strategy aims to induce inflation in consumer prices while keeping producer prices stable, leading to negative real interest rates and avoiding distortions from producer price inflation. To achieve this, a temporary reduction in consumption tax must be paired with a temporary increase in labour tax to counteract the lowered marginal cost for firms and prevent them from reducing prices. 
 \bb
 \begin{figure} [h!]
 	\centering
@@ -355,19 +326,19 @@ In this deterministic model, the initial level of the consumption tax \(\tau_0^c
 	\label{fig:correia2013}
 \end{figure}
 \bb
-Thus, \cite{correia2013unconventional} find that when facing a preference shock, there exists a path for both labor and consumption taxes that ensures a smooth transition back to the steady state. This approach carefully balances the adjustments in taxes to manage inflationary pressures without causing significant disruptions to the economy. The dynamic path illustrated in Figure \ref{fig:correia2013} demonstrates how these tax adjustments unfold over time, showing a gradual return to equilibrium.
+Thus, \cite{correia2013unconventional} find that when facing a preference shock, there exists a path for both labour and consumption taxes that ensures a smooth transition back to the steady state. This approach carefully balances the adjustments in taxes to manage inflationary pressures without causing significant disruptions to the economy. The dynamic path illustrated in Figure \ref{fig:correia2013} demonstrates how these tax adjustments unfold over time, showing a gradual return to equilibrium.
 
 
 
 \section{The Behavioural Model}
-We now look to introduce behavioural aspects into what is currently a more traditional New Keynesian model consisting solely of perfectly rational agents. The ensuing Behavioural New Keynesian model retains the same structural elements as the standard model: inter-temporal household decisions are governed by an Euler-equation, firms' pricing decisions are represented by a Phillips-curve, and monetary and fiscal policies are implemented via feedback rules. However, unlike the standard model, expectations are not fully rational. Instead, they reflect behavioral adjustments due to agents' cognitive limitations, particularly in their perception of future events.
+We now look to introduce behavioural aspects into what is currently a more traditional New Keynesian model consisting solely of perfectly rational agents. The ensuing Behavioural New Keynesian model retains the same structural elements as the standard model: inter-temporal household decisions are governed by an Euler-equation, firms' pricing decisions are represented by a Phillips-curve, and monetary and fiscal policies are implemented via feedback rules. However, unlike the standard model, expectations are not fully rational. Instead, they reflect behavioural adjustments due to agents' cognitive limitations, particularly in their perception of future events.
 
 \bb In this framework, agents simulate the future but do so with cognitive discounting, shrinking their simulations toward a simple benchmark, the steady state of the economy. This follows from the idea that agents receive noisy signals about the state of the economy, which makes them less confident about distant future events. Consequently, an innovation that is expected to occur in $k$ periods is perceived with diminished significance, discounted by a factor $\bar{m}^k$ relative to the rational response, where $\bar{m}\in [0,1] $ is a parameter capturing the degree of cognitive discounting. This means that innovations far in the future are heavily discounted compared to the rational benchmark, which corresponds to the case where $\bar{m} = 1$. In essence, the agent remains globally patient with respect to steady-state variables but exhibits myopia regarding deviations around the steady state, particularly those that are expected to occur in the distant future.
 
 \subsection{General Approach}
 Behavioural macroeconomics attempts to incorporate the idea that expectation formation is not necessarily based on perfect knowledge about the future evolution of all economically relevant variables \parencite{woodford2013macroeconomic}. Instead of possessing perfectly accurate forecasts, agents in this model may hold perceptions of reality that are imprecise and not entirely forward-looking. Under rational expectations, agents are assumed to have complete and perfect knowledge about the potential future paths of all variables. However, in practice, there are likely to be variables for which forming such precise expectations is challenging. This can be modelled as agents discounting the information that would otherwise be fully utilized by a rational agent. Various behavioural models incorporate this feature, including those with rationally inattentive agents, agents engaged in signal extraction, or those employing simple learning mechanisms. As a result, cognitive discounting leads to decision rules that, while appearing similar to those in standard rational expectations models, are adjusted to account for the behavioural deviations from full rationality.
 \bb
-In order to make a behavioural macroeconomic model internally consistent, two key elements are needed. First, an expectation formation mechanism that is consistent with the informational structure of the model economy, while boundedly rational. More specifically, the resulting deviations from fully rational expectations are not ad hoc but are subject to internal discipline and consistency. \cite{gabaix2014sparsity, gabaix2016behavioral} show how to derive an appropriate expectations operator via the concept of sparse dynamic programming. Second, a researcher still has to make assumptions on the agents' information set, or specifically, what economically relevant information the agents perceive. Looking at \cite{lubik2021fiscal}, we can see a concise summary of this on which I will expand.
+In order to make a behavioural macroeconomic model internally consistent, two key elements are needed. First, an expectation formation mechanism that is consistent with the informational structure of the model economy, while boundedly rational. More specifically, the resulting deviations from fully rational expectations are not ad hoc but are subject to internal discipline and consistency. \cite{gabaix2014sparsity, gabaix2016behavioural} show how to derive an appropriate expectations operator via the concept of sparse dynamic programming. Second, a researcher still has to make assumptions on the agents' information set, or specifically, what economically relevant information the agents perceive. Looking at \cite{lubik2021fiscal}, we can see a concise summary of this on which I will expand.
 
 \bb
 Consider a state variable $\boldsymbol{X}_t$ (comprising productivity $A_t$, preference shocks $\zeta_t$, as well as announced actions in monetary and fiscal policy), that will evolve in equilibrium as:
@@ -404,15 +375,15 @@ Building on the earlier discussion of cognitive discounting, where agents' expec
 This leads to a modified version of the Euler equation where the marginal utility of consumption today, denoted as \( u_C(C_t, N_t) \), is related to the expected discounted utility of future consumption, \( \mathbb{E}_t^{BR} u_C(C_{t+1}, N_{t+1}) \), adjusted for the nominal interest rate \( 1+i \), the ratio of preference shocks \( \frac{\xi_{t+1}}{\xi_t} \), the ratio of current to future prices \( \frac{P_t}{P_{t+1}} \), and the relative consumption tax adjustments \( \frac{(1+\tau_t^c)}{(1+\tau_{t+1}^c)} \). The Behavioural Euler Equation is expressed as:
 
 \begin{align}
-	\label{eq: intertemporal_BR}
+	\label{eq: inter-temporal_BR}
 		u_C(C_t, N_t) =& (1+i) \beta \mathbb{E}_t^{BR} u_C(C_{t+1}, N_{t+1}) \dfrac{\xi_{t+1}}{\xi_t}\dfrac{P_t}{P_{t+1}} \dfrac{(1+\tau_{t}^c)}{(1+\tau_{t+1}^c)}.
 \end{align}
 \bb
-If we log-linearize equation \ref{eq: intertemporal_BR}, we obtain:
+If we log-linearize equation \ref{eq: inter-temporal_BR}, we obtain:
 \begin{equation*}
 	\delta \hat{C}_t + \Gamma \hat{\xi}_t - \hat{\tau}^c_t =  \left[\hat{i}_t - \ln\left(\frac{1}{\beta}\right) - \mathbb{E}_t \pi_{t+1}\right] + \mathbb{E}_t^{BR} \left[\delta \hat{C}_{t+1} + \Gamma\hat{\xi}_{t+1} - \hat{\tau}^c_{t+1}\right]
 \end{equation*}
-where $\delta = \dfrac{C }{u_c}(u_{CC }+ u_{CN })$, and $\hat{C}_t = \ln\left(\frac{C_t}{C}\right)$,  $\hat{\tau}^c_t = \ln\left(\frac{1+\tau^c_t}{1+\tau^c}\right)$, and $\pi_{t+1} = \ln\left(\frac{P_{t+1}}{P_t}\right)$.  Notice, that  the expectation term in front of inflation $\mathbb{E}_t \pi_{t+1}$, in the IS curve remains unaffected and does not incorporate any behavioural biases. This is because our model does not contain the concept of nominal illusion. One could include it as outlined in a footnote by \cite{gabaix2020behavioural}, yet for simplicity we do not. 
+where $\delta = \dfrac{C }{u_c}(u_{CC }+ u_{CN })$, and $\hat{C}_t = \ln\left(\frac{C_t}{C}\right)$,  $\hat{\tau}^c_t = \ln\left(\frac{1+\tau^c_t}{1+\tau^c}\right)$, and $\pi_{t+1} = \ln\left(\frac{P_{t+1}}{P_t}\right)$.  Notice, that  the expectation term in front of inflation $\mathbb{E}_t \pi_{t+1}$, in the IS-curve remains unaffected and does not incorporate any behavioural biases. This is because our model does not contain the concept of nominal illusion. One could include it as outlined in a footnote by \cite{gabaix2020behavioural}, yet for simplicity we do not. 
 Furthermore,  we know that because $\xi$ is multiplicative, deviations between periods effects consumption proportionally, hence we can say $\Gamma = 1$ and rewrite the equation as follows;
 
 \begin{equation*}
@@ -445,7 +416,7 @@ where the natural rate of interest $r_t$ consists of:
 
 
 \subsection{The Behavioural Phillips Curve}
-In a standard New Keynesian model, the Phillips Curve is derived based on the concept of price stickiness, where firms do not adjust prices instantly in response to economic changes. When cognitive discounting is introduced, the Behavioral Phillips Curve emerges, accounting for firms' limited attention or imperfect cognition. This means that decision-makers at firms do not fully consider the future state of the economy when setting prices.
+In a standard New Keynesian model, the Phillips Curve is derived based on the concept of price stickiness, where firms do not adjust prices instantly in response to economic changes. When cognitive discounting is introduced, the behavioural Phillips Curve emerges, accounting for firms' limited attention or imperfect cognition. This means that decision-makers at firms do not fully consider the future state of the economy when setting prices.
 \bb
 The behavioural version of the Phillips Curve is derived similarly to the standard model but includes modifications to account for these cognitive limitations. Specifically, firms' expectations and the resulting inflation dynamics are influenced by behavioural factors. Firms aim to maximise the following:
 \begin{align}
@@ -463,32 +434,46 @@ Where;
 	\kappa &= (1 - \theta \beta) \frac{1 - \theta}{\theta} \phi g\\
 	\psi &= (\phi g)^{-1}
 \end{align*}
-\( M^f \) reflects the impact of cognitive discounting, where firms may not fully account for future economic conditions due to limited attention or biases; it modifies the expected future inflation term, with \( M^f = \bar{m} = 1 \) reducing the model to its standard form. \( \kappa \) represents the sensitivity of inflation to the output gap, influenced by price stickiness and firms' cost structures, determining how strongly inflation responds to economic activity. \( \psi \) adjusts for the impact of tax distortions on inflation, ensuring the model accurately reflects fiscal policies' effects. Together, these coefficients provide a more realistic framework for analyzing inflation by incorporating behavioral insights.
+\( M^f \) reflects the impact of cognitive discounting, where firms may not fully account for future economic conditions due to limited attention or biases; it modifies the expected future inflation term, with \( M^f = \bar{m} = 1 \) reducing the model to its standard form. \( \kappa \) represents the sensitivity of inflation to the output gap, influenced by price stickiness and firms' cost structures, determining how strongly inflation responds to economic activity. \( \psi \) adjusts for the impact of tax distortions on inflation, ensuring the model accurately reflects fiscal policies' effects. Together, these coefficients provide a more realistic framework for analyzing inflation by incorporating behavioural insights.
 
+\subsection{Impact of a Negative Preference Shock in a Behavioural Setting}
 
-\subsection{Impact of a Negative Preference Shock on Our Results}
-In line with \cite{correia2013unconventional}, we consider using a combination of consumption and labour taxes to mitigate the impact of such a shock. However, the presence of cognitive discounting changes the effectiveness of this strategy.
-To counteract the decrease in consumption caused by the shock, the model would suggest lowering consumption taxes temporarily. This reduction would increase consumer prices, attempting to induce consumption by making future consumption relatively more expensive. However, under cognitive discounting, the impact of this tax reduction is amplified in the short term due to the heightened sensitivity of agents to current-period incentives. While this might initially boost consumption, the behavioural response could lead to excessive volatility, with agents overreacting to the temporary changes in taxes. To stabilize producer prices and prevent a decrease in marginal costs that could lead to deflation, a simultaneous increase in labour taxes would be necessary. However, as cognitive discounting causes agents to place more weight on immediate costs, the negative impact of higher labor taxes on labor supply would be more pronounced. This could deepen the recessionary effects by further reducing output and employment in the short term.
-Over time, as the effects of the negative preference shock fade (i.e., as the shock becomes neutral after period \( T \)), consumption taxes would need to increase, and labour taxes decrease, to stabilize the economy. The key challenge in our model is managing the transition period, where the interplay between cognitive discounting and tax adjustments could lead to greater economic instability than in a standard rational expectations framework.
+In examining the impact of a negative preference shock within a Behavioural framework, it is crucial to adjust our understanding of the effectiveness of fiscal policy responses. According to \cite{correia2013unconventional}, a combination of temporary adjustments in consumption and labor taxes is recommended to counteract economic downturns. This approach helps to stimulate consumption and manage deflationary pressures during a recession. However, cognitive discounting can alter the effectiveness of these strategies.
 \bb
-Post-shock, the model would prescribe an increase in consumption taxes to stabilize prices and restore the natural rate of interest to positive levels. However, the persistence of cognitive discounting means that agents under-react to this increase, leading to prolonged periods of low consumption and delayed economic recovery. Similarly, reducing labour taxes would be necessary to encourage labor supply and increase output. But again, cognitive discounting cause agents to undervalue the future benefits of lower taxes, resulting in a slower than expected response in labour market recovery.
+When \( M = 1 \), the Behavioural model aligns with the standard New Keynesian model. Agents have perfect foresight about future economic conditions and fully incorporate all available information into their decision-making processes. Consequently, the expectations operator for agents is identical to the rational expectations operator:
+\begin{align}
+	\mathbb{E}_t^{BR} \boldsymbol{X}_{t+k} = \mathbb{E}_t \boldsymbol{X}_{t+k}.
+\end{align}
+In this scenario, fiscal and monetary policies can be implemented with the expectation that agents will fully anticipate and react to policy changes in line with the model's predictions. The results of this are therefore the same as those found in \cite{correia2013unconventional} and so I will avoid repeating them. 
 \bb
-In traditional models like those of \cite{eggertsson2011fiscal} and \cite{correia2013unconventional}, the response to a negative preference shock is more straightforward. Lowering consumption taxes and raising labour taxes can effectively manage the recessionary effects by inducing inflation and stabilizing producer prices. However, our model introduces additional complexity due to the behavioural biases of agents. The primary difference is the increased volatility in response to tax changes. While traditional models predict a smooth transition back to equilibrium, our model suggests that cognitive discounting leads to overreactions and under-reactions that complicate the policy response. The need for more careful calibration of tax policies is also highlighted. Small errors in timing or magnitude of tax adjustments could have outsized effects due to the exaggerated behavioural responses under cognitive discounting. Thus, a negative preference shock in our model exacerbates the challenges of using tax policy to stabilize the economy, particularly in the presence of cognitive discounting. While the basic principles of adjusting consumption and labour taxes still apply, the behavioural distortions introduced by cognitive discounting necessitate a more cautious and dynamic approach to policy implementation. The risk of increased economic volatility and prolonged recovery underscores the importance of understanding and accounting for behavioural factors in macroeconomic policy design.
-
-\subsection{The effect of sales tax alone}
-
-\subsection{The effect of labour tax alone}
-
-\subsection{The effect of the combination}
-
-\subsection{Time Consistency}
-The introduction of cognitive discounting
-
-
-
-
-
-
+Conversely, when \( M = 0 \), agents exhibit complete cognitive discounting. Here, agents disregard future economic conditions entirely. The expectations operator under this extreme is:
+\begin{align}
+	\mathbb{E}_t^{BR} \boldsymbol{X}_{t+k} = 0,
+\end{align}
+indicating that agents do not consider future states at all. This leads to altered behavior. For instance, the Euler equation becomes:
+\begin{align*}
+	\hat{y}_t &= M \mathbb{E}_t \hat{y}_{t+1} + \sigma \left(\hat{i}_t - \mathbb{E}_t \pi_{t+1} - r_t \right) - \sigma \left(M \mathbb{E}_t \hat{\tau}^c_{t+1} - \hat{\tau}^c_t\right)\\
+	&= 0 \mathbb{E}_t \hat{y}_{t+1} + \sigma \left(\hat{i}_t - \mathbb{E}_t \pi_{t+1} - r_t \right) - \sigma \left(0 \mathbb{E}_t \hat{\tau}^c_{t+1} - \hat{\tau}^c_t\right)\\
+	&= \sigma \left(\hat{i}_t - \mathbb{E}_t \pi_{t+1} - r_t \right) + \sigma \left(  \hat{\tau}^c_t\right)
+\end{align*}
+where the natural rate of interest \( r_t \) is:
+\begin{align}
+	r_t = \ln \beta^{-1} + \hat{\xi}_t
+\end{align}
+Thus, as long as in this case \( \hat{\tau}^c_t = \ln \beta^{-1} + \hat{\xi}_t \), the behavior of the economy will differ significantly from the rational expectations case, but the fiscal policy framework remains robust enough to stabilize the economy.
+\bb
+The Phillips curve in this scenario simplifies to:
+\begin{align*}
+	\pi_t = \beta M^f \mathbb{E}_t \pi_{t+1} + \kappa \hat{y}_t + \kappa \psi (\hat{\tau}_t^c + \hat{\tau}_t^n)\\
+	\pi_t = \beta \cdot 0 \cdot \mathbb{E}_t \pi_{t+1} + \kappa \hat{y}_t + \kappa \psi (\hat{\tau}_t^c + \hat{\tau}_t^n)\\
+	\pi_t = \kappa \hat{y}_t + \kappa \psi (\hat{\tau}_t^c + \hat{\tau}_t^n)\\
+\end{align*}
+Given \( \hat{\tau}_t^n = -\hat{\tau}_t^c \), it simplifies further to:
+\begin{align}
+	\pi_t = \kappa \hat{y}_t
+\end{align}
+\bb
+Despite the significant differences in the perceived trajectories of state variables between perfectly rational agents and those exhibiting extreme cognitive discounting, the fiscal policy proposed by \cite{correia2013unconventional} remains robust in stabilizing the economy. Our findings are consistent with those of \cite{bianchi2024fiscal}, affirming the resilience of this fiscal strategy even when cognitive biases are present. Additionally, we observe that as the level of cognitive discounting increases, there is greater volatility in consumption, with more pronounced adjustments occurring as agents become aware of future state variables.
 
 \section{Introducing Deficit financing}
 \cite{gabaix2020behavioural} outlines how the addition of behavioural agents generates a failure of Ricardian equivalence. In traditional New Keynesian models with rational, forward-looking agents, such as those analysed in \cite{eggertsson2011fiscal}, Ricardian equivalence suggests that the method of government financing, whether through lump-sum taxes or debt issuance, should have no impact on overall economic activity. Under this theory, rational agents anticipate future tax liabilities that will arise from government debt and, therefore, adjust their savings accordingly, neutralizing the impact of debt-financed government spending on consumption and output.
@@ -509,9 +494,6 @@ The cost of servicing existing debt is represented by \( \dfrac{r}{R}B_t \), whi
 \bb
 Notice that in this version of our model, in accordance with \cite{uhlig2010some}, taxes on consumption remain constant over time and labour taxes adjust to solve the model. This is in stark contrast with the method outlined in \cite{correia2013unconventional} analysed above. 
 \bb
-\textbf{Unlike traditional New Keynesian models with perfectly rational agents, debt dynamics in our behavioural model will therefore have }
-
- 
 
 \subsection{An Approximated Equilibrium}
 \begin{align}
@@ -532,13 +514,14 @@ Superficially, the deficit portion of this IS equation looks very similar to equ
 \bb
 The Phillips curve in this model retains its traditional form but is now influenced by the changes in government spending, which have been integrated into the output gap dynamics. While deficits themselves do not directly affect the Phillips curve, the relaxed restrictions on government spending introduce a significant channel through which fiscal policy can influence inflationary pressures. Specifically, deviations of government spending from its steady-state level are now explicitly incorporated into the Phillips curve equation as follows: 
 \begin{align}
-	\pi_t &= \beta M \mathbb{E}_t \pi_{t+1}  + \kappa \hat{y}_t  +\kappa \psi (\tilde{\tau}_t^c + \tilde{\tau}_t^n + \hat{g_t})
+	\pi_t &= \beta M \mathbb{E}_t \pi_{t+1}  + \kappa \hat{y}_t  +\kappa \psi (\hat{\tau}_t^c + \hat{\tau}_t^n + \hat{g_t})
 \end{align}
 
 
 \subsection{Fiscal Multiplier}
-Finally, let us consider what happens when the government purchases an amount $G_t$ of the aggregate good, and consumes it. Similarly to \cite{gabaix2020behavioural} and \cite{eggertsson2011fiscal}, we assume that this enters additively in the utility function so that this does not distort the agent?s decision. This results in a utility function which takes the form:
-
+Finally, let us consider what happens when the government purchases an amount $G_t$ of the aggregate good, and consumes it. We know from \cite{gabaix2020behavioural}, that unlike traditional models with rational agents, behavioural agents feel wealthier in the face of increase deficit spending, as they fail to internalise the full extent of the associated future tax burden. We should therefore expect to see the same phenomenon in our version of the model.
+\bb
+Before we begin deriving we follow \cite{gabaix2020behavioural} and \cite{eggertsson2011fiscal}, by assuming that government spending enters additively into the utility function so that this does not distort the agents' decision. This results in a utility function which takes the form:
 \begin{align}
 	U_t = \mathbb{E}_t \sum_{t=0}^{\infty} \beta^t \xi_t \bigg( \dfrac{C_t^{1-\sigma}}{1-\sigma} - \dfrac{N_t^{1+\varphi}}{1+\varphi}  + U(G)\bigg) 
 \end{align}
@@ -560,17 +543,17 @@ We know from \cite{gabaix2020behavioural} that $b_d > 0$, and from \cite{uhlig20
 \begin{align*}
 	\frac{\partial Y_0}{\partial G_0} > 1, \qquad \qquad \text{when} \quad \psi < 1
 \end{align*}
-The fiscal multiplier derived here is closely aligned with the findings of \cite{gabaix2020behavioural}, though with a key distinction. Our result captures both the direct impact of government spending on GDP but also the additional indirect effect. This indirect effect occurs are as individuals feel wealthier as their income increases by $G_0$ but do not fully internalise the future associated tax burden due to cognitive discounting. Once again the extent of their cognitive discounting is capture by the value of $\bar{m}$. In the rational case, where $\bar{m} = 1$ we see that this indirect channel disappears, $b_d = 0$ as agents fully perceive future taxes. However in the case of behavioural agents, where $0 \leq \bar{m} < 1$, this indirect effect plays a crucial role.
+The fiscal multiplier derived here is closely aligned with the findings of \cite{gabaix2020behavioural}, though with a key distinction. Our result captures both the direct impact of government spending on GDP but also the additional indirect effect. This indirect effect occurs as individuals feel wealthier as their income increases by $G_0$ but do not fully internalise the future associated tax burden due to cognitive discounting. Once again the extent of their cognitive discounting is capture by the value of $\bar{m}$. In the rational case, where $\bar{m} = 1$ we see that this indirect channel disappears, $b_d = 0$ as agents fully perceive future taxes. However in the case of behavioural agents, where $0 \leq \bar{m} < 1$, this indirect effect plays a crucial role.
 \bb 
 The introduction of the parameter $(1-\psi)$ allows for a mix of deficit financing and tax-based funding for government spending, rather than assuming full deficit financing. When $\psi = 0$, as is the case in \cite{gabaix2020behavioural}, spending is entirely deficit-financed, leading to a higher fiscal multiplier since agents, due to cognitive discounting ($\bar{m} < 1$), do not fully perceive future tax liabilities and thus increase their consumption. As $\psi$ increases, more of the spending is financed by immediate taxes, which reduces disposable income and consumption, thereby lowering the fiscal multiplier. This model highlights that the method of financing government spending significantly influences its impact on GDP, with deficit financing boosting short-term output but at the cost of future debt.
 
-
 \section{Conclusion}
-This paper has sought to expanded upon work done by \cite{gabaix2020behavioural} and his Behavioural New Keynesian framework by incorporating distortionary taxes, thereby enhancing our understanding of fiscal policy in an environment where agents exhibit cognitive biases. By integrating cognitive discounting into the analysis of labour and consumption taxes, we have demonstrated that traditional macroeconomic results, which assume rational expectations, may not fully capture the complexities introduced by behavioural factors. Specifically, we have shown that cognitive discounting can significantly alter the standard trade-offs associated with distortionary taxes, notably the volatility shown in  decisions in ways that differ markedly from those predicted by models relying solely on rational expectations.
+This paper has expanded upon the work of \cite{gabaix2020behavioural} by incorporating distortionary taxes into the Behavioural New Keynesian framework, thereby enhancing our understanding of fiscal policy in environments where agents exhibit cognitive biases. By integrating cognitive discounting into the analysis of labour and consumption taxes, we have shown that traditional macroeconomic results, which assume rational expectations, may not fully capture the complexities introduced by behavioural factors. Specifically, our findings indicate that while cognitive discounting can significantly alter the perceived paths of state variables, the fiscal policy proposed by \cite{correia2013unconventional} remains robust enough to stabilize the economy. Moreover, we observe that greater levels of cognitive discounting lead to increased volatility in consumption, as agents make sharper adjustments when confronted with updated information about future states.
 \bb
-Moreover, our exploration of deficit financing within this behavioural framework has yielded important insights into the dynamics of debt and fiscal sustainability under bounded rationality. We found that the interaction between cognitive discounting and deficit financing can affect economic multipliers and long-term outcomes, challenging the conventional wisdom derived from rational expectation models. These findings underscore the importance of accounting for cognitive biases when designing and implementing fiscal policies, particularly in situations involving significant government spending and debt accumulation.
+Moreover, we explore the the interaction between cognitive discounting and deficit financing in our model, in line with \cite{gabaix2020behavioural}. Our paper builds on previous behavioural frameworks by introducing a new approach to accounting for deficits by incorporating distortionary taxes. Unlike previous behavioural models, our fiscal multiplier now depends on the proportion of increased government spending that is financed through distortionary labour taxes versus deficit financing. This adjustment provides a more nuanced understanding of how fiscal policy impacts economic outcomes in environments where agents exhibit cognitive biases.
+
 \bb
-Our analysis provides a foundation for future research into the broader implications of cognitive discounting in macroeconomic modelling. The results presented here suggest several avenues for further exploration, such as the inclusion of distortionary taxes in heterogeneous agent models,  such as the one developed by \cite{pfauti2022behavioral}, and the investigation of progressive taxation, such as \cite{ferriere2024heterogeneous}, within a behavioural context. By extending our framework to incorporate these complexities, future work could yield even deeper insights into the distributional effects of fiscal policy and the role of behavioural biases in shaping economic outcomes.
+Our analysis provides a foundation for future research into the broader implications of cognitive discounting in macroeconomic modelling. The results presented here suggest several avenues for further exploration, such as the inclusion of distortionary taxes in heterogeneous agent models,  such as the one developed by \cite{pfauti2022behavioural}, and the investigation of progressive taxation, such as \cite{ferriere2024heterogeneous}, within a behavioural context. By extending our framework to incorporate these complexities, future work could yield even deeper insights into the distributional effects of fiscal policy and the role of behavioural biases in shaping economic outcomes.
 \bb
 In conclusion, this paper contributes to the growing literature on Behavioural New Keynesian economics by offering a more nuanced perspective on fiscal policy in the presence of cognitive limitations. Our findings highlight the need for policymakers to consider the potential distortions introduced by behavioural biases, particularly in the design and implementation of tax policies and deficit-financed spending programs. As governments continue to navigate complex economic environments, the integration of behavioural insights into macroeconomic models will be crucial for developing more effective and realistic policy interventions.
 
@@ -588,11 +571,11 @@ In conclusion, this paper contributes to the growing literature on Behavioural N
 Naturally, our log-linearised process is very similar to that found in \cite{correia2013unconventional}.
 
 \subsection{Behavioural Euler Equation}
-If we log-linearize equation \ref{eq: intertemporal_BR}, we obtain:
+If we log-linearize equation \ref{eq: inter-temporal_BR}, we obtain:
 \begin{equation}
 	\delta \hat{C}_t + \Gamma \hat{\xi}_t - \hat{\tau}^c_t =  \left[\hat{i}_t - \ln\left(\frac{1}{\beta}\right) - \mathbb{E}_t \pi_{t+1}\right] + \mathbb{E}_t^{BR} \left[\delta \hat{C}_{t+1} + \Gamma\hat{\xi}_{t+1} - \hat{\tau}^c_{t+1}\right]
 \end{equation}
-where $\delta = \dfrac{C }{u_c}(u_{CC }+ u_{CN })$, and $\hat{C}_t = \ln\left(\frac{C_t}{C}\right)$,  $\hat{\tau}^c_t = \ln\left(\frac{1+\tau^c_t}{1+\tau^c}\right)$, and $\pi_{t+1} = \ln\left(\frac{P_{t+1}}{P_t}\right)$.  Notice, that  the expectation term in front of inflation $\mathbb{E}_t \pi_{t+1}$, in the IS curve remains unaffected and does not incorporate any behavioural biases. This is because our model does not contain the concept of nominal illusion. One could include it as outlined in a footnote by \cite{gabaix2020behavioural}, yet for   we do not. 
+where $\delta = \dfrac{C }{u_c}(u_{CC }+ u_{CN })$, and $\hat{C}_t = \ln\left(\frac{C_t}{C}\right)$,  $\hat{\tau}^c_t = \ln\left(\frac{1+\tau^c_t}{1+\tau^c}\right)$, and $\pi_{t+1} = \ln\left(\frac{P_{t+1}}{P_t}\right)$.  Notice, that  the expectation term in front of inflation $\mathbb{E}_t \pi_{t+1}$, in the IS-curve remains unaffected and does not incorporate any behavioural biases. This is because our model does not contain the concept of nominal illusion. One could include it as outlined in a footnote by \cite{gabaix2020behavioural}, yet for   we do not. 
 Furthermore,  we know that because $\xi$ is multiplicative, deviations between periods effects consumption proportionally, hence we can say $\Gamma = 1$ and rewrite the equation as follows;
 
 \begin{equation}
@@ -667,7 +650,7 @@ where;
 Then we can write:
 \begin{align*}
 	\pi_t \simeq (1 - \theta \beta) \frac{1 - \theta}{\theta} 
-	\left[\tilde{\tau}_t^c + \tilde{\tau}_t^n + \phi \hat{C}_t - \gamma \hat{\xi}_t \right] 
+	\left[\hat{\tau}_t^c + \hat{\tau}_t^n + \phi \hat{C}_t - \gamma \hat{\xi}_t \right] 
 	+ \frac{1 - \theta}{\theta} (\theta \beta) \mathbb{E}_t^{BR} [\pi_{t+1}] 
 	+ (\theta \beta) \mathbb{E}_t^{BR} \pi_{t+1}
 \end{align*}
@@ -687,7 +670,7 @@ Finally, remember that;
 Therefore: 
 \begin{align*}
 	\pi_t \simeq (1 - \theta \beta) \frac{1 - \theta}{\theta} 
-	\left[\tilde{\tau}_t^c + \tilde{\tau}_t^n + \phi g \hat{y}_t \right] 
+	\left[\hat{\tau}_t^c + \hat{\tau}_t^n + \phi g \hat{y}_t \right] 
 	+ \beta M \mathbb{E}_t \pi_{t+1},
 \end{align*}
 Setting; 
@@ -698,14 +681,14 @@ Setting;
 \end{align*}
 This leaves us with a behavioural Phillips curve: 
 \begin{align*}
-	\pi_t &\simeq \beta M \mathbb{E}_t \pi_{t+1}  + \kappa \hat{y}_t  +\kappa \psi (\tilde{\tau}_t^c + \tilde{\tau}_t^n)
+	\pi_t &\simeq \beta M \mathbb{E}_t \pi_{t+1}  + \kappa \hat{y}_t  +\kappa \psi (\hat{\tau}_t^c + \hat{\tau}_t^n)
 \end{align*}
 
 
 \section{Appendix: Sales Tax vs VAT}
 It is important to note that the introduction of cognitive discounting in our model does not necessarily provide any further support for reducing value-added taxes (VAT). As emphasized by \cite{eggertsson2011fiscal}, VAT, which is commonly used in Europe, interacts with price frictions differently compared to American sales taxes. In the case of sales taxes, our model assumes that firms set prices based solely on the tax, so a 1\% reduction in the tax directly translates into a 1\% lower purchasing price for consumers, even if firms do not immediately adjust their prices.
 \bb
-However,\cite{eggertsson2011fiscal} argues that this assumption is less plausible for VAT, where prices are typically inclusive of the tax due to legal requirements. In his analysis, if firms post prices that include VAT, a 1\% reduction in VAT will only be reflected in consumer prices if firms adjust their pricing decisions, which occurs at stochastic intervals in the model. Therefore, as highlighted in \cite{eggertsson2004optimal} , VAT affects the aggregate supply (AS) and aggregate demand (AD) equations in a manner similar to payroll taxes, leading to an unchanged analysis in our framework.
+However, \cite{eggertsson2011fiscal} argues that this assumption is less plausible for VAT, where prices are typically inclusive of the tax due to legal requirements. In his analysis, if firms post prices that include VAT, a 1\% reduction in VAT will only be reflected in consumer prices if firms adjust their pricing decisions, which occurs at stochastic intervals in the model. Therefore, as highlighted in \cite{eggertsson2004optimal} , VAT affects the aggregate supply (AS) and aggregate demand (AD) equations in a manner similar to payroll taxes, leading to an unchanged analysis in our framework.
 \bb
 This implies that while sales tax cuts can be expansionary due to an immediate decrease in consumer prices and expected higher future prices, VAT cuts might have the opposite effect. Because VAT is included in posted prices, a reduction in VAT will only be apparent once firms revise their prices, which could delay the observed impact and lead consumers to postpone purchases in anticipation of future lower prices. Consequently, reducing VAT might be contractionary, as firms' delayed price adjustments affect consumption behaviour.
 

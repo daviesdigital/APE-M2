@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.30)  28 AUG 2024 07:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.30)  28 AUG 2024 16:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -875,7 +875,7 @@ Package biblatex Info: ... file '"Thesis Draft".bbl' found.
  (Thesis Draft.bbl)
 Package biblatex Info: Reference section=0 on input line 85.
 Package biblatex Info: Reference segment=0 on input line 85.
-<images/Pantheon Sorbonne Logo.png, id=107, 782.925pt x 385.44pt>
+<images/Pantheon Sorbonne Logo.png, id=87, 782.925pt x 385.44pt>
 File: images/Pantheon Sorbonne Logo.png Graphic file (type png)
 <use images/Pantheon Sorbonne Logo.png>
 Package pdftex.def Info: images/Pantheon Sorbonne Logo.png  used on input line 
@@ -893,7 +893,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 95.
 (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<images/PSE_logo.jpg, id=109, 1204.5pt x 912.40875pt>
+<images/PSE_logo.jpg, id=89, 1204.5pt x 912.40875pt>
 File: images/PSE_logo.jpg Graphic file (type jpg)
 <use images/PSE_logo.jpg>
 Package pdftex.def Info: images/PSE_logo.jpg  used on input line 98.
@@ -910,40 +910,44 @@ theon Sorbonne Logo.png> <./images/PSE_logo.jpg>] [1
 
 ] [2
 
-] (Thesis Draft.toc
-[3])
+] (Thesis Draft.toc)
 \tf@toc=\write6
 \openout6 = `"Thesis Draft.toc"'.
 
- [4]
+
+[3]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.190 \bb
-          [1] [2] [3] [4] [5] [6] [7] [8] [9] [10]
-<images/correia2013.jpg, id=264, 728.7225pt x 346.29375pt>
+l.175 \bb
+          [1] [2] [3] [4] [5] [6] [7] [8] [9]
+<images/correia2013.jpg, id=255, 728.7225pt x 346.29375pt>
 File: images/correia2013.jpg Graphic file (type jpg)
 <use images/correia2013.jpg>
-Package pdftex.def Info: images/correia2013.jpg  used on input line 352.
+Package pdftex.def Info: images/correia2013.jpg  used on input line 323.
 (pdftex.def)             Requested size: 338.58632pt x 160.8981pt.
- [11 <./images/correia2013.jpg>] [12] [13] [14] [15] [16] [17] [18] [19] [20] [
-21] [22] [23] [24] [25]
-[26] [27] [28] [29] [30] [31] [32] (Thesis Draft.aux)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[10] [11 <./images/correia2013.jpg>] [12] [13] [14] [15] [16] [17] [18]
+[19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32]
+(Thesis Draft.aux)
 Package rerunfilecheck Info: File `"Thesis Draft".out' has not changed.
-(rerunfilecheck)             Checksum: F486D20679D18E6C7E904B999B074ACB;4490.
+(rerunfilecheck)             Checksum: E4240BA760D45750C7CFCA0CE9A63C8F;3600.
 Package logreq Info: Writing requests to '"Thesis Draft".run.xml'.
 \openout1 = `"Thesis Draft.run.xml"'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23363 strings out of 476411
- 404368 string characters out of 5789134
+ 23400 strings out of 476411
+ 405319 string characters out of 5789134
  1867845 words of memory out of 5000000
- 43284 multiletter control sequences out of 15000+600000
+ 43318 multiletter control sequences out of 15000+600000
  521261 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,77p,1591b,2248s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,77p,1402b,1868s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx10.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmbx12.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/p
@@ -963,9 +967,9 @@ KTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/david/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/david/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/david/
 AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "Thesis Draft.pdf" (37 pages, 1239880 bytes).
+Output written on "Thesis Draft.pdf" (36 pages, 1237685 bytes).
 PDF statistics:
  525 PDF objects out of 1000 (max. 8388607)
- 118 named destinations out of 1000 (max. 500000)
- 224 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 121 named destinations out of 1000 (max. 500000)
+ 184 words of extra memory for PDF output out of 10000 (max. 10000000)
 
