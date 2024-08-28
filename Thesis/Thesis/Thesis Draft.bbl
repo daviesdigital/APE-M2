@@ -380,6 +380,37 @@
       \field{pages}{2271\bibrangedash 2327}
       \range{pages}{57}
     \endentry
+    \entry{hommes2021behavioral}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2523de056a116d7920861703e2185018}{%
+           family={Hommes},
+           familyi={H\bibinitperiod},
+           given={Cars},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Economic Association 2014 Broadway, Suite 305, Nashville, TN 37203-2425}%
+      }
+      \strng{namehash}{2523de056a116d7920861703e2185018}
+      \strng{fullhash}{2523de056a116d7920861703e2185018}
+      \strng{bibnamehash}{2523de056a116d7920861703e2185018}
+      \strng{authorbibnamehash}{2523de056a116d7920861703e2185018}
+      \strng{authornamehash}{2523de056a116d7920861703e2185018}
+      \strng{authorfullhash}{2523de056a116d7920861703e2185018}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Economic Literature}
+      \field{number}{1}
+      \field{title}{Behavioral and experimental macroeconomics and policy analysis: A complex systems approach}
+      \field{volume}{59}
+      \field{year}{2021}
+      \field{pages}{149\bibrangedash 219}
+      \range{pages}{71}
+    \endentry
     \entry{lubik2021fiscal}{article}{}
       \name{author}{2}{}{%
         {{hash=42f74c65b4e8e805e48a4dcc50f04c2f}{%
@@ -478,36 +509,6 @@
       \field{pages}{30\bibrangedash 34}
       \range{pages}{5}
     \endentry
-    \entry{woodford1998control}{inproceedings}{}
-      \name{author}{1}{}{%
-        {{hash=4e7f6ec4eb22dde123b8ebb1e85954fd}{%
-           family={Woodford},
-           familyi={W\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{organization}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{4e7f6ec4eb22dde123b8ebb1e85954fd}
-      \strng{fullhash}{4e7f6ec4eb22dde123b8ebb1e85954fd}
-      \strng{bibnamehash}{4e7f6ec4eb22dde123b8ebb1e85954fd}
-      \strng{authorbibnamehash}{4e7f6ec4eb22dde123b8ebb1e85954fd}
-      \strng{authornamehash}{4e7f6ec4eb22dde123b8ebb1e85954fd}
-      \strng{authorfullhash}{4e7f6ec4eb22dde123b8ebb1e85954fd}
-      \field{extraname}{1}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{The Debt Burden and its Consequences for Monetary Policy: Proceedings of a Conference held by the International Economic Association at the Deutsche Bundesbank, Frankfurt, Germany}
-      \field{title}{Control of the public debt: a requirement for price stability?}
-      \field{year}{1998}
-      \field{pages}{117\bibrangedash 158}
-      \range{pages}{42}
-    \endentry
     \entry{woodford2013macroeconomic}{article}{}
       \name{author}{1}{}{%
         {{hash=4e7f6ec4eb22dde123b8ebb1e85954fd}{%
@@ -525,7 +526,6 @@
       \strng{authorbibnamehash}{4e7f6ec4eb22dde123b8ebb1e85954fd}
       \strng{authornamehash}{4e7f6ec4eb22dde123b8ebb1e85954fd}
       \strng{authorfullhash}{4e7f6ec4eb22dde123b8ebb1e85954fd}
-      \field{extraname}{2}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{extradatescope}{labelyear}
@@ -541,7 +541,6 @@
       \range{pages}{44}
     \endentry
   \enddatalist
-  \missing{eggertsson2009paradox}
 \endrefsection
 \endinput
 

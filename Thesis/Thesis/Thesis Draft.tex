@@ -167,6 +167,21 @@ This paper presents a novel extension of the Behavioural New Keynesian model by 
 
 
 \section{Introduction}
+A vast portion of policy analysis is still based on rational expectations models, often with a perfectly rational representative agent \cite{hommes2021behavioral}. Recent financial-economic crises, have shown however, that alternative approaches are needed in order to more appropriately model, understand, and manage crises. In recent years we have seen the emergence of behavioural macroeconomic models which challenge these traditional assumptions, claiming to better capture more nuanced, real-world economic behaviour, particularly during times of turmoil.
+\bb
+The integration of behavioural economics into macroeconomic theory has opened new avenues for understanding how policy decisions influence economic outcomes. One recent impactful advancemnet in the field is the work done by Xavier Gabaix. His work on Sparse maximisation 
+
+
+
+Talk about how, while his paper broke much needed ground, fiscal policy in the model is limited to lump-sum transfers/taxes.
+
+If the aim of behavioural macroeconomics is to better model everyday economic behaviour we must analyse how cognitive biases interact with distortionary taxes 
+
+While previous work done on distortionary taxes has born fruitful conclusions, there has yet to be an integration of these distortionary taxes within a behavioural new keynesian framework
+
+
+
+
 \textbf{Insert MORE GENERAL TALK ABOUT DISTORTIONARY TAXES}
 \bb
 Distortionary taxes, which alter the incentives for labour supply, savings, and investment, are a cornerstone of fiscal policy analysis. Previous influential works by Eggertsson and Correia have rigorously examined the macroeconomic implications of such taxes within the standard New Keynesian framework, revealing the trade-offs and inefficiencies they introduce. However, these analyses operate under the assumption of rational expectations, where agents are assumed to fully anticipate and optimally respond to future tax liabilities. This assumption overlooks the cognitive limitations highlighted by Gabaix, which could fundamentally alter the way agents respond to distortionary taxes and, consequently, the overall effectiveness of fiscal policy.
@@ -178,7 +193,7 @@ Gabaix's pioneering work has laid the foundation for a behavioural perspective i
 \bb
 This thesis seeks to bridge this critical gap by expanding Gabaix's Behavioral New Keynesian model to include the effects of distortionary taxes. By incorporating cognitive discounting into a framework that accounts for taxes on labour and consumption, this research aims to provide a more comprehensive understanding of fiscal policy in a world where agents are influenced by cognitive biases. Specifically, the thesis explores how the presence of cognitive discounting affects the traditional results derived from models with distortionary taxes, and how these effects might differ from those observed under rational expectations.
 
-\subsection{title}
+\subsection{Literature Review}
 This paper serves as an extension to the recent literature on Behavioural New Keynesian modelling \parencite{gabaix2020behavioural, lubik2021fiscal}. By adding distortionary taxes (on labour and consumption) in accordance with \cite{correia2013unconventional}, we move past the simple lump sum examples previously discussed in the literature. 
 \bb
 This paper is closely aligned with recent work by \cite{bianchi2024fiscal} in which the authors analyse the sensitivity of fiscal policy at the zero lower bound to the assumption of rational expectations. Yet, while they use level-\textit{k} thinking to model imperfect expectations, we instead operationalise cognitive discounting techniques outlined in recent work by \cite{gabaix2020behavioural}. \textbf{By doing so, we depart from the assumption of rational expectations, positing instead that individuals form beliefs about future endogenous variables that are discounted by a behavioral parameter. This approach allows us to assume that while individuals understand the structure of the economy, their ability to predict the time-path of certain endogenous variables, such as output, is limited. }
@@ -187,7 +202,7 @@ Moreover, the results from our representative agent model serve as a foundation 
 
 
 \subsection{Outline}
-This paper begins by introducing traditional New Keynesian model with distortionary taxes as developed in papers by \cite{correia2013unconventional} and \cite{correia2013unconventional}. This will serve as a foundation on which we can build and provides a basis for understanding how distortionary taxes, such as those on labor and consumption, influence economic behavior under standard assumptions.
+This paper begins by introducing traditional New Keynesian model with distortionary taxes as developed in papers by \cite{correia2013unconventional} and \cite{correia2013unconventional}. This will serve as a foundation on which we can build and provides a basis for understanding how distortionary taxes, such as those on labor and consumption, influence economic behaviour under standard assumptions.
 \bb
 The analysis then shifts to incorporate these distortionary taxes into a Behavioral New Keynesian framework, building on the bounded rationality model proposed by \cite{gabaix2014sparsity}. We first explain the concept of cognitive discounting, where individuals place greater emphasis on present conditions over future outcomes, and demonstrate how this cognitive bias can be operationalized within our economic model.
 \bb
@@ -442,16 +457,13 @@ We once again use equation \ref{eq:lemma} to get $\mathbb{E}_t^{BR} = M \mathbb{
 \begin{align}
 	\pi_t = \beta M^f \mathbb{E}_t \pi_{t+1} + \kappa \hat{y}_t + \kappa \psi (\hat{\tau}_t^c + \hat{\tau}_t^n),
 \end{align}
-where $M$, $\kappa$, and $\psi$ capture the effects of cognitive discounting and tax distortions.
-The coefficients are given by:
+Where;
 \begin{align*}
-	M^f &= m \left[ \theta + (1 - \theta)m_\pi \right]\\
-	\kappa &= \frac{(1 - \theta\beta)(1 - \theta)}{\theta} m_x
+	M^f &= \bar{m} \left( \theta + \frac{1 - \beta \theta}{1 - \beta \theta \bar{m}} \cdot (1 - \theta) \right)\\
+	\kappa &= (1 - \theta \beta) \frac{1 - \theta}{\theta} \phi g\\
+	\psi &= (\phi g)^{-1}
 \end{align*}
-
-
-\textbf{EXPLAIN EXPLAIN EXPLAIN}
-
+\( M^f \) reflects the impact of cognitive discounting, where firms may not fully account for future economic conditions due to limited attention or biases; it modifies the expected future inflation term, with \( M^f = \bar{m} = 1 \) reducing the model to its standard form. \( \kappa \) represents the sensitivity of inflation to the output gap, influenced by price stickiness and firms' cost structures, determining how strongly inflation responds to economic activity. \( \psi \) adjusts for the impact of tax distortions on inflation, ensuring the model accurately reflects fiscal policies' effects. Together, these coefficients provide a more realistic framework for analyzing inflation by incorporating behavioral insights.
 
 
 \subsection{Impact of a Negative Preference Shock on Our Results}
@@ -463,7 +475,11 @@ Post-shock, the model would prescribe an increase in consumption taxes to stabil
 \bb
 In traditional models like those of \cite{eggertsson2011fiscal} and \cite{correia2013unconventional}, the response to a negative preference shock is more straightforward. Lowering consumption taxes and raising labour taxes can effectively manage the recessionary effects by inducing inflation and stabilizing producer prices. However, our model introduces additional complexity due to the behavioural biases of agents. The primary difference is the increased volatility in response to tax changes. While traditional models predict a smooth transition back to equilibrium, our model suggests that cognitive discounting leads to overreactions and under-reactions that complicate the policy response. The need for more careful calibration of tax policies is also highlighted. Small errors in timing or magnitude of tax adjustments could have outsized effects due to the exaggerated behavioural responses under cognitive discounting. Thus, a negative preference shock in our model exacerbates the challenges of using tax policy to stabilize the economy, particularly in the presence of cognitive discounting. While the basic principles of adjusting consumption and labour taxes still apply, the behavioural distortions introduced by cognitive discounting necessitate a more cautious and dynamic approach to policy implementation. The risk of increased economic volatility and prolonged recovery underscores the importance of understanding and accounting for behavioural factors in macroeconomic policy design.
 
+\subsection{The effect of sales tax alone}
 
+\subsection{The effect of labour tax alone}
+
+\subsection{The effect of the combination}
 
 \subsection{Time Consistency}
 The introduction of cognitive discounting
@@ -624,10 +640,10 @@ Where $W_t$ is;
 \end{align*}
 Notice that as $\xi$ is multiplicative, $\dfrac{\xi_t}{\xi_t}$ cancels out and so has no impact on the Philips curve.
 \begin{align*}
-	\ln p_t &\simeq \ln \left(\frac{\theta}{\theta - 1}\right) + \ln \mathbb{E}_t^{BR} \sum_{j=0}^{\infty} (1-\beta \theta)(\beta \theta)^j
+	\ln p_t &\simeq \ln \left(\frac{\epsilon}{\epsilon - 1}\right) + \ln \mathbb{E}_t^{BR} \sum_{j=0}^{\infty} (1-\beta \theta)(\beta \theta)^j
 	\left(\frac{\left(1 + \tau^c_{t+j}\right) P_{t+j}}{\left(1 - \tau^n_{t+j}\right)}\right) 
 	\left[\frac{u_C\left(C_{t+j}, N_{t+j}\right)}{u_N\left(C_{t+j}, N_{t+j}\right)}\right]^{-1} \\
-	\ln p_t - \ln P_t &\simeq \ln \left(\frac{\theta}{\theta - 1}\right) + \ln \mathbb{E}_t^{BR} \sum_{j=0}^{\infty} (1-\beta \theta)(\beta \theta)^j
+	\ln p_t - \ln P_t &\simeq \ln \left(\frac{\epsilon}{\epsilon - 1}\right) + \ln \mathbb{E}_t^{BR} \sum_{j=0}^{\infty} (1-\beta \theta)(\beta \theta)^j
 	\left(\frac{\left(1 + \tau^c_{t+j}\right) \frac{P_{t+j}}{P_t}}{\left(1 - \tau^n_{t+j}\right)}\right) 
 	\left[\frac{u_C\left(C_{t+j}, N_{t+j}\right)}{u_N\left(C_{t+j}, N_{t+j}\right)}\right]^{-1}
 \end{align*}
@@ -637,7 +653,7 @@ The log-linearization of the second term on the right-hand side is given by
 	\ln \mathbb{E}_t^{BR} \sum_{j=0}^{\infty} (1-\beta \theta)(\beta \theta)^j
 	&\left(\frac{\left(1 + \tau^c_{t+j}\right) \frac{P_{t+j}}{P_t}}{\left(1 - \tau^n_{t+j}\right)}\right) 
 	\left[\frac{u_C\left(C_{t+j}, N_{t+j}\right)}{u_N\left(C_{t+j}, N_{t+j}\right)} \right]^{-1} 
-	\simeq (1 - \alpha \beta) \mathbb{E}_t^{BR} \sum_{j=0}^{\infty} (\alpha \beta)^j [\Omega_{t+j}]
+	\simeq (1 - \theta \beta) \mathbb{E}_t^{BR} \sum_{j=0}^{\infty} (\theta \beta)^j [\Omega_{t+j}]
 \end{align*}
 where
 \begin{align*}
@@ -650,10 +666,10 @@ where;
 \end{align*}
 Then we can write:
 \begin{align*}
-	\pi_t \simeq (1 - \alpha \beta) \frac{1 - \alpha}{\alpha} 
+	\pi_t \simeq (1 - \theta \beta) \frac{1 - \theta}{\theta} 
 	\left[\tilde{\tau}_t^c + \tilde{\tau}_t^n + \phi \hat{C}_t - \gamma \hat{\xi}_t \right] 
-	+ \frac{1 - \alpha}{\alpha} (\alpha \beta) \mathbb{E}_t^{BR} [\pi_{t+1}] 
-	+ (\alpha \beta) \mathbb{E}_t^{BR} \pi_{t+1}
+	+ \frac{1 - \theta}{\theta} (\theta \beta) \mathbb{E}_t^{BR} [\pi_{t+1}] 
+	+ (\theta \beta) \mathbb{E}_t^{BR} \pi_{t+1}
 \end{align*}
 or
 \begin{align*}
@@ -670,15 +686,15 @@ Finally, remember that;
 \end{align*}
 Therefore: 
 \begin{align*}
-	\pi_t \simeq (1 - \alpha \beta) \frac{1 - \alpha}{\alpha} 
+	\pi_t \simeq (1 - \theta \beta) \frac{1 - \theta}{\theta} 
 	\left[\tilde{\tau}_t^c + \tilde{\tau}_t^n + \phi g \hat{y}_t \right] 
 	+ \beta M \mathbb{E}_t \pi_{t+1},
 \end{align*}
 Setting; 
 \begin{align*}
-	M &= \bar{m}\\
-	\kappa &= (1 - \alpha \beta) \frac{1 - \alpha}{\alpha} \phi g, \\
-	\psi &= (\phi g)^{-1},
+	M &= \bar{m} \left( \theta + \frac{1 - \beta \theta}{1 - \beta \theta \bar{m}} \cdot (1 - \theta) \right)\\
+	\kappa &= (1 - \theta \beta) \frac{1 - \theta}{\theta} \phi g\\
+	\psi &= (\phi g)^{-1}
 \end{align*}
 This leaves us with a behavioural Phillips curve: 
 \begin{align*}
